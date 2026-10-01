@@ -1,0 +1,95 @@
+rep,arm,query_index,query,order,position,llm_calls,positives,agreement,pos_only_lotus,pos_only_semreuse,seconds,seconds_in_lotus,prompt_tokens,completion_tokens,total_tokens,retries,started_at,kind,recall_bound,precision_bound,recall_vs_lotus,precision_vs_lotus,recall_oracle,bound_violated_oracle,precision_bound_violated
+1,lotus,0,The post asks for technical help with computer hardware.,semreuse-first,2,1000,133,1.0,0,0,466.15,466.15,230949,5944,236893,0,1790752356.008,,,,,,,,
+1,lotus+semreuse,0,The post asks for technical help with computer hardware.,semreuse-first,1,1000,133,1.0,0,0,442.995,442.994,230949,5971,236920,0,1790751913.015,cold,,,1.0,1.0,1.0,,
+1,lotus,1,The post asks for technical help with a personal computer's hardware.,lotus-first,1,1000,108,1.0,0,0,396.275,396.275,233949,7520,241469,0,1790754689.66,,,,,,,,
+1,lotus+semreuse,1,The post asks for technical help with a personal computer's hardware.,lotus-first,2,1000,108,1.0,0,0,521.511,521.226,233949,7423,241372,0,1790755085.933,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,2,The post is a request for technical assistance concerning computer hardware.,semreuse-first,2,1000,143,0.996,1,3,370.497,370.497,232949,8283,241232,0,1790756053.449,,,,,,,,
+1,lotus+semreuse,2,The post is a request for technical assistance concerning computer hardware.,semreuse-first,1,928,145,0.996,1,3,445.996,445.718,216665,7874,224539,0,1790755607.455,rewrite,0.9774436090225563,0.896551724137931,0.993006993006993,0.9793103448275862,0.993006993006993,False,False
+1,lotus,3,The post asks for help with Macintosh hardware.,lotus-first,1,1000,39,0.998,0,2,319.722,319.722,230949,4104,235053,0,1790756423.954,,,,,,,,
+1,lotus+semreuse,3,The post asks for help with Macintosh hardware.,lotus-first,2,1000,41,0.998,0,2,380.598,380.296,230949,4079,235028,0,1790756743.674,rewrite,1.0,1.0,1.0,0.9512195121951219,1.0,False,True
+1,lotus,4,The post describes a hardware problem the author is experiencing.,semreuse-first,2,1000,86,1.0,0,0,387.337,387.337,231949,8932,240881,0,1790757557.947,,,,,,,,
+1,lotus+semreuse,4,The post describes a hardware problem the author is experiencing.,semreuse-first,1,1000,86,1.0,0,0,433.669,433.468,231949,8929,240878,0,1790757124.278,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,5,The post offers an item for sale.,lotus-first,1,1000,65,0.996,4,0,344.635,344.634,228949,4031,232980,0,1790757945.291,,,,,,,,
+1,lotus+semreuse,5,The post offers an item for sale.,lotus-first,2,957,61,0.996,4,0,369.164,368.946,218145,3859,222004,0,1790758289.924,rewrite,0.9242424242424242,1.0,0.9384615384615385,1.0,0.9384615384615385,False,False
+1,lotus,6,The post offers a computer or a computer part for sale.,semreuse-first,2,1000,50,1.0,0,0,499.488,499.488,232949,4859,237808,0,1790759143.145,,,,,,,,
+1,lotus+semreuse,6,The post offers a computer or a computer part for sale.,semreuse-first,1,1000,50,1.0,0,0,484.052,483.749,232949,4859,237808,0,1790758659.095,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,7,The post mentions a specific price in dollars.,lotus-first,1,1000,65,1.0,0,0,430.639,430.639,229949,4000,233949,0,1790759642.647,,,,,,,,
+1,lotus+semreuse,7,The post mentions a specific price in dollars.,lotus-first,2,1000,65,1.0,0,0,707.688,707.149,229949,4000,233949,0,1790760073.285,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,8,The post is an advertisement.,semreuse-first,2,1000,78,1.0,0,0,591.266,591.266,226949,4076,231025,0,1790761387.416,,,,,,,,
+1,lotus+semreuse,8,The post is an advertisement.,semreuse-first,1,1000,78,1.0,0,0,606.434,605.977,226949,4063,231012,0,1790760780.985,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,9,The post is looking to buy something rather than to sell something.,lotus-first,1,1000,859,0.998,1,1,666.541,666.54,233949,5316,239265,0,1790761978.696,,,,,,,,
+1,lotus+semreuse,9,The post is looking to buy something rather than to sell something.,lotus-first,2,1000,859,0.998,1,1,697.493,696.903,233949,5402,239351,0,1790762645.234,rewrite,1.0,1.0,0.9988358556461001,0.9988358556461001,0.9988358556461001,True,True
+1,lotus,10,The post discusses a professional sports team.,semreuse-first,2,1000,73,0.997,3,0,461.353,461.353,228949,4029,232978,0,1790763794.715,,,,,,,,
+1,lotus+semreuse,10,The post discusses a professional sports team.,semreuse-first,1,988,70,0.997,3,0,451.979,451.341,226518,3989,230507,0,1790763342.738,rewrite,0.9333333333333333,1.0,0.958904109589041,1.0,0.958904109589041,False,False
+1,lotus,11,The post discusses a professional baseball team.,lotus-first,1,1000,37,1.0,0,0,551.947,551.946,228949,4000,232949,0,1790764256.083,,,,,,,,
+1,lotus+semreuse,11,The post discusses a professional baseball team.,lotus-first,2,1000,37,1.0,0,0,626.533,626.06,228949,4000,232949,0,1790764808.028,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,12,The post mentions a player's statistics.,semreuse-first,2,1000,28,0.999,1,0,787.693,787.692,228949,4473,233422,0,1790765996.67,,,,,,,,
+1,lotus+semreuse,12,The post mentions a player's statistics.,semreuse-first,1,1000,27,0.999,1,0,562.095,561.465,228949,4276,233225,0,1790765434.577,rewrite,1.0,1.0,0.9642857142857143,1.0,0.9642857142857143,True,False
+1,lotus,13,The post is about a sporting event that has already taken place.,lotus-first,1,1000,64,0.998,2,0,570.497,570.496,233949,4144,238093,0,1790766784.377,,,,,,,,
+1,lotus+semreuse,13,The post is about a sporting event that has already taken place.,lotus-first,2,978,62,0.998,2,0,591.874,591.34,229767,4102,233869,0,1790767354.872,rewrite,0.9393939393939394,1.0,0.96875,1.0,0.96875,False,False
+1,lotus,14,The post is about sports.,semreuse-first,2,1000,89,0.999,1,0,489.906,489.906,226949,4001,230950,0,1790768493.13,,,,,,,,
+1,lotus+semreuse,14,The post is about sports.,semreuse-first,1,999,88,0.999,1,0,546.37,545.796,226808,3997,230805,0,1790767946.762,rewrite,0.9887640449438202,1.0,0.9887640449438202,1.0,0.9887640449438202,False,False
+1,lotus,15,The post argues about politics.,lotus-first,1,1000,226,0.994,6,0,561.191,561.19,226949,4296,231245,0,1790768983.051,,,,,,,,
+1,lotus+semreuse,15,The post argues about politics.,lotus-first,2,919,220,0.994,6,0,610.025,609.471,207102,3951,211053,0,1790769544.24,rewrite,0.9016393442622951,1.0,0.9734513274336283,1.0,0.9734513274336283,False,False
+1,lotus,16,The post argues about gun control policy.,semreuse-first,2,1000,48,0.999,0,1,440.092,440.091,228949,4291,233240,0,1790770678.139,,,,,,,,
+1,lotus+semreuse,16,The post argues about gun control policy.,semreuse-first,1,1000,49,0.999,0,1,523.857,522.991,228949,4295,233244,0,1790770154.283,rewrite,1.0,1.0,1.0,0.9795918367346939,1.0,False,True
+1,lotus,17,The post expresses a religious belief.,lotus-first,1,1000,84,1.0,0,0,521.873,521.868,227949,4122,232071,0,1790771118.253,,,,,,,,
+1,lotus+semreuse,17,The post expresses a religious belief.,lotus-first,2,988,84,1.0,0,0,807.338,806.388,224641,4073,228714,0,1790771640.124,rewrite,0.9438202247191011,1.0,1.0,1.0,1.0,False,False
+1,lotus,18,The post argues about religion.,semreuse-first,2,1000,126,0.995,5,0,619.716,619.716,226949,4000,230949,0,1790773045.99,,,,,,,,
+1,lotus+semreuse,18,The post argues about religion.,semreuse-first,1,920,121,0.995,5,0,598.511,597.202,207962,3680,211642,0,1790772447.481,rewrite,0.9097744360902256,1.0,0.9603174603174603,1.0,0.9603174603174603,False,False
+1,lotus,19,The post discusses the Middle East.,lotus-first,1,1000,41,1.0,0,0,409.261,409.261,227949,4134,232083,0,1790773665.742,,,,,,,,
+1,lotus+semreuse,19,The post discusses the Middle East.,lotus-first,2,1000,41,1.0,0,0,944.914,943.83,227949,4134,232083,0,1790774075.002,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,20,The post criticizes a government or a government policy.,semreuse-first,2,1000,150,0.997,2,1,432.655,432.654,231949,4506,236455,0,1790775593.64,,,,,,,,
+1,lotus+semreuse,20,The post criticizes a government or a government policy.,semreuse-first,1,924,149,0.997,2,1,573.708,572.636,214260,4175,218435,0,1790775019.933,rewrite,0.9371069182389937,1.0,0.9866666666666667,0.9932885906040269,0.9866666666666667,False,True
+1,lotus,21,The author of the post is frustrated or angry.,lotus-first,1,1000,605,1.0,0,0,742.281,742.28,230949,6737,237686,0,1790776026.316,,,,,,,,
+1,lotus+semreuse,21,The author of the post is frustrated or angry.,lotus-first,2,1000,605,1.0,0,0,819.914,818.968,230949,6748,237697,0,1790776768.594,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,22,The post contains a question.,semreuse-first,2,1000,422,0.997,3,0,598.907,598.906,226949,4000,230949,0,1790778230.056,,,,,,,,
+1,lotus+semreuse,22,The post contains a question.,semreuse-first,1,985,419,0.997,3,0,641.528,640.591,223313,3971,227284,0,1790777588.53,rewrite,0.9835680751173709,1.0,0.9928909952606635,1.0,0.9928909952606635,False,False
+1,lotus,23,The post quotes another message.,lotus-first,1,1000,943,0.983,16,1,633.793,633.792,226949,4000,230949,0,1790778828.983,,,,,,,,
+1,lotus+semreuse,23,The post quotes another message.,lotus-first,2,977,928,0.983,16,1,622.437,621.53,221737,3908,225645,0,1790779462.774,rewrite,0.9778714436248683,1.0,0.9830328738069989,0.9989224137931034,0.9830328738069989,False,True
+1,lotus,24,The post uses technical jargon.,semreuse-first,2,1000,427,0.997,3,0,625.485,625.484,227949,4000,231949,0,1790780809.553,,,,,,,,
+1,lotus+semreuse,24,The post uses technical jargon.,semreuse-first,1,988,424,0.997,3,0,724.321,723.214,225238,3952,229190,0,1790780085.235,rewrite,0.9814814814814815,1.0,0.9929742388758782,1.0,0.9929742388758782,False,False
+1,lotus,25,The post makes a factual claim that could be checked.,lotus-first,1,1000,818,0.979,19,2,671.855,671.854,231949,4230,236179,0,1790781435.068,,,,,,,,
+1,lotus+semreuse,25,The post makes a factual claim that could be checked.,lotus-first,2,981,801,0.979,19,2,666.273,665.228,227590,4103,231693,0,1790782106.921,rewrite,0.9768292682926829,1.0,0.9767726161369193,0.9975031210986267,0.9767726161369193,True,True
+1,lotus,26,The post discusses medicine or health.,semreuse-first,2,1000,59,1.0,0,0,587.669,587.668,227949,4000,231949,0,1790783520.114,,,,,,,,
+1,lotus+semreuse,26,The post discusses medicine or health.,semreuse-first,1,1000,59,1.0,0,0,746.901,745.965,227949,4000,231949,0,1790782773.215,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,27,The post discusses a specific disease or medical condition.,lotus-first,1,1000,28,1.0,0,0,637.474,637.474,230949,4129,235078,0,1790784107.822,,,,,,,,
+1,lotus+semreuse,27,The post discusses a specific disease or medical condition.,lotus-first,2,1000,28,1.0,0,0,659.698,658.611,230949,4129,235078,0,1790784745.294,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,28,The post discusses space or astronomy.,semreuse-first,2,1000,45,1.0,0,0,1207.335,1207.334,455682,7996,463678,1,1790786034.084,,,,,,,,
+1,lotus+semreuse,28,The post discusses space or astronomy.,semreuse-first,1,1000,45,1.0,0,0,629.025,628.225,227949,4000,231949,0,1790785405.061,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,29,The post discusses cryptography or encryption.,lotus-first,1,1000,49,1.0,0,0,585.915,585.915,227949,4000,231949,0,1790787241.628,,,,,,,,
+1,lotus+semreuse,29,The post discusses cryptography or encryption.,lotus-first,2,1000,49,1.0,0,0,610.996,609.831,227949,4000,231949,0,1790787827.542,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,30,The post discusses computer security.,semreuse-first,2,1000,90,1.0,0,0,586.267,586.266,226949,4000,230949,0,1790789035.506,,,,,,,,
+1,lotus+semreuse,30,The post discusses computer security.,semreuse-first,1,1000,90,1.0,0,0,596.942,596.156,226949,4000,230949,0,1790788438.565,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,31,The post discusses science.,lotus-first,1,1000,114,0.999,1,0,571.191,571.191,225949,4000,229949,0,1790789621.807,,,,,,,,
+1,lotus+semreuse,31,The post discusses science.,lotus-first,2,1000,113,0.999,1,0,593.983,592.912,225949,4000,229949,0,1790790192.997,rewrite,1.0,1.0,0.9912280701754386,1.0,0.9912280701754386,True,False
+1,lotus,32,The post mentions an operating system.,semreuse-first,2,1000,103,1.0,0,0,544.946,544.945,227949,4000,231949,0,1790791356.529,,,,,,,,
+1,lotus+semreuse,32,The post mentions an operating system.,semreuse-first,1,1000,103,1.0,0,0,569.516,568.579,227949,4000,231949,0,1790790787.014,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,33,The post mentions Microsoft Windows.,lotus-first,1,1000,41,1.0,0,0,543.946,543.946,226949,4000,230949,0,1790791901.498,,,,,,,,
+1,lotus+semreuse,33,The post mentions Microsoft Windows.,lotus-first,2,1000,41,1.0,0,0,626.358,625.028,226949,4000,230949,0,1790792445.598,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,34,The post mentions the X Window System.,semreuse-first,2,1000,65,1.0,0,0,604.097,604.097,228949,4356,233305,0,1790793641.038,,,,,,,,
+1,lotus+semreuse,34,The post mentions the X Window System.,semreuse-first,1,1000,65,1.0,0,0,569.051,567.695,228949,4367,233316,0,1790793071.987,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,35,The post discusses software rather than hardware.,lotus-first,1,1000,400,0.997,2,1,576.359,576.358,228949,4151,233100,0,1790794245.164,,,,,,,,
+1,lotus+semreuse,35,The post discusses software rather than hardware.,lotus-first,2,1000,399,0.997,2,1,615.288,614.27,228949,4151,233100,0,1790794821.522,rewrite,1.0,1.0,0.995,0.9974937343358395,0.995,True,True
+1,lotus,36,The post recommends a product or a service.,semreuse-first,2,1000,83,0.999,1,0,573.715,573.715,229949,4239,234188,0,1790796034.216,,,,,,,,
+1,lotus+semreuse,36,The post recommends a product or a service.,semreuse-first,1,996,82,0.999,1,0,597.37,596.412,229054,4226,233280,0,1790795436.846,rewrite,0.9534883720930233,1.0,0.9879518072289156,1.0,0.9879518072289156,False,False
+1,lotus,37,The post asks for technical help with computer hardware.,lotus-first,1,1000,133,1.0,0,0,660.544,660.543,230949,5942,236891,0,1790796607.954,,,,,,,,
+1,lotus+semreuse,37,The post asks for technical help with computer hardware.,lotus-first,2,0,133,1.0,0,0,0.0,0.0,0,0,0,0,1790797268.497,exact-hit,,,1.0,1.0,1.0,,
+1,lotus,38,The post is selling something.,semreuse-first,2,1000,99,1.0,0,0,556.481,556.48,226949,4035,230984,0,1790797895.873,,,,,,,,
+1,lotus+semreuse,38,The post is selling something.,semreuse-first,1,1000,99,1.0,0,0,627.354,625.855,226949,4039,230988,0,1790797268.519,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,39,The post is about a motor vehicle.,lotus-first,1,1000,74,1.0,0,0,374.689,374.689,228949,4000,232949,0,1790798452.38,,,,,,,,
+1,lotus+semreuse,39,The post is about a motor vehicle.,lotus-first,2,1000,74,1.0,0,0,696.955,695.297,228949,4000,232949,0,1790798827.069,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,40,The post is about a car or a motorcycle.,semreuse-first,2,1000,75,1.0,0,0,452.618,452.618,230949,4000,234949,0,1790800257.134,,,,,,,,
+1,lotus+semreuse,40,The post is about a car or a motorcycle.,semreuse-first,1,1000,75,1.0,0,0,733.082,731.18,230949,4000,234949,0,1790799524.053,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,41,The post gives advice about maintaining a vehicle.,lotus-first,1,1000,25,1.0,0,0,584.17,584.169,229949,4000,233949,0,1790800709.785,,,,,,,,
+1,lotus+semreuse,41,The post gives advice about maintaining a vehicle.,lotus-first,2,1000,25,1.0,0,0,747.969,746.122,229949,4000,233949,0,1790801293.954,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,42,The tone of the post is angry or annoyed.,semreuse-first,2,1000,322,0.984,16,0,782.015,782.014,230949,10503,241452,0,1790802928.839,,,,,,,,
+1,lotus+semreuse,42,The tone of the post is angry or annoyed.,semreuse-first,1,940,306,0.984,16,0,886.888,884.941,215633,10189,225822,0,1790802041.952,rewrite,0.9,1.0,0.9503105590062112,1.0,0.9503105590062112,False,False
+1,lotus,43,The post is about a computer operating system.,lotus-first,1,1000,107,1.0,0,0,602.138,602.138,229949,4900,234849,0,1790803710.882,,,,,,,,
+1,lotus+semreuse,43,The post is about a computer operating system.,lotus-first,2,988,107,1.0,0,0,665.93,664.274,227222,4888,232110,0,1790804313.02,rewrite,0.9727272727272728,1.0,1.0,1.0,1.0,False,False
+1,lotus,44,The post is a for-sale advertisement.,semreuse-first,2,1000,56,1.0,0,0,577.231,577.231,228949,4039,232988,0,1790805509.483,,,,,,,,
+1,lotus+semreuse,44,The post is a for-sale advertisement.,semreuse-first,1,914,56,1.0,0,0,530.5,528.772,209745,3695,213440,0,1790804978.983,rewrite,0.9655172413793104,1.0,1.0,1.0,1.0,False,False
+1,lotus,45,The post discusses encryption algorithms or key management.,lotus-first,1,1000,38,1.0,0,0,381.667,381.666,229949,4000,233949,0,1790806086.739,,,,,,,,
+1,lotus+semreuse,45,The post discusses encryption algorithms or key management.,lotus-first,2,1000,38,1.0,0,0,712.218,710.518,229949,4000,233949,0,1790806468.406,rewrite,1.0,1.0,1.0,1.0,1.0,False,False
+1,lotus,46,The post asks a question about computer hardware.,semreuse-first,2,1000,150,1.0,0,0,289.18,289.18,229949,4595,234544,0,1790808240.321,,,,,,,,
+1,lotus+semreuse,46,The post asks a question about computer hardware.,semreuse-first,1,1000,150,1.0,0,0,1059.516,1057.802,457232,9038,466270,1,1790807180.653,rewrite,1.0,1.0,1.0,1.0,1.0,False,False

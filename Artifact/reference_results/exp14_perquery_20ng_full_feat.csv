@@ -1,0 +1,95 @@
+query_index,predicate_name,predicate_text,reuse_kind,oracle_calls,candidate_calls,audit_calls,escalation_calls,nli_pair_scores,precision,recall,f1,n_true_pos_rows,recall_bound,bound_violated,precision_bound,precision_bound_violated,latency_s,recall_oracle,bound_violated_oracle,reasoner,budget_label,corpus,n_rows
+0,log:A1,The post asks for technical help with computer hardware.,cold,2000,2000,0,0,0,1.0,1.0,1.0,271,,,,,0.0002997079864144325,1.0,,nli,off,20ng-sub2000,2000
+1,log:A2,The post asks for technical help with a personal computer's hardware.,rewrite,2000,1729,29,242,2,1.0,1.0,1.0,235,1.0,False,1.0,False,0.1495958749728743,1.0,False,nli,off,20ng-sub2000,2000
+2,log:A3,The post is a request for technical assistance concerning computer hardware.,rewrite,1802,46,410,1346,4,0.9900332225913622,0.9770491803278688,0.9834983498349835,305,0.9689655172413794,False,0.9335548172757475,False,0.14935016699018888,0.9770491803278688,False,nli,off,20ng-sub2000,2000
+3,log:A4,The post asks for help with Macintosh hardware.,rewrite,2000,1690,36,274,6,1.0,1.0,1.0,59,1.0,False,1.0,False,0.1022223329928238,1.0,False,nli,off,20ng-sub2000,2000
+4,log:A5,The post describes a hardware problem the author is experiencing.,cold,2000,2000,0,0,8,1.0,1.0,1.0,172,,,,,0.12235158402472734,1.0,,nli,off,20ng-sub2000,2000
+5,log:B1,The post offers an item for sale.,cold,2000,2000,0,0,10,1.0,1.0,1.0,96,,,,,0.14404270899831317,1.0,,nli,off,20ng-sub2000,2000
+6,log:B2,The post offers a computer or a computer part for sale.,rewrite,2000,1904,29,67,12,1.0,1.0,1.0,48,1.0,False,1.0,False,0.13633291600854136,1.0,False,nli,off,20ng-sub2000,2000
+7,log:B3,The post mentions a specific price in dollars.,cold,2000,2000,0,0,14,1.0,1.0,1.0,139,,,,,0.11964679197990336,1.0,,nli,off,20ng-sub2000,2000
+8,log:B4,The post is an advertisement.,rewrite,2000,2,0,1998,16,1.0,1.0,1.0,112,1.0,False,1.0,False,0.11780637499759905,1.0,False,nli,off,20ng-sub2000,2000
+9,log:B5,The post is looking to buy something rather than to sell something.,rewrite,2000,32,0,1968,18,1.0,1.0,1.0,357,1.0,False,1.0,False,0.13712233398109674,1.0,False,nli,off,20ng-sub2000,2000
+10,log:C1,The post discusses a professional sports team.,cold,2000,2000,0,0,20,1.0,1.0,1.0,166,,,,,0.12871883300249465,1.0,,nli,off,20ng-sub2000,2000
+11,log:C2,The post discusses a professional baseball team.,rewrite,1080,262,818,0,22,1.0,0.9777777777777777,0.9887640449438202,90,0.946236559139785,False,1.0,False,0.1379767920006998,0.9777777777777777,False,nli,off,20ng-sub2000,2000
+12,log:C3,The post mentions a player's statistics.,rewrite,2000,96,0,1904,24,1.0,1.0,1.0,55,1.0,False,1.0,False,0.14131720800651237,1.0,False,nli,off,20ng-sub2000,2000
+13,log:C4,The post is about a sporting event that has already taken place.,cold,2000,2000,0,0,26,1.0,1.0,1.0,132,,,,,0.2033050829777494,1.0,,nli,off,20ng-sub2000,2000
+14,log:C5,The post is about sports.,rewrite,1991,63,1514,414,28,1.0,0.9533678756476683,0.9761273209549072,193,0.9533678756476683,False,1.0,False,0.13188308299868368,0.9533678756476683,False,nli,off,20ng-sub2000,2000
+15,log:D1,The post argues about politics.,cold,2000,2000,0,0,30,1.0,1.0,1.0,297,,,,,0.23902379101491533,1.0,,nli,off,20ng-sub2000,2000
+16,log:D2,The post argues about gun control policy.,cold,2000,2000,0,0,32,1.0,1.0,1.0,48,,,,,0.3255449169955682,1.0,,nli,off,20ng-sub2000,2000
+17,log:D3,The post expresses a religious belief.,rewrite,2000,1888,29,83,34,1.0,1.0,1.0,145,1.0,False,1.0,False,0.2800801249977667,1.0,False,nli,off,20ng-sub2000,2000
+18,log:D4,The post argues about religion.,cold,2000,2000,0,0,36,1.0,1.0,1.0,218,,,,,0.27899375002016313,1.0,,nli,off,20ng-sub2000,2000
+19,log:D5,The post discusses the Middle East.,rewrite,1648,484,1164,0,38,1.0,0.9516129032258065,0.9752066115702479,62,0.921875,False,1.0,False,0.25849700000253506,0.9516129032258065,False,nli,off,20ng-sub2000,2000
+20,log:D6,The post criticizes a government or a government policy.,cold,2000,2000,0,0,40,1.0,1.0,1.0,207,,,,,0.15757691700127907,1.0,,nli,off,20ng-sub2000,2000
+21,log:E1,The author of the post is frustrated or angry.,cold,2000,2000,0,0,42,1.0,1.0,1.0,1112,,,,,0.15027208399260417,1.0,,nli,off,20ng-sub2000,2000
+22,log:E2,The post contains a question.,rewrite,2000,0,0,2000,44,1.0,1.0,1.0,740,1.0,False,1.0,False,0.14906958400388248,1.0,False,nli,off,20ng-sub2000,2000
+23,log:E3,The post quotes another message.,rewrite,2000,0,0,2000,46,1.0,1.0,1.0,1528,1.0,False,1.0,False,0.148506166995503,1.0,False,nli,off,20ng-sub2000,2000
+24,log:E4,The post uses technical jargon.,cold,2000,2000,0,0,48,1.0,1.0,1.0,813,,,,,0.16127995800343342,1.0,,nli,off,20ng-sub2000,2000
+25,log:E5,The post makes a factual claim that could be checked.,rewrite,2000,0,0,2000,50,1.0,1.0,1.0,1145,1.0,False,1.0,False,0.16653687501093373,1.0,False,nli,off,20ng-sub2000,2000
+26,log:F1,The post discusses medicine or health.,rewrite,2000,548,72,1380,52,1.0,1.0,1.0,100,1.0,False,1.0,False,0.15897712498554029,1.0,False,nli,off,20ng-sub2000,2000
+27,log:F2,The post discusses a specific disease or medical condition.,rewrite,2000,548,72,1380,54,1.0,1.0,1.0,49,1.0,False,1.0,False,0.144166791025782,1.0,False,nli,off,20ng-sub2000,2000
+28,log:F3,The post discusses space or astronomy.,rewrite,2000,1260,29,711,56,1.0,1.0,1.0,73,1.0,False,1.0,False,0.23994304199004546,1.0,False,nli,off,20ng-sub2000,2000
+29,log:F4,The post discusses cryptography or encryption.,rewrite,2000,1260,29,711,58,1.0,1.0,1.0,62,1.0,False,1.0,False,0.16283612500410527,1.0,False,nli,off,20ng-sub2000,2000
+30,log:F5,The post discusses computer security.,rewrite,2000,548,72,1380,60,1.0,1.0,1.0,98,1.0,False,1.0,False,0.16407183298724703,1.0,False,nli,off,20ng-sub2000,2000
+31,log:F6,The post discusses science.,rewrite,1985,1451,122,412,62,1.0,0.9770992366412213,0.9884169884169884,262,0.9446494464944649,False,1.0,False,0.15082883299328387,0.9770992366412213,False,nli,off,20ng-sub2000,2000
+32,log:G1,The post mentions an operating system.,rewrite,2000,1560,157,283,64,1.0,1.0,1.0,196,1.0,False,1.0,False,0.1378590840031393,1.0,False,nli,off,20ng-sub2000,2000
+33,log:G2,The post mentions Microsoft Windows.,rewrite,1873,1429,305,139,66,1.0,0.9863013698630136,0.993103448275862,73,0.96,False,1.0,False,0.11633229200378992,0.9863013698630136,False,nli,off,20ng-sub2000,2000
+34,log:G3,The post mentions the X Window System.,rewrite,1894,1560,325,9,68,1.0,0.9473684210526315,0.972972972972973,76,0.9113924050632911,False,1.0,False,0.12043012501089834,0.9473684210526315,False,nli,off,20ng-sub2000,2000
+35,log:G4,The post discusses software rather than hardware.,rewrite,2000,2,0,1998,70,1.0,1.0,1.0,375,1.0,False,1.0,False,0.29548204099410214,1.0,False,nli,off,20ng-sub2000,2000
+36,log:G5,The post recommends a product or a service.,rewrite,2000,0,0,2000,72,1.0,1.0,1.0,83,1.0,False,1.0,False,0.35640291700838134,1.0,False,nli,off,20ng-sub2000,2000
+37,log:H1,The post asks for technical help with computer hardware.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,271,,,,,1.737498678267002e-05,1.0,,nli,off,20ng-sub2000,2000
+38,log:H2,The post is selling something.,rewrite,1648,1128,480,40,74,1.0,1.0,1.0,93,0.9489795918367347,False,1.0,False,0.40280966702266596,1.0,False,nli,off,20ng-sub2000,2000
+39,log:H3,The post is about a motor vehicle.,rewrite,2000,1159,72,769,76,1.0,1.0,1.0,155,1.0,False,1.0,False,0.34849391697207466,1.0,False,nli,off,20ng-sub2000,2000
+40,log:H4,The post is about a car or a motorcycle.,rewrite,1340,873,377,90,78,1.0,0.9855072463768116,0.9927007299270074,138,0.912751677852349,False,1.0,False,0.21745841699885204,0.9855072463768116,False,nli,off,20ng-sub2000,2000
+41,log:H5,The post gives advice about maintaining a vehicle.,rewrite,2000,1206,0,794,80,1.0,1.0,1.0,37,1.0,False,1.0,False,0.19647900000563823,1.0,False,nli,off,20ng-sub2000,2000
+42,log:H6,The tone of the post is angry or annoyed.,rewrite,2000,52,0,1948,82,1.0,1.0,1.0,769,1.0,False,1.0,False,0.18616166699212044,1.0,False,nli,off,20ng-sub2000,2000
+43,log:H7,The post is about a computer operating system.,rewrite,1998,948,282,768,84,1.0,1.0,1.0,176,0.9887640449438202,False,1.0,False,0.22715179200167768,1.0,False,nli,off,20ng-sub2000,2000
+44,log:H8,The post is a for-sale advertisement.,rewrite,1297,80,1173,44,86,1.0,1.0,1.0,87,0.9354838709677419,False,1.0,False,0.18031249998603016,1.0,False,nli,off,20ng-sub2000,2000
+45,log:H9,The post discusses encryption algorithms or key management.,rewrite,2000,1195,78,727,88,1.0,1.0,1.0,46,1.0,False,1.0,False,0.13063924998277798,1.0,False,nli,off,20ng-sub2000,2000
+46,log:H10,The post asks a question about computer hardware.,rewrite,1982,740,325,917,90,1.0,0.9517045454545454,0.975254730713246,352,0.9490084985835694,False,1.0,False,0.1347221659962088,0.9517045454545454,False,nli,off,20ng-sub2000,2000
+0,log:A1,The post asks for technical help with computer hardware.,cold,2000,2000,0,0,0,1.0,1.0,1.0,271,,,,,0.0001286249898839742,1.0,,oracle-ent,off,20ng-sub2000,2000
+1,log:A2,The post asks for technical help with a personal computer's hardware.,cold,2000,2000,0,0,0,1.0,1.0,1.0,235,,,,,5.933400825597346e-05,1.0,,oracle-ent,off,20ng-sub2000,2000
+2,log:A3,The post is a request for technical assistance concerning computer hardware.,cold,2000,2000,0,0,0,1.0,1.0,1.0,305,,,,,4.8124988097697496e-05,1.0,,oracle-ent,off,20ng-sub2000,2000
+3,log:A4,The post asks for help with Macintosh hardware.,cold,2000,2000,0,0,0,1.0,1.0,1.0,59,,,,,5.1000009989365935e-05,1.0,,oracle-ent,off,20ng-sub2000,2000
+4,log:A5,The post describes a hardware problem the author is experiencing.,cold,2000,2000,0,0,0,1.0,1.0,1.0,172,,,,,5.195802077651024e-05,1.0,,oracle-ent,off,20ng-sub2000,2000
+5,log:B1,The post offers an item for sale.,cold,2000,2000,0,0,0,1.0,1.0,1.0,96,,,,,5.891700857318938e-05,1.0,,oracle-ent,off,20ng-sub2000,2000
+6,log:B2,The post offers a computer or a computer part for sale.,cold,2000,2000,0,0,0,1.0,1.0,1.0,48,,,,,6.200000643730164e-05,1.0,,oracle-ent,off,20ng-sub2000,2000
+7,log:B3,The post mentions a specific price in dollars.,cold,2000,2000,0,0,0,1.0,1.0,1.0,139,,,,,6.645801477134228e-05,1.0,,oracle-ent,off,20ng-sub2000,2000
+8,log:B4,The post is an advertisement.,cold,2000,2000,0,0,0,1.0,1.0,1.0,112,,,,,7.258300320245326e-05,1.0,,oracle-ent,off,20ng-sub2000,2000
+9,log:B5,The post is looking to buy something rather than to sell something.,cold,2000,2000,0,0,0,1.0,1.0,1.0,357,,,,,8.087500464171171e-05,1.0,,oracle-ent,off,20ng-sub2000,2000
+10,log:C1,The post discusses a professional sports team.,rewrite,1694,1535,159,0,0,1.0,0.9939759036144579,0.9969788519637462,166,0.9375,False,1.0,False,0.0015552910044789314,0.9939759036144579,False,oracle-ent,off,20ng-sub2000,2000
+11,log:C2,The post discusses a professional baseball team.,rewrite,1813,1484,329,0,0,1.0,0.9888888888888889,0.9944134078212291,90,0.956989247311828,False,1.0,False,0.0013613339979201555,0.9888888888888889,False,oracle-ent,off,20ng-sub2000,2000
+12,log:C3,The post mentions a player's statistics.,rewrite,2000,1535,0,465,0,1.0,1.0,1.0,55,1.0,False,1.0,False,0.0002840830129571259,1.0,False,oracle-ent,off,20ng-sub2000,2000
+13,log:C4,The post is about a sporting event that has already taken place.,rewrite,1739,1535,204,0,0,1.0,0.9924242424242424,0.9961977186311787,132,0.903448275862069,False,1.0,False,0.0013094580208417028,0.9924242424242424,False,oracle-ent,off,20ng-sub2000,2000
+14,log:C5,The post is about sports.,rewrite,1661,1441,220,0,0,0.9948186528497409,0.9948186528497409,0.9948186528497409,193,0.9137055837563451,False,0.9326424870466321,False,0.0017830410215537995,0.9948186528497409,False,oracle-ent,off,20ng-sub2000,2000
+15,log:D1,The post argues about politics.,rewrite,1752,1375,123,254,0,1.0,0.9932659932659933,0.9966216216216216,297,0.9104938271604939,False,1.0,False,0.0021325420239008963,0.9932659932659933,False,oracle-ent,off,20ng-sub2000,2000
+16,log:D2,The post argues about gun control policy.,rewrite,2000,1378,0,622,0,1.0,1.0,1.0,48,1.0,False,1.0,False,0.000291750009637326,1.0,False,oracle-ent,off,20ng-sub2000,2000
+17,log:D3,The post expresses a religious belief.,rewrite,1626,1375,251,0,0,1.0,1.0,1.0,145,0.9177215189873418,False,1.0,False,0.0014357499894686043,1.0,False,oracle-ent,off,20ng-sub2000,2000
+18,log:D4,The post argues about religion.,rewrite,1466,1232,234,0,0,0.9908256880733946,0.9908256880733946,0.9908256880733946,218,0.9321266968325792,False,0.944954128440367,False,0.0017372079892084002,0.9908256880733946,False,oracle-ent,off,20ng-sub2000,2000
+19,log:D5,The post discusses the Middle East.,rewrite,1965,1422,543,0,0,1.0,1.0,1.0,62,0.9841269841269841,False,1.0,False,0.0010582919931039214,1.0,False,oracle-ent,off,20ng-sub2000,2000
+20,log:D6,The post criticizes a government or a government policy.,rewrite,1885,1375,180,330,0,1.0,0.9903381642512077,0.9951456310679612,207,0.9192825112107623,False,1.0,False,0.002746791986282915,0.9903381642512077,False,oracle-ent,off,20ng-sub2000,2000
+21,log:E1,The author of the post is frustrated or angry.,cold,2000,2000,0,0,0,1.0,1.0,1.0,1112,,,,,0.0001669999910518527,1.0,,oracle-ent,off,20ng-sub2000,2000
+22,log:E2,The post contains a question.,cold,2000,2000,0,0,0,1.0,1.0,1.0,740,,,,,0.00015745899872854352,1.0,,oracle-ent,off,20ng-sub2000,2000
+23,log:E3,The post quotes another message.,cold,2000,2000,0,0,0,1.0,1.0,1.0,1528,,,,,0.0001595000212546438,1.0,,oracle-ent,off,20ng-sub2000,2000
+24,log:E4,The post uses technical jargon.,cold,2000,2000,0,0,0,1.0,1.0,1.0,813,,,,,0.0001655000087339431,1.0,,oracle-ent,off,20ng-sub2000,2000
+25,log:E5,The post makes a factual claim that could be checked.,cold,2000,2000,0,0,0,1.0,1.0,1.0,1145,,,,,0.00017220800509676337,1.0,,oracle-ent,off,20ng-sub2000,2000
+26,log:F1,The post discusses medicine or health.,rewrite,1698,1258,440,0,0,1.0,1.0,1.0,100,0.9174311926605505,False,1.0,False,0.001499292004154995,1.0,False,oracle-ent,off,20ng-sub2000,2000
+27,log:F2,The post discusses a specific disease or medical condition.,rewrite,2000,1419,0,581,0,1.0,1.0,1.0,49,1.0,False,1.0,False,0.00033999999868683517,1.0,False,oracle-ent,off,20ng-sub2000,2000
+28,log:F3,The post discusses space or astronomy.,rewrite,1884,1258,626,0,0,1.0,0.9863013698630136,0.993103448275862,73,0.9473684210526315,False,1.0,False,0.0013177919900044799,0.9863013698630136,False,oracle-ent,off,20ng-sub2000,2000
+29,log:F4,The post discusses cryptography or encryption.,rewrite,1970,1346,624,0,0,1.0,1.0,1.0,62,0.96875,False,1.0,False,0.0011004580010194331,1.0,False,oracle-ent,off,20ng-sub2000,2000
+30,log:F5,The post discusses computer security.,rewrite,1757,1414,343,0,0,1.0,1.0,1.0,98,0.9333333333333333,False,1.0,False,0.001403250003932044,1.0,False,oracle-ent,off,20ng-sub2000,2000
+31,log:F6,The post discusses science.,rewrite,1850,1820,30,0,0,1.0,0.9885496183206107,0.9942418426103647,262,0.925,False,1.0,False,0.0015797090018168092,0.9885496183206107,False,oracle-ent,off,20ng-sub2000,2000
+32,log:G1,The post mentions an operating system.,rewrite,1455,1226,229,0,0,1.0,1.0,1.0,196,0.9333333333333333,False,1.0,False,0.0017741660121828318,1.0,False,oracle-ent,off,20ng-sub2000,2000
+33,log:G2,The post mentions Microsoft Windows.,rewrite,1836,1187,649,0,0,1.0,1.0,1.0,73,0.9605263157894737,False,1.0,False,0.0016131250013131648,1.0,False,oracle-ent,off,20ng-sub2000,2000
+34,log:G3,The post mentions the X Window System.,rewrite,1711,523,1188,0,0,1.0,0.9868421052631579,0.9933774834437086,76,0.9493670886075949,False,1.0,False,0.0016587499994784594,0.9868421052631579,False,oracle-ent,off,20ng-sub2000,2000
+35,log:G4,The post discusses software rather than hardware.,rewrite,1682,1632,50,0,0,1.0,0.9866666666666667,0.9932885906040269,375,0.925,False,1.0,False,0.0015243329980876297,0.9866666666666667,False,oracle-ent,off,20ng-sub2000,2000
+36,log:G5,The post recommends a product or a service.,rewrite,1789,1226,563,0,0,1.0,1.0,1.0,83,0.9222222222222223,False,1.0,False,0.0016721670108381659,1.0,False,oracle-ent,off,20ng-sub2000,2000
+37,log:H1,The post asks for technical help with computer hardware.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,271,,,,,9.58298915065825e-06,1.0,,oracle-ent,off,20ng-sub2000,2000
+38,log:H2,The post is selling something.,rewrite,1715,1226,489,0,0,1.0,0.989247311827957,0.9945945945945946,93,0.9484536082474226,False,1.0,False,0.0015581249899696559,0.989247311827957,False,oracle-ent,off,20ng-sub2000,2000
+39,log:H3,The post is about a motor vehicle.,rewrite,1468,1147,321,0,0,1.0,1.0,1.0,155,0.9171597633136095,False,1.0,False,0.0016918330220505595,1.0,False,oracle-ent,off,20ng-sub2000,2000
+40,log:H4,The post is about a car or a motorcycle.,rewrite,1598,1307,291,0,0,1.0,1.0,1.0,138,0.9387755102040817,False,1.0,False,0.0018408749892842025,1.0,False,oracle-ent,off,20ng-sub2000,2000
+41,log:H5,The post gives advice about maintaining a vehicle.,rewrite,2000,1232,0,768,0,1.0,1.0,1.0,37,1.0,False,1.0,False,0.0004993749898858368,1.0,False,oracle-ent,off,20ng-sub2000,2000
+42,log:H6,The tone of the post is angry or annoyed.,rewrite,1159,1112,47,0,0,1.0,0.9960988296488946,0.9980456026058632,769,0.9217809867629362,False,1.0,False,0.0019963750091847032,0.9960988296488946,False,oracle-ent,off,20ng-sub2000,2000
+43,log:H7,The post is about a computer operating system.,rewrite,1560,1342,218,0,0,1.0,1.0,1.0,176,0.9119170984455959,False,1.0,False,0.0017907080182339996,1.0,False,oracle-ent,off,20ng-sub2000,2000
+44,log:H8,The post is a for-sale advertisement.,rewrite,1735,1180,555,0,0,1.0,1.0,1.0,87,0.9354838709677419,False,1.0,False,0.0016692079952917993,1.0,False,oracle-ent,off,20ng-sub2000,2000
+45,log:H9,The post discusses encryption algorithms or key management.,rewrite,2000,1313,0,687,0,1.0,1.0,1.0,46,1.0,False,1.0,False,0.0004833329876419157,1.0,False,oracle-ent,off,20ng-sub2000,2000
+46,log:H10,The post asks a question about computer hardware.,rewrite,1350,1167,183,0,0,1.0,0.9914772727272727,0.9957203994293866,352,0.9272237196765498,False,0.9856733524355301,False,0.0020449160074349493,0.9914772727272727,False,oracle-ent,off,20ng-sub2000,2000

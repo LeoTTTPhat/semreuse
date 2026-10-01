@@ -1,0 +1,10 @@
+{
+  "model": "gemma3:27b",
+  "host": "http://localhost:11434",
+  "pairs": 200,
+  "agreement": 1.0,
+  "disagreements": 0,
+  "live_calls": 200,
+  "wall_s": 314.3,
+  "retries": 0
+}

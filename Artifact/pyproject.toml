@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "semreuse"
+version = "0.1.0"
+description = "SemReuse: answering semantic queries using cached natural-language views via entailment-based rewriting"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+]
+
+[project.optional-dependencies]
+models = ["sentence-transformers", "torch"]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["semreuse*"]
+
+[tool.pytest.ini_options]
+testpaths = ["src/tests"]

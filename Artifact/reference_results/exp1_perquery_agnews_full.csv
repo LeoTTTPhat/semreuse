@@ -1,0 +1,841 @@
+query_index,predicate_name,predicate_text,reuse_kind,oracle_calls,candidate_calls,audit_calls,escalation_calls,nli_pair_scores,precision,recall,f1,n_true_pos_rows,recall_bound,bound_violated,precision_bound,precision_bound_violated,latency_s,recall_oracle,bound_violated_oracle,method,corpus,n_rows,overlap,seed
+0,leaf:sports#t0,The document is about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00018891700892709196,1.0,,cold,agnews-sub8000,8000,0.8,0
+1,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00018599999020807445,1.0,,cold,agnews-sub8000,8000,0.8,0
+2,leaf:business and finance#t2,The passage is related to business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,8.850000449456275e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+3,union:science and technology|world news#u0,The document is about science and technology or about world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.0001650420017540455,1.0,,cold,agnews-sub8000,8000,0.8,0
+4,leaf:world news#t0,The document is about world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.241598309017718e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+5,union:business and finance|world news#u1,This text discusses either business and finance or world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00018154201097786427,1.0,,cold,agnews-sub8000,8000,0.8,0
+6,leaf:sports#t1,This text discusses sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00011012499453499913,1.0,,cold,agnews-sub8000,8000,0.8,0
+7,leaf:sports#t0,The document is about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00010104101966135204,1.0,,cold,agnews-sub8000,8000,0.8,0
+8,leaf:business and finance#t2,The passage is related to business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,8.800000068731606e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+9,leaf:world news#t3,This article covers the topic of world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.558300371281803e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+10,leaf:world news#t2,The passage is related to world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.366701124235988e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+11,leaf:science and technology#t2,The passage is related to science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.216699982061982e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+12,union:science and technology|sports#u0,The document is about science and technology or about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.0001821249898057431,1.0,,cold,agnews-sub8000,8000,0.8,0
+13,leaf:science and technology#t1,This text discusses science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.025001781992614e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+14,leaf:world news#t2,The passage is related to world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.370798943564296e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+15,leaf:business and finance#t3,This article covers the topic of business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,8.941700798459351e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+16,union:business and finance|sports#u0,The document is about business and finance or about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00017370801651850343,1.0,,cold,agnews-sub8000,8000,0.8,0
+17,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00016254099318757653,1.0,,cold,agnews-sub8000,8000,0.8,0
+18,leaf:world news#t1,This text discusses world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.300000965595245e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+19,leaf:science and technology#t3,This article covers the topic of science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,8.879200322553515e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+20,leaf:world news#t1,This text discusses world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.324998245574534e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+21,leaf:world news#t2,The passage is related to world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.279200457967818e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+22,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.0001660000125411898,1.0,,cold,agnews-sub8000,8000,0.8,0
+23,leaf:world news#t0,The document is about world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.312498150393367e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+24,union:business and finance|sports#u0,The document is about business and finance or about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00017374998424202204,1.0,,cold,agnews-sub8000,8000,0.8,0
+25,leaf:sports#t1,This text discusses sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00010316600673831999,1.0,,cold,agnews-sub8000,8000,0.8,0
+26,leaf:science and technology#t3,This article covers the topic of science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,8.779199561104178e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+27,leaf:world news#t1,This text discusses world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.441698784939945e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+28,leaf:sports#t1,This text discusses sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00010287499753758311,1.0,,cold,agnews-sub8000,8000,0.8,0
+29,leaf:science and technology#t3,This article covers the topic of science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,8.720799814909697e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+30,union:science and technology|world news#u1,This text discusses either science and technology or world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.0001681669964455068,1.0,,cold,agnews-sub8000,8000,0.8,0
+31,union:sports|world news#u1,This text discusses either sports or world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00018462497973814607,1.0,,cold,agnews-sub8000,8000,0.8,0
+32,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00016212498303502798,1.0,,cold,agnews-sub8000,8000,0.8,0
+33,leaf:business and finance#t3,This article covers the topic of business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.083299664780498e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+34,union:business and finance|world news#u0,The document is about business and finance or about world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00016654201317578554,1.0,,cold,agnews-sub8000,8000,0.8,0
+35,leaf:world news#t2,The passage is related to world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.420799324288964e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+36,leaf:science and technology#t0,The document is about science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,8.941700798459351e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+37,leaf:science and technology#t0,The document is about science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,8.712499402463436e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+38,leaf:business and finance#t3,This article covers the topic of business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.07920184545219e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+39,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00018237499170936644,1.0,,cold,agnews-sub8000,8000,0.8,0
+40,leaf:science and technology#t1,This text discusses science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.554199641570449e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+41,leaf:sports#t2,The passage is related to sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.44170169532299e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+42,leaf:science and technology#t3,This article covers the topic of science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,8.791600703261793e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+43,leaf:science and technology#t1,This text discusses science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.045802289620042e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+44,leaf:business and finance#t3,This article covers the topic of business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.099999442696571e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+45,union:science and technology|sports#u0,The document is about science and technology or about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00017020897939801216,1.0,,cold,agnews-sub8000,8000,0.8,0
+46,leaf:business and finance#t3,This article covers the topic of business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,8.995801908895373e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+47,union:science and technology|world news#u1,This text discusses either science and technology or world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.0001972090103663504,1.0,,cold,agnews-sub8000,8000,0.8,0
+48,union:science and technology|sports#u0,The document is about science and technology or about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00020470801973715425,1.0,,cold,agnews-sub8000,8000,0.8,0
+49,leaf:science and technology#t3,This article covers the topic of science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00010320800356566906,1.0,,cold,agnews-sub8000,8000,0.8,0
+50,leaf:sports#t0,The document is about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00012270899605937302,1.0,,cold,agnews-sub8000,8000,0.8,0
+51,leaf:world news#t2,The passage is related to world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00010479200864210725,1.0,,cold,agnews-sub8000,8000,0.8,0
+52,leaf:business and finance#t3,This article covers the topic of business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.89580003079027e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+53,leaf:business and finance#t0,The document is about business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.833299554884434e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+54,union:science and technology|world news#u0,The document is about science and technology or about world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00018612499115988612,1.0,,cold,agnews-sub8000,8000,0.8,0
+55,leaf:sports#t1,This text discusses sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00011966598685830832,1.0,,cold,agnews-sub8000,8000,0.8,0
+56,leaf:science and technology#t3,This article covers the topic of science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.512499673292041e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+57,leaf:business and finance#t3,This article covers the topic of business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00010075001046061516,1.0,,cold,agnews-sub8000,8000,0.8,0
+58,union:sports|world news#u1,This text discusses either sports or world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00020620800205506384,1.0,,cold,agnews-sub8000,8000,0.8,0
+59,union:business and finance|world news#u1,This text discusses either business and finance or world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00018824997823685408,1.0,,cold,agnews-sub8000,8000,0.8,0
+60,leaf:science and technology#t3,This article covers the topic of science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.700001101009548e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+61,leaf:business and finance#t2,The passage is related to business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.908300125971437e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+62,union:science and technology|sports#u0,The document is about science and technology or about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00018383300630375743,1.0,,cold,agnews-sub8000,8000,0.8,0
+63,leaf:business and finance#t2,The passage is related to business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.39579913392663e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+64,leaf:sports#t2,The passage is related to sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00011504199937917292,1.0,,cold,agnews-sub8000,8000,0.8,0
+65,leaf:sports#t2,The passage is related to sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.0001149170275311917,1.0,,cold,agnews-sub8000,8000,0.8,0
+66,leaf:sports#t3,This article covers the topic of sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00011529200128279626,1.0,,cold,agnews-sub8000,8000,0.8,0
+67,leaf:sports#t0,The document is about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00011991700739599764,1.0,,cold,agnews-sub8000,8000,0.8,0
+68,leaf:business and finance#t2,The passage is related to business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.995899745263159e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+69,leaf:sports#t0,The document is about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.0001143749977927655,1.0,,cold,agnews-sub8000,8000,0.8,0
+70,leaf:science and technology#t0,The document is about science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.737501386553049e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+71,leaf:sports#t2,The passage is related to sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.0001151659816969186,1.0,,cold,agnews-sub8000,8000,0.8,0
+72,leaf:sports#t3,This article covers the topic of sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00011712498962879181,1.0,,cold,agnews-sub8000,8000,0.8,0
+73,union:sports|world news#u0,The document is about sports or about world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00020004200632683933,1.0,,cold,agnews-sub8000,8000,0.8,0
+74,leaf:business and finance#t0,The document is about business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.608297841623425e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+75,leaf:science and technology#t2,The passage is related to science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.708400466479361e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+76,leaf:science and technology#t2,The passage is related to science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.44170169532299e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+77,leaf:sports#t1,This text discusses sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00011799999629147351,1.0,,cold,agnews-sub8000,8000,0.8,0
+78,leaf:world news#t0,The document is about world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00010062500950880349,1.0,,cold,agnews-sub8000,8000,0.8,0
+79,leaf:business and finance#t3,This article covers the topic of business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.899999713525176e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+80,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00017595899407751858,1.0,,cold,agnews-sub8000,8000,0.8,0
+81,union:science and technology|sports#u0,The document is about science and technology or about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00020058301743119955,1.0,,cold,agnews-sub8000,8000,0.8,0
+82,union:science and technology|sports#u1,This text discusses either science and technology or sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00018129200907424092,1.0,,cold,agnews-sub8000,8000,0.8,0
+83,leaf:sports#t3,This article covers the topic of sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00011987501056864858,1.0,,cold,agnews-sub8000,8000,0.8,0
+84,leaf:science and technology#t3,This article covers the topic of science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.887499618344009e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+85,union:science and technology|sports#u0,The document is about science and technology or about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00019145800615660846,1.0,,cold,agnews-sub8000,8000,0.8,0
+86,leaf:sports#t2,The passage is related to sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00011595900286920369,1.0,,cold,agnews-sub8000,8000,0.8,0
+87,leaf:science and technology#t1,This text discusses science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.4832998001948e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+88,leaf:business and finance#t1,This text discusses business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.0004460829950403422,1.0,,cold,agnews-sub8000,8000,0.8,0
+89,leaf:sports#t0,The document is about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00013562498497776687,1.0,,cold,agnews-sub8000,8000,0.8,0
+90,union:business and finance|world news#u0,The document is about business and finance or about world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00019433299894444644,1.0,,cold,agnews-sub8000,8000,0.8,0
+91,union:business and finance|world news#u0,The document is about business and finance or about world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00018904200987890363,1.0,,cold,agnews-sub8000,8000,0.8,0
+92,leaf:sports#t3,This article covers the topic of sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00011950000771321356,1.0,,cold,agnews-sub8000,8000,0.8,0
+93,leaf:science and technology#t3,This article covers the topic of science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00010183299309574068,1.0,,cold,agnews-sub8000,8000,0.8,0
+94,leaf:sports#t3,This article covers the topic of sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00010116701014339924,1.0,,cold,agnews-sub8000,8000,0.8,0
+95,leaf:sports#t2,The passage is related to sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.000122333993203938,1.0,,cold,agnews-sub8000,8000,0.8,0
+96,leaf:business and finance#t2,The passage is related to business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00010441700578667223,1.0,,cold,agnews-sub8000,8000,0.8,0
+97,leaf:sports#t0,The document is about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00011795898899435997,1.0,,cold,agnews-sub8000,8000,0.8,0
+98,leaf:sports#t1,This text discusses sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00011516700033098459,1.0,,cold,agnews-sub8000,8000,0.8,0
+99,leaf:science and technology#t3,This article covers the topic of science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.691700688563287e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+100,leaf:science and technology#t3,This article covers the topic of science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.820799459703267e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+101,leaf:world news#t2,The passage is related to world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00010641702101565897,1.0,,cold,agnews-sub8000,8000,0.8,0
+102,union:science and technology|world news#u1,This text discusses either science and technology or world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00018954099505208433,1.0,,cold,agnews-sub8000,8000,0.8,0
+103,leaf:business and finance#t1,This text discusses business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00010491700959391892,1.0,,cold,agnews-sub8000,8000,0.8,0
+104,leaf:science and technology#t3,This article covers the topic of science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00010166599531657994,1.0,,cold,agnews-sub8000,8000,0.8,0
+105,leaf:science and technology#t0,The document is about science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.962500189431012e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+106,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00018216698663309216,1.0,,cold,agnews-sub8000,8000,0.8,0
+107,union:business and finance|sports#u0,The document is about business and finance or about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00019595798221416771,1.0,,cold,agnews-sub8000,8000,0.8,0
+108,leaf:science and technology#t2,The passage is related to science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00010358300642110407,1.0,,cold,agnews-sub8000,8000,0.8,0
+109,leaf:business and finance#t2,The passage is related to business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00010124998516403139,1.0,,cold,agnews-sub8000,8000,0.8,0
+110,leaf:sports#t3,This article covers the topic of sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00011937497765757143,1.0,,cold,agnews-sub8000,8000,0.8,0
+111,leaf:science and technology#t0,The document is about science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,9.729200974106789e-05,1.0,,cold,agnews-sub8000,8000,0.8,0
+112,leaf:sports#t3,This article covers the topic of sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00011579200509004295,1.0,,cold,agnews-sub8000,8000,0.8,0
+113,leaf:sports#t2,The passage is related to sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.002203375013777986,1.0,,cold,agnews-sub8000,8000,0.8,0
+114,leaf:business and finance#t2,The passage is related to business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00017987500177696347,1.0,,cold,agnews-sub8000,8000,0.8,0
+115,leaf:business and finance#t0,The document is about business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00014937500236555934,1.0,,cold,agnews-sub8000,8000,0.8,0
+116,union:science and technology|sports#u0,The document is about science and technology or about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.000265290989773348,1.0,,cold,agnews-sub8000,8000,0.8,0
+117,leaf:sports#t0,The document is about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00016295802197419107,1.0,,cold,agnews-sub8000,8000,0.8,0
+118,leaf:business and finance#t0,The document is about business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00015766601427458227,1.0,,cold,agnews-sub8000,8000,0.8,0
+119,leaf:sports#t3,This article covers the topic of sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00014966700109653175,1.0,,cold,agnews-sub8000,8000,0.8,0
+0,leaf:sports#t0,The document is about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.0003345839795656502,1.0,,exact,agnews-sub8000,8000,0.8,0
+1,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.0003258749784436077,1.0,,exact,agnews-sub8000,8000,0.8,0
+2,leaf:business and finance#t2,The passage is related to business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00016741701983846724,1.0,,exact,agnews-sub8000,8000,0.8,0
+3,union:science and technology|world news#u0,The document is about science and technology or about world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.0002766250108834356,1.0,,exact,agnews-sub8000,8000,0.8,0
+4,leaf:world news#t0,The document is about world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00016966700786724687,1.0,,exact,agnews-sub8000,8000,0.8,0
+5,union:business and finance|world news#u1,This text discusses either business and finance or world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.0002733340079430491,1.0,,exact,agnews-sub8000,8000,0.8,0
+6,leaf:sports#t1,This text discusses sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00015858298866078258,1.0,,exact,agnews-sub8000,8000,0.8,0
+7,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,7.291993824765086e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+8,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,5.791982403025031e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+9,leaf:world news#t3,This article covers the topic of world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.0001375829742755741,1.0,,exact,agnews-sub8000,8000,0.8,0
+10,leaf:world news#t2,The passage is related to world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00012841698480769992,1.0,,exact,agnews-sub8000,8000,0.8,0
+11,leaf:science and technology#t2,The passage is related to science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00011945900041610003,1.0,,exact,agnews-sub8000,8000,0.8,0
+12,union:science and technology|sports#u0,The document is about science and technology or about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00021691698930226266,1.0,,exact,agnews-sub8000,8000,0.8,0
+13,leaf:science and technology#t1,This text discusses science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00011658400762826204,1.0,,exact,agnews-sub8000,8000,0.8,0
+14,leaf:world news#t2,The passage is related to world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.916997229680419e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+15,leaf:business and finance#t3,This article covers the topic of business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00011550000635907054,1.0,,exact,agnews-sub8000,8000,0.8,0
+16,union:business and finance|sports#u0,The document is about business and finance or about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00020941600087098777,1.0,,exact,agnews-sub8000,8000,0.8,0
+17,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00020316601148806512,1.0,,exact,agnews-sub8000,8000,0.8,0
+18,leaf:world news#t1,This text discusses world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00012645800597965717,1.0,,exact,agnews-sub8000,8000,0.8,0
+19,leaf:science and technology#t3,This article covers the topic of science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00010941599612124264,1.0,,exact,agnews-sub8000,8000,0.8,0
+20,leaf:world news#t1,This text discusses world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.540997229516506e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+21,leaf:world news#t2,The passage is related to world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.8330035749822855e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+22,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.6660057958215475e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+23,leaf:world news#t0,The document is about world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.8330035749822855e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+24,union:business and finance|sports#u0,The document is about business and finance or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.749999450519681e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+25,leaf:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.1660019885748625e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+26,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.916997229680419e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+27,leaf:world news#t1,This text discusses world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.0410010367631912e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+28,leaf:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.70901364274323e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+29,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.208988346159458e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+30,union:science and technology|world news#u1,This text discusses either science and technology or world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00023383297957479954,1.0,,exact,agnews-sub8000,8000,0.8,0
+31,union:sports|world news#u1,This text discusses either sports or world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00023291699471883476,1.0,,exact,agnews-sub8000,8000,0.8,0
+32,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,5.166977643966675e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+33,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.6833015251904726e-05,1.0,,exact,agnews-sub8000,8000,0.8,0
+34,union:business and finance|world news#u0,The document is about business and finance or about world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00024695799220353365,1.0,,exact,agnews-sub8000,8000,0.8,0
+35,leaf:world news#t2,The passage is related to world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,4.875008016824722e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+36,leaf:science and technology#t0,The document is about science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00012070900993421674,1.0,,exact,agnews-sub8000,8000,0.8,0
+37,leaf:science and technology#t0,The document is about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.6250199880450964e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+38,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,4.250003257766366e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+39,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,1.875002635642886e-05,1.0,,exact,agnews-sub8000,8000,0.8,0
+40,leaf:science and technology#t1,This text discusses science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,6.290996680036187e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+41,leaf:sports#t2,The passage is related to sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00017408400890417397,1.0,,exact,agnews-sub8000,8000,0.8,0
+42,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,6.124988431110978e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+43,leaf:science and technology#t1,This text discusses science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.1249946914613247e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+44,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,4.417001036927104e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+45,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,4.875008016824722e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+46,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.249995643272996e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+47,union:science and technology|world news#u1,This text discusses either science and technology or world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,4.292000085115433e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+48,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.6669953260570765e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+49,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.374996595084667e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+50,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,4.041008651256561e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+51,leaf:world news#t2,The passage is related to world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,4.458008334040642e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+52,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,4.417001036927104e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+53,leaf:business and finance#t0,The document is about business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00013624998973682523,1.0,,exact,agnews-sub8000,8000,0.8,0
+54,union:science and technology|world news#u0,The document is about science and technology or about world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,4.8330111894756556e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+55,leaf:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.7090212572366e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+56,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.749999450519681e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+57,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.416993422433734e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+58,union:sports|world news#u1,This text discusses either sports or world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.4580007195472717e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+59,union:business and finance|world news#u1,This text discusses either business and finance or world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.958994057029486e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+60,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,4.083005478605628e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+61,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.875000402331352e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+62,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,4.1660096030682325e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+63,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.3329997677356005e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+64,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.167020622640848e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+65,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.3339816834777594e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+66,leaf:sports#t3,This article covers the topic of sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.0001405829971190542,1.0,,exact,agnews-sub8000,8000,0.8,0
+67,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.91600008495152e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+68,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.2919848561286926e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+69,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.207991201430559e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+70,leaf:science and technology#t0,The document is about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.208988346159458e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+71,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.542015863582492e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+72,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.2500171326100826e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+73,union:sports|world news#u0,The document is about sports or about world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00024329201551154256,1.0,,exact,agnews-sub8000,8000,0.8,0
+74,leaf:business and finance#t0,The document is about business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.0410010367631912e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+75,leaf:science and technology#t2,The passage is related to science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.2079988159239292e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+76,leaf:science and technology#t2,The passage is related to science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.333021257072687e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+77,leaf:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.2079988159239292e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+78,leaf:world news#t0,The document is about world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.249995643272996e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+79,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.3329997677356005e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+80,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.374996595084667e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+81,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.875000402331352e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+82,union:science and technology|sports#u1,This text discusses either science and technology or sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.000210291997063905,1.0,,exact,agnews-sub8000,8000,0.8,0
+83,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.4999975468963385e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+84,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.082997864112258e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+85,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,2.875021891668439e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+86,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.9999937396496534e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+87,leaf:science and technology#t1,This text discusses science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.2079988159239292e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+88,leaf:business and finance#t1,This text discusses business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00011433300096541643,1.0,,exact,agnews-sub8000,8000,0.8,0
+89,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.04199056699872e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+90,union:business and finance|world news#u0,The document is about business and finance or about world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,4.250003257766366e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+91,union:business and finance|world news#u0,The document is about business and finance or about world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,2.540997229516506e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+92,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.667016815394163e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+93,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.04199056699872e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+94,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.167013008147478e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+95,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.4589826352894306e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+96,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.1249946914613247e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+97,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.4124991139397025e-05,1.0,,exact,agnews-sub8000,8000,0.8,0
+98,leaf:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,5.332985892891884e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+99,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,4.1669991333037615e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+100,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.1249946914613247e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+101,leaf:world news#t2,The passage is related to world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,4.125002305954695e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+102,union:science and technology|world news#u1,This text discusses either science and technology or world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.958994057029486e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+103,leaf:business and finance#t1,This text discusses business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.874992787837982e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+104,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.7919886633753777e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+105,leaf:science and technology#t0,The document is about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.082997864112258e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+106,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.7080026231706142e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+107,union:business and finance|sports#u0,The document is about business and finance or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.583001671358943e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+108,leaf:science and technology#t2,The passage is related to science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.7919962778687477e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+109,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.416003892198205e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+110,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.374996595084667e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+111,leaf:science and technology#t0,The document is about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.3329997677356005e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+112,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.7919886633753777e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+113,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.0410010367631912e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+114,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.540997229516506e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+115,leaf:business and finance#t0,The document is about business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.083987394347787e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+116,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,4.416011506691575e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+117,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.4580007195472717e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+118,leaf:business and finance#t0,The document is about business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.4589826352894306e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+119,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.916989615187049e-06,1.0,,exact,agnews-sub8000,8000,0.8,0
+0,leaf:sports#t0,The document is about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.5520375000196509,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+1,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.06918508300441317,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+2,leaf:business and finance#t2,The passage is related to business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.056858374999137595,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+3,union:science and technology|world news#u0,The document is about science and technology or about world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.022192792006535456,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+4,leaf:world news#t0,The document is about world news.,embed-hit@0.86,0,0,0,0,0,0.5,1.0,0.6666666666666666,2000,,,,,0.049515999999130145,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+5,union:business and finance|world news#u1,This text discusses either business and finance or world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.054968415992334485,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+6,leaf:sports#t1,This text discusses sports.,embed-hit@0.80,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,0.11122712498763576,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+7,leaf:sports#t0,The document is about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.612497726455331e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+8,leaf:business and finance#t2,The passage is related to business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.229200279340148e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+9,leaf:world news#t3,This article covers the topic of world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.008192833018256351,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+10,leaf:world news#t2,The passage is related to world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.06195862501044758,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+11,leaf:science and technology#t2,The passage is related to science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.01076037497841753,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+12,union:science and technology|sports#u0,The document is about science and technology or about sports.,embed-hit@0.87,0,0,0,0,0,1.0,0.5,0.6666666666666666,4000,,,,,0.01451691600959748,0.5,,embed@0.8,agnews-sub8000,8000,0.8,0
+13,leaf:science and technology#t1,This text discusses science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.017239124979823828,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+14,leaf:world news#t2,The passage is related to world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.2832973627373576e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+15,leaf:business and finance#t3,This article covers the topic of business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.06918166598188691,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+16,union:business and finance|sports#u0,The document is about business and finance or about sports.,embed-hit@0.85,0,0,0,0,0,1.0,0.5,0.6666666666666666,4000,,,,,0.010957542021060362,0.5,,embed@0.8,agnews-sub8000,8000,0.8,0
+17,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.010739749995991588,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+18,leaf:world news#t1,This text discusses world news.,embed-hit@0.88,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,0.01431712502380833,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+19,leaf:science and technology#t3,This article covers the topic of science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.011053374997572973,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+20,leaf:world news#t1,This text discusses world news.,embed-hit@0.88,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.2041989723220468e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+21,leaf:world news#t2,The passage is related to world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.562500256113708e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+22,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,1.3665994629263878e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+23,leaf:world news#t0,The document is about world news.,embed-hit@0.86,0,0,0,0,0,0.5,1.0,0.6666666666666666,2000,,,,,1.5083991456776857e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+24,union:business and finance|sports#u0,The document is about business and finance or about sports.,embed-hit@0.85,0,0,0,0,0,1.0,0.5,0.6666666666666666,4000,,,,,1.3250013580545783e-05,0.5,,embed@0.8,agnews-sub8000,8000,0.8,0
+25,leaf:sports#t1,This text discusses sports.,embed-hit@0.80,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.3582990504801273e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+26,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.4416989870369434e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+27,leaf:world news#t1,This text discusses world news.,embed-hit@0.88,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.2542004697024822e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+28,leaf:sports#t1,This text discusses sports.,embed-hit@0.80,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.2167001841589808e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+29,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.229200279340148e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+30,union:science and technology|world news#u1,This text discusses either science and technology or world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.015815374994417652,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+31,union:sports|world news#u1,This text discusses either sports or world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.011131209001177922,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+32,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,2.5083019863814116e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+33,leaf:business and finance#t3,This article covers the topic of business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.7375015886500478e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+34,union:business and finance|world news#u0,The document is about business and finance or about world news.,embed-hit@0.82,0,0,0,0,0,0.5,0.5,0.5,4000,,,,,0.013041999976849183,0.5,,embed@0.8,agnews-sub8000,8000,0.8,0
+35,leaf:world news#t2,The passage is related to world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.520799171179533e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+36,leaf:science and technology#t0,The document is about science and technology.,embed-hit@0.86,0,0,0,0,0,0.5,1.0,0.6666666666666666,2000,,,,,0.010948874987661839,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+37,leaf:science and technology#t0,The document is about science and technology.,embed-hit@0.86,0,0,0,0,0,0.5,1.0,0.6666666666666666,2000,,,,,2.216699067503214e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+38,leaf:business and finance#t3,This article covers the topic of business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.650000922381878e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+39,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,1.4874996850267053e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+40,leaf:science and technology#t1,This text discusses science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.4582998119294643e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+41,leaf:sports#t2,The passage is related to sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.016964958020253107,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+42,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.6416004402562976e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+43,leaf:science and technology#t1,This text discusses science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.8708000425249338e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+44,leaf:business and finance#t3,This article covers the topic of business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.762501779012382e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+45,union:science and technology|sports#u0,The document is about science and technology or about sports.,embed-hit@0.87,0,0,0,0,0,1.0,0.5,0.6666666666666666,4000,,,,,1.6250007320195436e-05,0.5,,embed@0.8,agnews-sub8000,8000,0.8,0
+46,leaf:business and finance#t3,This article covers the topic of business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.5958008589223027e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+47,union:science and technology|world news#u1,This text discusses either science and technology or world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,1.645900192670524e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+48,union:science and technology|sports#u0,The document is about science and technology or about sports.,embed-hit@0.87,0,0,0,0,0,1.0,0.5,0.6666666666666666,4000,,,,,1.6082980437204242e-05,0.5,,embed@0.8,agnews-sub8000,8000,0.8,0
+49,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.754198456183076e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+50,leaf:sports#t0,The document is about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.5208002878353e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+51,leaf:world news#t2,The passage is related to world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.0124978618696332e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+52,leaf:business and finance#t3,This article covers the topic of business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.837499439716339e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+53,leaf:business and finance#t0,The document is about business and finance.,embed-hit@0.90,0,0,0,0,0,0.5,1.0,0.6666666666666666,2000,,,,,0.007532207993790507,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+54,union:science and technology|world news#u0,The document is about science and technology or about world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,2.479198155924678e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+55,leaf:sports#t1,This text discusses sports.,embed-hit@0.80,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.7624988686293364e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+56,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.533300383016467e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+57,leaf:business and finance#t3,This article covers the topic of business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.8125021597370505e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+58,union:sports|world news#u1,This text discusses either sports or world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,1.504199462942779e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+59,union:business and finance|world news#u1,This text discusses either business and finance or world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,1.7250014934688807e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+60,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.5874975360929966e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+61,leaf:business and finance#t2,The passage is related to business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.5249999705702066e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+62,union:science and technology|sports#u0,The document is about science and technology or about sports.,embed-hit@0.87,0,0,0,0,0,1.0,0.5,0.6666666666666666,4000,,,,,1.737498678267002e-05,0.5,,embed@0.8,agnews-sub8000,8000,0.8,0
+63,leaf:business and finance#t2,The passage is related to business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.391599653288722e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+64,leaf:sports#t2,The passage is related to sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.7167010810226202e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+65,leaf:sports#t2,The passage is related to sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.391698606312275e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+66,leaf:sports#t3,This article covers the topic of sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.007841499987989664,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+67,leaf:sports#t0,The document is about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.845900598913431e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+68,leaf:business and finance#t2,The passage is related to business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.054200740531087e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+69,leaf:sports#t0,The document is about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.5666999388486147e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+70,leaf:science and technology#t0,The document is about science and technology.,embed-hit@0.86,0,0,0,0,0,0.5,1.0,0.6666666666666666,2000,,,,,1.7874990589916706e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+71,leaf:sports#t2,The passage is related to sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.7999991541728377e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+72,leaf:sports#t3,This article covers the topic of sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.550000160932541e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+73,union:sports|world news#u0,The document is about sports or about world news.,embed-hit@0.85,0,0,0,0,0,1.0,0.5,0.6666666666666666,4000,,,,,0.006865791976451874,0.5,,embed@0.8,agnews-sub8000,8000,0.8,0
+74,leaf:business and finance#t0,The document is about business and finance.,embed-hit@0.90,0,0,0,0,0,0.5,1.0,0.6666666666666666,2000,,,,,2.2916006855666637e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+75,leaf:science and technology#t2,The passage is related to science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.7999991541728377e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+76,leaf:science and technology#t2,The passage is related to science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.545899431221187e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+77,leaf:sports#t1,This text discusses sports.,embed-hit@0.80,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.5583995264023542e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+78,leaf:world news#t0,The document is about world news.,embed-hit@0.86,0,0,0,0,0,0.5,1.0,0.6666666666666666,2000,,,,,1.6667007002979517e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+79,leaf:business and finance#t3,This article covers the topic of business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.6708014300093055e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+80,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,1.5792000340297818e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+81,union:science and technology|sports#u0,The document is about science and technology or about sports.,embed-hit@0.87,0,0,0,0,0,1.0,0.5,0.6666666666666666,4000,,,,,1.6250007320195436e-05,0.5,,embed@0.8,agnews-sub8000,8000,0.8,0
+82,union:science and technology|sports#u1,This text discusses either science and technology or sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.008802542026387528,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+83,leaf:sports#t3,This article covers the topic of sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.5999994250014424e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+84,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.812499249354005e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+85,union:science and technology|sports#u0,The document is about science and technology or about sports.,embed-hit@0.87,0,0,0,0,0,1.0,0.5,0.6666666666666666,4000,,,,,1.708301715552807e-05,0.5,,embed@0.8,agnews-sub8000,8000,0.8,0
+86,leaf:sports#t2,The passage is related to sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.5875004464760423e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+87,leaf:science and technology#t1,This text discusses science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.6125006368383765e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+88,leaf:business and finance#t1,This text discusses business and finance.,embed-hit@0.89,0,0,0,0,0,0.5,1.0,0.6666666666666666,2000,,,,,0.00694462499814108,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+89,leaf:sports#t0,The document is about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,4.308400093577802e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+90,union:business and finance|world news#u0,The document is about business and finance or about world news.,embed-hit@0.82,0,0,0,0,0,0.5,0.5,0.5,4000,,,,,2.2124993847683072e-05,0.5,,embed@0.8,agnews-sub8000,8000,0.8,0
+91,union:business and finance|world news#u0,The document is about business and finance or about world news.,embed-hit@0.82,0,0,0,0,0,0.5,0.5,0.5,4000,,,,,1.8749997252598405e-05,0.5,,embed@0.8,agnews-sub8000,8000,0.8,0
+92,leaf:sports#t3,This article covers the topic of sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.9041006453335285e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+93,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.720900763757527e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+94,leaf:sports#t3,This article covers the topic of sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.695798709988594e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+95,leaf:sports#t2,The passage is related to sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.662501017563045e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+96,leaf:business and finance#t2,The passage is related to business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.7207989003509283e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+97,leaf:sports#t0,The document is about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.633400097489357e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+98,leaf:sports#t1,This text discusses sports.,embed-hit@0.86,0,0,0,0,0,0.5,1.0,0.6666666666666666,2000,,,,,1.8499995348975062e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+99,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.945797703228891e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+100,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.6708014300093055e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+101,leaf:world news#t2,The passage is related to world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.6790989320725203e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+102,union:science and technology|world news#u1,This text discusses either science and technology or world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,1.7458980437368155e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+103,leaf:business and finance#t1,This text discusses business and finance.,embed-hit@0.89,0,0,0,0,0,0.5,1.0,0.6666666666666666,2000,,,,,1.724998583085835e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+104,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.5875004464760423e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+105,leaf:science and technology#t0,The document is about science and technology.,embed-hit@0.86,0,0,0,0,0,0.5,1.0,0.6666666666666666,2000,,,,,1.6417005099356174e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+106,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,1.691700890660286e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+107,union:business and finance|sports#u0,The document is about business and finance or about sports.,embed-hit@0.85,0,0,0,0,0,1.0,0.5,0.6666666666666666,4000,,,,,1.6542006051167846e-05,0.5,,embed@0.8,agnews-sub8000,8000,0.8,0
+108,leaf:science and technology#t2,The passage is related to science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.7000013031065464e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+109,leaf:business and finance#t2,The passage is related to business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.6167003195732832e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+110,leaf:sports#t3,This article covers the topic of sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.591700129210949e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+111,leaf:science and technology#t0,The document is about science and technology.,embed-hit@0.86,0,0,0,0,0,0.5,1.0,0.6666666666666666,2000,,,,,1.579101081006229e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+112,leaf:sports#t3,This article covers the topic of sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.550000160932541e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+113,leaf:sports#t2,The passage is related to sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.5583005733788013e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+114,leaf:business and finance#t2,The passage is related to business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.545899431221187e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+115,leaf:business and finance#t0,The document is about business and finance.,embed-hit@0.90,0,0,0,0,0,0.5,1.0,0.6666666666666666,2000,,,,,1.7416983610019088e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+116,union:science and technology|sports#u0,The document is about science and technology or about sports.,embed-hit@0.87,0,0,0,0,0,1.0,0.5,0.6666666666666666,4000,,,,,1.6375008272007108e-05,0.5,,embed@0.8,agnews-sub8000,8000,0.8,0
+117,leaf:sports#t0,The document is about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.7417012713849545e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+118,leaf:business and finance#t0,The document is about business and finance.,embed-hit@0.90,0,0,0,0,0,0.5,1.0,0.6666666666666666,2000,,,,,1.554097980260849e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+119,leaf:sports#t3,This article covers the topic of sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.5833007637411356e-05,1.0,,embed@0.8,agnews-sub8000,8000,0.8,0
+0,leaf:sports#t0,The document is about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.029845875018509105,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+1,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.05671566698583774,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+2,leaf:business and finance#t2,The passage is related to business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.02447900001425296,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+3,union:science and technology|world news#u0,The document is about science and technology or about world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.024746584007516503,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+4,leaf:world news#t0,The document is about world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.025420416990527883,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+5,union:business and finance|world news#u1,This text discusses either business and finance or world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.026815207995241508,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+6,leaf:sports#t1,This text discusses sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.05460383399622515,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+7,leaf:sports#t0,The document is about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.095801755785942e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+8,leaf:business and finance#t2,The passage is related to business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.3999990187585354e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+9,leaf:world news#t3,This article covers the topic of world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.02116345800459385,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+10,leaf:world news#t2,The passage is related to world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.03283933401689865,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+11,leaf:science and technology#t2,The passage is related to science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.024396374996285886,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+12,union:science and technology|sports#u0,The document is about science and technology or about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.013292832998558879,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+13,leaf:science and technology#t1,This text discusses science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.017451749998144805,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+14,leaf:world news#t2,The passage is related to world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.3499975213781e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+15,leaf:business and finance#t3,This article covers the topic of business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.010558832989772782,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+16,union:business and finance|sports#u0,The document is about business and finance or about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.006997834017965943,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+17,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.006481541000539437,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+18,leaf:world news#t1,This text discusses world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.007195500016678125,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+19,leaf:science and technology#t3,This article covers the topic of science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.006427583022741601,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+20,leaf:world news#t1,This text discusses world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.3958011297509074e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+21,leaf:world news#t2,The passage is related to world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.8749997252598405e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+22,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,1.7082988051697612e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+23,leaf:world news#t0,The document is about world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.7874990589916706e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+24,union:business and finance|sports#u0,The document is about business and finance or about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,1.6166013665497303e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+25,leaf:sports#t1,This text discusses sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.620801049284637e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+26,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.5583005733788013e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+27,leaf:world news#t1,This text discusses world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.5458004781976342e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+28,leaf:sports#t1,This text discusses sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.5083001926541328e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+29,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.5209021512418985e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+30,union:science and technology|world news#u1,This text discusses either science and technology or world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.03215729197836481,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+31,union:sports|world news#u1,This text discusses either sports or world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.028130958991823718,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+32,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,2.5374989490956068e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+33,leaf:business and finance#t3,This article covers the topic of business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.016598591580987e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+34,union:business and finance|world news#u0,The document is about business and finance or about world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.03237287499359809,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+35,leaf:world news#t2,The passage is related to world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.4249998861923814e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+36,leaf:science and technology#t0,The document is about science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.011039333010558039,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+37,leaf:science and technology#t0,The document is about science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.7875008527189493e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+38,leaf:business and finance#t3,This article covers the topic of business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.0334002329036593e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+39,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,1.9416998839005828e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+40,leaf:science and technology#t1,This text discusses science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.9208004232496023e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+41,leaf:sports#t2,The passage is related to sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.026278792007360607,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+42,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.125000512227416e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+43,leaf:science and technology#t1,This text discusses science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.3333996068686247e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+44,leaf:business and finance#t3,This article covers the topic of business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.0166015019640326e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+45,union:science and technology|sports#u0,The document is about science and technology or about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,1.983399852178991e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+46,leaf:business and finance#t3,This article covers the topic of business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.8457998521625996e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+47,union:science and technology|world news#u1,This text discusses either science and technology or world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,2.012500772252679e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+48,union:science and technology|sports#u0,The document is about science and technology or about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,1.879199407994747e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+49,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.895800232887268e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+50,leaf:sports#t0,The document is about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.9415980204939842e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+51,leaf:world news#t2,The passage is related to world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.025000867433846e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+52,leaf:business and finance#t3,This article covers the topic of business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.8708000425249338e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+53,leaf:business and finance#t0,The document is about business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.02991058400948532,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+54,union:science and technology|world news#u0,The document is about science and technology or about world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.0499999411404133e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+55,leaf:sports#t1,This text discusses sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.3792003048583865e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+56,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.195901470258832e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+57,leaf:business and finance#t3,This article covers the topic of business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.195901470258832e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+58,union:sports|world news#u1,This text discusses either sports or world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,2.0875013433396816e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+59,union:business and finance|world news#u1,This text discusses either business and finance or world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,2.158398274332285e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+60,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.0749983377754688e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+61,leaf:business and finance#t2,The passage is related to business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.2624997654929757e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+62,union:science and technology|sports#u0,The document is about science and technology or about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,2.3374974261969328e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+63,leaf:business and finance#t2,The passage is related to business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.037500962615013e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+64,leaf:sports#t2,The passage is related to sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.1124986233189702e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+65,leaf:sports#t2,The passage is related to sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.0417006453499198e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+66,leaf:sports#t3,This article covers the topic of sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.030681083007948473,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+67,leaf:sports#t0,The document is about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.6958994567394257e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+68,leaf:business and finance#t2,The passage is related to business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.5457993615418673e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+69,leaf:sports#t0,The document is about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.0540988771244884e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+70,leaf:science and technology#t0,The document is about science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.012500772252679e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+71,leaf:sports#t2,The passage is related to sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.0209001377224922e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+72,leaf:sports#t3,This article covers the topic of sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.9583007087931037e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+73,union:sports|world news#u0,The document is about sports or about world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.0269437080132775,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+74,leaf:business and finance#t0,The document is about business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.9874994652345777e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+75,leaf:science and technology#t2,The passage is related to science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.2916006855666637e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+76,leaf:science and technology#t2,The passage is related to science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.0791980205103755e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+77,leaf:sports#t1,This text discusses sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.1499989088624716e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+78,leaf:world news#t0,The document is about world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.125001628883183e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+79,leaf:business and finance#t3,This article covers the topic of business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.1082989405840635e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+80,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,2.0791980205103755e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+81,union:science and technology|sports#u0,The document is about science and technology or about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,2.0958977984264493e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+82,union:science and technology|sports#u1,This text discusses either science and technology or sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.017273582983762026,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+83,leaf:sports#t3,This article covers the topic of sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,4.6541012125089765e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+84,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.4999986635521054e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+85,union:science and technology|sports#u0,The document is about science and technology or about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,2.2957974579185247e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+86,leaf:sports#t2,The passage is related to sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.3667002096772194e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+87,leaf:science and technology#t1,This text discusses science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.4917011614888906e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+88,leaf:business and finance#t1,This text discusses business and finance.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.03371337498538196,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+89,leaf:sports#t0,The document is about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.0166993383318186e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+90,union:business and finance|world news#u0,The document is about business and finance or about world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,2.4542008759453893e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+91,union:business and finance|world news#u0,The document is about business and finance or about world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,2.19999928958714e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+92,leaf:sports#t3,This article covers the topic of sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.2458989406004548e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+93,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.2332998923957348e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+94,leaf:sports#t3,This article covers the topic of sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.2041989723220468e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+95,leaf:sports#t2,The passage is related to sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.6124995201826096e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+96,leaf:business and finance#t2,The passage is related to business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.2666994482278824e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+97,leaf:sports#t0,The document is about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.2499996703118086e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+98,leaf:sports#t1,This text discusses sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.2541004000231624e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+99,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.1750020096078515e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+100,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.1415995433926582e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+101,leaf:world news#t2,The passage is related to world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.274999860674143e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+102,union:science and technology|world news#u1,This text discusses either science and technology or world news.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,2.2499996703118086e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+103,leaf:business and finance#t1,This text discusses business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.2167019778862596e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+104,leaf:science and technology#t3,This article covers the topic of science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.1666986867785454e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+105,leaf:science and technology#t0,The document is about science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.216699067503214e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+106,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,2.2124993847683072e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+107,union:business and finance|sports#u0,The document is about business and finance or about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,2.258300082758069e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+108,leaf:science and technology#t2,The passage is related to science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.2374995751306415e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+109,leaf:business and finance#t2,The passage is related to business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.2124993847683072e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+110,leaf:sports#t3,This article covers the topic of sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.666600630618632e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+111,leaf:science and technology#t0,The document is about science and technology.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.1665997337549925e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+112,leaf:sports#t3,This article covers the topic of sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.1458021365106106e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+113,leaf:sports#t2,The passage is related to sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.1832995116710663e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+114,leaf:business and finance#t2,The passage is related to business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.1666986867785454e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+115,leaf:business and finance#t0,The document is about business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.22500239033252e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+116,union:science and technology|sports#u0,The document is about science and technology or about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,2.3125001462176442e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+117,leaf:sports#t0,The document is about sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.695797593332827e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+118,leaf:business and finance#t0,The document is about business and finance.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.2416003048419952e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+119,leaf:sports#t3,This article covers the topic of sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.2167019778862596e-05,1.0,,embed@0.9,agnews-sub8000,8000,0.8,0
+0,leaf:sports#t0,The document is about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00019533300655893981,1.0,,semreuse,agnews-sub8000,8000,0.8,0
+1,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,cold,8000,8000,0,0,2,1.0,1.0,1.0,4000,,,,,0.08388908399501815,1.0,,semreuse,agnews-sub8000,8000,0.8,0
+2,leaf:business and finance#t2,The passage is related to business and finance.,rewrite,4082,4000,82,0,4,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,0.11352645899751224,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+3,union:science and technology|world news#u0,The document is about science and technology or about world news.,cold,8000,8000,0,0,6,1.0,1.0,1.0,4000,,,,,0.11099037501844577,1.0,,semreuse,agnews-sub8000,8000,0.8,0
+4,leaf:world news#t0,The document is about world news.,rewrite,4082,4000,82,0,8,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,0.17985174999921583,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+5,union:business and finance|world news#u1,This text discusses either business and finance or world news.,rewrite,6029,6000,29,0,10,1.0,1.0,1.0,4000,1.0,False,0.9515,False,0.1662590409978293,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+6,leaf:sports#t1,This text discusses sports.,rewrite,198,0,198,0,12,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.15599716702126898,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+7,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,8.500006515532732e-06,1.0,,semreuse,agnews-sub8000,8000,0.8,0
+8,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,6.082991603761911e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+9,leaf:world news#t3,This article covers the topic of world news.,rewrite,4082,4000,82,0,14,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,0.13833962500211783,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+10,leaf:world news#t2,The passage is related to world news.,rewrite,213,0,213,0,16,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.265248417010298,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+11,leaf:science and technology#t2,The passage is related to science and technology.,rewrite,4082,4000,82,0,18,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,0.21243099999264814,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+12,union:science and technology|sports#u0,The document is about science and technology or about sports.,rewrite,6029,6000,29,0,20,1.0,1.0,1.0,4000,1.0,False,0.9515,False,0.23274116701213643,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+13,leaf:science and technology#t1,This text discusses science and technology.,rewrite,213,0,213,0,22,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.2086585419892799,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+14,leaf:world news#t2,The passage is related to world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,8.625007467344403e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+15,leaf:business and finance#t3,This article covers the topic of business and finance.,rewrite,2137,2000,137,0,24,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,0.117879790981533,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+16,union:business and finance|sports#u0,The document is about business and finance or about sports.,rewrite,4072,4000,72,0,26,1.0,1.0,1.0,4000,1.0,False,0.9035,False,0.17521374998614192,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+17,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,rewrite,137,0,137,0,28,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,0.2092682080110535,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+18,leaf:world news#t1,This text discusses world news.,rewrite,213,0,213,0,30,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.2286270409822464,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+19,leaf:science and technology#t3,This article covers the topic of science and technology.,rewrite,213,0,213,0,32,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.22392195800784975,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+20,leaf:world news#t1,This text discusses world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,1.229200279340148e-05,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+21,leaf:world news#t2,The passage is related to world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,5.083013093098998e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+22,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,4.832982085645199e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+23,leaf:world news#t0,The document is about world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,5.0000089686363935e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+24,union:business and finance|sports#u0,The document is about business and finance or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,1.0,False,0.9035,False,5.95799065195024e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+25,leaf:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,5.125009920448065e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+26,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.5000051613897085e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+27,leaf:world news#t1,This text discusses world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,2.6659981813281775e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+28,leaf:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,2.5840126909315586e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+29,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,2.6250199880450964e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+30,union:science and technology|world news#u1,This text discusses either science and technology or world news.,rewrite,137,0,137,0,34,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,0.25167250001686625,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+31,union:sports|world news#u1,This text discusses either sports or world news.,rewrite,4072,4000,72,0,36,1.0,1.0,1.0,4000,1.0,False,0.9035,False,0.11467508299392648,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+32,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,9.625015081837773e-06,1.0,,semreuse,agnews-sub8000,8000,0.8,0
+33,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,6.04201341047883e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+34,union:business and finance|world news#u0,The document is about business and finance or about world news.,rewrite,137,0,137,0,38,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,0.20217004098230973,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+35,leaf:world news#t2,The passage is related to world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,1.200000406242907e-05,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+36,leaf:science and technology#t0,The document is about science and technology.,rewrite,213,0,213,0,40,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.10473000002093613,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+37,leaf:science and technology#t0,The document is about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,1.1666998034343123e-05,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+38,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,5.084002623334527e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+39,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,5.458015948534012e-06,1.0,,semreuse,agnews-sub8000,8000,0.8,0
+40,leaf:science and technology#t1,This text discusses science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.04199818149209e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+41,leaf:sports#t2,The passage is related to sports.,rewrite,213,0,213,0,42,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.12245791699388064,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+42,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,1.1208001524209976e-05,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+43,leaf:science and technology#t1,This text discusses science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.0000013541430235e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+44,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,4.542001988738775e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+45,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,1.0,False,0.9515,False,4.292000085115433e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+46,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,3.042019670829177e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+47,union:science and technology|world news#u1,This text discusses either science and technology or world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,3.7919962778687477e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+48,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,1.0,False,0.9515,False,3.2079988159239292e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+49,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,2.749991836026311e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+50,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.7919962778687477e-06,1.0,,semreuse,agnews-sub8000,8000,0.8,0
+51,leaf:world news#t2,The passage is related to world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.6249984987080097e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+52,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,4.0000013541430235e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+53,leaf:business and finance#t0,The document is about business and finance.,rewrite,213,0,213,0,44,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.13340299998526461,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+54,union:science and technology|world news#u0,The document is about science and technology or about world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,9.66701190918684e-06,1.0,,semreuse,agnews-sub8000,8000,0.8,0
+55,leaf:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,5.0000089686363935e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+56,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.583009285852313e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+57,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,4.66697383671999e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+58,union:sports|world news#u1,This text discusses either sports or world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,1.0,False,0.9035,False,4.125002305954695e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+59,union:business and finance|world news#u1,This text discusses either business and finance or world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,1.0,False,0.9515,False,3.8339931052178144e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+60,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.2910029403865337e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+61,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,3.4999975468963385e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+62,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,1.0,False,0.9515,False,4.1660096030682325e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+63,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,2.4170149117708206e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+64,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.2079988159239292e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+65,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,2.3329921532422304e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+66,leaf:sports#t3,This article covers the topic of sports.,rewrite,213,0,213,0,46,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.15500308299669996,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+67,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.0207993909716606e-05,1.0,,semreuse,agnews-sub8000,8000,0.8,0
+68,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,6.833026418462396e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+69,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,4.2079773265868425e-06,1.0,,semreuse,agnews-sub8000,8000,0.8,0
+70,leaf:science and technology#t0,The document is about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.125002305954695e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+71,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,5.249981768429279e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+72,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.875000402331352e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+73,union:sports|world news#u0,The document is about sports or about world news.,rewrite,137,0,137,0,48,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,0.16090258400072344,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+74,leaf:business and finance#t0,The document is about business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,1.18750031106174e-05,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+75,leaf:science and technology#t2,The passage is related to science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,4.915986210107803e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+76,leaf:science and technology#t2,The passage is related to science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,2.874992787837982e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+77,leaf:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.958004526793957e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+78,leaf:world news#t0,The document is about world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,4.0000013541430235e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+79,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,4.416011506691575e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+80,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,4.083005478605628e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+81,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,1.0,False,0.9515,False,4.66697383671999e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+82,union:science and technology|sports#u1,This text discusses either science and technology or sports.,rewrite,137,0,137,0,50,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,0.19597908298601396,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+83,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,1.6667007002979517e-05,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+84,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,5.790992872789502e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+85,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,1.0,False,0.9515,False,5.499983672052622e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+86,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.8340007197111845e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+87,leaf:science and technology#t1,This text discusses science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,5.0419766921550035e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+88,leaf:business and finance#t1,This text discusses business and finance.,rewrite,213,0,213,0,52,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.1295022499980405,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+89,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.016599708236754e-05,1.0,,semreuse,agnews-sub8000,8000,0.8,0
+90,union:business and finance|world news#u0,The document is about business and finance or about world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,4.750007065013051e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+91,union:business and finance|world news#u0,The document is about business and finance or about world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,3.2910029403865337e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+92,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,6.290996680036187e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+93,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.04199818149209e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+94,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,2.667016815394163e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+95,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.541994374245405e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+96,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,3.6249984987080097e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+97,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.9590155463665724e-06,1.0,,semreuse,agnews-sub8000,8000,0.8,0
+98,leaf:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.5410048440098763e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+99,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.4580007195472717e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+100,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,2.4590117391198874e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+101,leaf:world news#t2,The passage is related to world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.0000013541430235e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+102,union:science and technology|world news#u1,This text discusses either science and technology or world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,6.166985258460045e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+103,leaf:business and finance#t1,This text discusses business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,2.6250199880450964e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+104,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,2.540997229516506e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+105,leaf:science and technology#t0,The document is about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.8330035749822855e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+106,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,4.04199818149209e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+107,union:business and finance|sports#u0,The document is about business and finance or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,1.0,False,0.9035,False,3.4999975468963385e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+108,leaf:science and technology#t2,The passage is related to science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,3.7080026231706142e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+109,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,3.375025698915124e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+110,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.0840164981782436e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+111,leaf:science and technology#t0,The document is about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,2.9579969123005867e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+112,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,2.582994056865573e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+113,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,5.249981768429279e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+114,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,3.1249946914613247e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+115,leaf:business and finance#t0,The document is about business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.6249984987080097e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+116,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,1.0,False,0.9515,False,1.708397758193314e-05,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+117,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,7.5410061981529e-06,1.0,,semreuse,agnews-sub8000,8000,0.8,0
+118,leaf:business and finance#t0,The document is about business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,5.124980816617608e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+119,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.458008334040642e-06,1.0,False,semreuse,agnews-sub8000,8000,0.8,0
+0,leaf:sports#t0,The document is about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00020279097952879965,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+1,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.0005109170160721987,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+2,leaf:business and finance#t2,The passage is related to business and finance.,rewrite,4000,4000,0,0,0,1.0,1.0,1.0,2000,,,,,0.0003343339776620269,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+3,union:science and technology|world news#u0,The document is about science and technology or about world news.,cold,8000,8000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00035295801353640854,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+4,leaf:world news#t0,The document is about world news.,rewrite,4000,4000,0,0,0,1.0,1.0,1.0,2000,,,,,0.0002691660192795098,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+5,union:business and finance|world news#u1,This text discusses either business and finance or world news.,rewrite,6000,6000,0,0,0,1.0,1.0,1.0,4000,,,,,0.0003809589834418148,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+6,leaf:sports#t1,This text discusses sports.,rewrite,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,0.0001864589867182076,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+7,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,5.04200579598546e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+8,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.4590193536132574e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+9,leaf:world news#t3,This article covers the topic of world news.,rewrite,4000,4000,0,0,0,1.0,1.0,1.0,2000,,,,,0.0003574590082280338,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+10,leaf:world news#t2,The passage is related to world news.,rewrite,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,0.00043433302198536694,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+11,leaf:science and technology#t2,The passage is related to science and technology.,rewrite,4000,4000,0,0,0,1.0,1.0,1.0,2000,,,,,0.0003144170041196048,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+12,union:science and technology|sports#u0,The document is about science and technology or about sports.,rewrite,6000,6000,0,0,0,1.0,1.0,1.0,4000,,,,,0.0003975420258939266,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+13,leaf:science and technology#t1,This text discusses science and technology.,rewrite,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,0.000225124997086823,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+14,leaf:world news#t2,The passage is related to world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,6.124988431110978e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+15,leaf:business and finance#t3,This article covers the topic of business and finance.,rewrite,2000,2000,0,0,0,1.0,1.0,1.0,2000,,,,,0.0003415420069359243,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+16,union:business and finance|sports#u0,The document is about business and finance or about sports.,rewrite,4000,4000,0,0,0,1.0,1.0,1.0,4000,,,,,0.0006566660013049841,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+17,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,rewrite,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,0.00035908399149775505,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+18,leaf:world news#t1,This text discusses world news.,rewrite,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,0.0002722080098465085,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+19,leaf:science and technology#t3,This article covers the topic of science and technology.,rewrite,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,0.00026729199453257024,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+20,leaf:world news#t1,This text discusses world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,5.95799065195024e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+21,leaf:world news#t2,The passage is related to world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.958004526793957e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+22,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.3329997677356005e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+23,leaf:world news#t0,The document is about world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.374996595084667e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+24,union:business and finance|sports#u0,The document is about business and finance or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,4.499976057559252e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+25,leaf:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.7080026231706142e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+26,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.875000402331352e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+27,leaf:world news#t1,This text discusses world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.875021891668439e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+28,leaf:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.91600008495152e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+29,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.082997864112258e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+30,union:science and technology|world news#u1,This text discusses either science and technology or world news.,rewrite,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,0.00041020900243893266,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+31,union:sports|world news#u1,This text discusses either sports or world news.,rewrite,4000,4000,0,0,0,1.0,1.0,1.0,4000,,,,,0.00046637500054202974,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+32,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,6.374990334734321e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+33,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.832974471151829e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+34,union:business and finance|world news#u0,The document is about business and finance or about world news.,rewrite,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,0.0003060830058529973,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+35,leaf:world news#t2,The passage is related to world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,5.958019755780697e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+36,leaf:science and technology#t0,The document is about science and technology.,rewrite,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,0.000286666996544227,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+37,leaf:science and technology#t0,The document is about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,5.084002623334527e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+38,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.249995643272996e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+39,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.541994374245405e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+40,leaf:science and technology#t1,This text discusses science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.416003892198205e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+41,leaf:sports#t2,The passage is related to sports.,rewrite,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,0.00031279202084988356,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+42,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,5.375011824071407e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+43,leaf:science and technology#t1,This text discusses science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.167020622640848e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+44,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.2910029403865337e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+45,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.3329997677356005e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+46,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.1660019885748625e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+47,union:science and technology|world news#u1,This text discusses either science and technology or world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.374996595084667e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+48,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.2920215744525194e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+49,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.290973836556077e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+50,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.374996595084667e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+51,leaf:world news#t2,The passage is related to world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.416993422433734e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+52,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.2079988159239292e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+53,leaf:business and finance#t0,The document is about business and finance.,rewrite,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,0.00037370898644439876,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+54,union:science and technology|world news#u0,The document is about science and technology or about world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,5.083013093098998e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+55,leaf:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.4170225262641907e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+56,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,8.666014764457941e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+57,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,4.3339969124644995e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+58,union:sports|world news#u1,This text discusses either sports or world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.7919962778687477e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+59,union:business and finance|world news#u1,This text discusses either business and finance or world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.749999450519681e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+60,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.082997864112258e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+61,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.749999450519681e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+62,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,4.04199818149209e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+63,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.9170187190175056e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+64,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,4.083995008841157e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+65,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.916989615187049e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+66,leaf:sports#t3,This article covers the topic of sports.,rewrite,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,0.0005170409858692437,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+67,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,5.582987796515226e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+68,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.9579969123005867e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+69,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.6249908842146397e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+70,leaf:science and technology#t0,The document is about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.708992153406143e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+71,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.916989615187049e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+72,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.874992787837982e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+73,union:sports|world news#u0,The document is about sports or about world news.,rewrite,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,0.0003885829937644303,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+74,leaf:business and finance#t0,The document is about business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,8.750008419156075e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+75,leaf:science and technology#t2,The passage is related to science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.8330035749822855e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+76,leaf:science and technology#t2,The passage is related to science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.749991836026311e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+77,leaf:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.082997864112258e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+78,leaf:world news#t0,The document is about world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.9999937396496534e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+79,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.3339892979711294e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+80,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.7910067476332188e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+81,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,4.042027285322547e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+82,union:science and technology|sports#u1,This text discusses either science and technology or sports.,rewrite,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,0.0003530000103637576,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+83,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,4.91601531393826e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+84,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.082997864112258e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+85,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.04199056699872e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+86,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.9170187190175056e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+87,leaf:science and technology#t1,This text discusses science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.3329997677356005e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+88,leaf:business and finance#t1,This text discusses business and finance.,rewrite,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,0.0003757920057978481,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+89,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,5.250010872259736e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+90,union:business and finance|world news#u0,The document is about business and finance or about world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.5840203054249287e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+91,union:business and finance|world news#u0,The document is about business and finance or about world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.416003892198205e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+92,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.1660019885748625e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+93,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.1669915188103914e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+94,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.749991836026311e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+95,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.749991836026311e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+96,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.4580007195472717e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+97,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.8329959604889154e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+98,leaf:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.2919924706220627e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+99,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.249995643272996e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+100,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.667016815394163e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+101,leaf:world news#t2,The passage is related to world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.416993422433734e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+102,union:science and technology|world news#u1,This text discusses either science and technology or world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.916997229680419e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+103,leaf:business and finance#t1,This text discusses business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.91600008495152e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+104,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.708024112507701e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+105,leaf:science and technology#t0,The document is about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.1249946914613247e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+106,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.541994374245405e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+107,union:business and finance|sports#u0,The document is about business and finance or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,3.4170225262641907e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+108,leaf:science and technology#t2,The passage is related to science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.1669915188103914e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+109,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.9590155463665724e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+110,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.3959011994302273e-05,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+111,leaf:science and technology#t0,The document is about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,5.459005478769541e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+112,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.6660057958215475e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+113,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,4.208995960652828e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+114,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,4.0000013541430235e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+115,leaf:business and finance#t0,The document is about business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.375025698915124e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+116,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,,,,,4.792003892362118e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+117,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.4580007195472717e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+118,leaf:business and finance#t0,The document is about business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.083987394347787e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+119,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.0409719329327345e-06,1.0,,semreuse-noaudit,agnews-sub8000,8000,0.8,0
+0,leaf:sports#t0,The document is about sports.,cold,8000,8000,0,0,0,1.0,1.0,1.0,2000,,,,,0.00021137500880286098,1.0,,semreuse-gt,agnews-sub8000,8000,0.8,0
+1,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,rewrite,6020,6000,20,0,0,1.0,1.0,1.0,4000,0.922722029988466,False,1.0,False,0.0020708750234916806,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+2,leaf:business and finance#t2,The passage is related to business and finance.,rewrite,4082,4000,82,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,0.0019414170237723738,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+3,union:science and technology|world news#u0,The document is about science and technology or about world news.,rewrite,4044,4000,44,0,0,1.0,1.0,1.0,4000,0.9189065012634965,False,1.0,False,0.0023316669976338744,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+4,leaf:world news#t0,The document is about world news.,rewrite,2137,2000,137,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,0.0021966659987811,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+5,union:business and finance|world news#u1,This text discusses either business and finance or world news.,rewrite,2110,2000,110,0,0,1.0,1.0,1.0,4000,0.9213483146067416,False,0.902,False,0.003255040996009484,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+6,leaf:sports#t1,This text discusses sports.,rewrite,198,0,198,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.0028466250223573297,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+7,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,9.415991371497512e-06,1.0,,semreuse-gt,agnews-sub8000,8000,0.8,0
+8,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,9.292009053751826e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+9,leaf:world news#t3,This article covers the topic of world news.,rewrite,213,0,213,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.002991292014485225,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+10,leaf:world news#t2,The passage is related to world news.,rewrite,213,0,213,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.0027805000136140734,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+11,leaf:science and technology#t2,The passage is related to science and technology.,rewrite,2137,2000,137,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,0.002058040990959853,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+12,union:science and technology|sports#u0,The document is about science and technology or about sports.,rewrite,137,0,137,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,0.0031804160098545253,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+13,leaf:science and technology#t1,This text discusses science and technology.,rewrite,213,0,213,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.002580707980087027,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+14,leaf:world news#t2,The passage is related to world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,8.95801349543035e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+15,leaf:business and finance#t3,This article covers the topic of business and finance.,rewrite,213,0,213,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.002585916983662173,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+16,union:business and finance|sports#u0,The document is about business and finance or about sports.,rewrite,137,0,137,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,0.003142791974823922,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+17,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,rewrite,137,0,137,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,0.0031068749958649278,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+18,leaf:world news#t1,This text discusses world news.,rewrite,213,0,213,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.0026377499743830413,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+19,leaf:science and technology#t3,This article covers the topic of science and technology.,rewrite,213,0,213,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.00257779099047184,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+20,leaf:world news#t1,This text discusses world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,6.709014996886253e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+21,leaf:world news#t2,The passage is related to world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.125002305954695e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+22,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,3.4999975468963385e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+23,leaf:world news#t0,The document is about world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,3.416003892198205e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+24,union:business and finance|sports#u0,The document is about business and finance or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,3.749999450519681e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+25,leaf:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,1.3707991456612945e-05,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+26,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,5.875015631318092e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+27,leaf:world news#t1,This text discusses world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.5840203054249287e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+28,leaf:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.2079988159239292e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+29,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.4589902497828007e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+30,union:science and technology|world news#u1,This text discusses either science and technology or world news.,rewrite,89,0,89,0,0,1.0,1.0,1.0,4000,0.919806517311609,False,0.90325,False,0.0031534160079900175,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+31,union:sports|world news#u1,This text discusses either sports or world news.,rewrite,137,0,137,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,0.0033201249898411334,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+32,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.922722029988466,False,1.0,False,1.0041985660791397e-05,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+33,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.915986210107803e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+34,union:business and finance|world news#u0,The document is about business and finance or about world news.,rewrite,89,0,89,0,0,1.0,1.0,1.0,4000,0.919806517311609,False,0.90325,False,0.0028959159972146153,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+35,leaf:world news#t2,The passage is related to world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.9708014810457826e-05,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+36,leaf:science and technology#t0,The document is about science and technology.,rewrite,213,0,213,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.002953957999125123,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+37,leaf:science and technology#t0,The document is about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,1.0499992640689015e-05,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+38,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.208006430417299e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+39,union:business and finance|science and technology#u0,The document is about business and finance or about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.922722029988466,False,1.0,False,4.458997864276171e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+40,leaf:science and technology#t1,This text discusses science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.2079773265868425e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+41,leaf:sports#t2,The passage is related to sports.,rewrite,213,0,213,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.002796415996272117,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+42,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,9.249983122572303e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+43,leaf:science and technology#t1,This text discusses science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,1.3541983207687736e-05,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+44,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,5.459005478769541e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+45,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,7.5830030255019665e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+46,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.4999975468963385e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+47,union:science and technology|world news#u1,This text discusses either science and technology or world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.919806517311609,False,0.90325,False,4.3339969124644995e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+48,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,3.541994374245405e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+49,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.083005478605628e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+50,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.0000017937272787e-05,1.0,,semreuse-gt,agnews-sub8000,8000,0.8,0
+51,leaf:world news#t2,The passage is related to world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,6.000016583129764e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+52,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.62500611320138e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+53,leaf:business and finance#t0,The document is about business and finance.,rewrite,213,0,213,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.0033244999940507114,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+54,union:science and technology|world news#u0,The document is about science and technology or about world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9189065012634965,False,1.0,False,1.129100564867258e-05,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+55,leaf:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.6670029405504465e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+56,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.7919962778687477e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+57,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.915978595614433e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+58,union:sports|world news#u1,This text discusses either sports or world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,3.7919962778687477e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+59,union:business and finance|world news#u1,This text discusses either business and finance or world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9213483146067416,False,0.902,False,3.958994057029486e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+60,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,2.8329959604889154e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+61,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,3.4999975468963385e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+62,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,4.2079773265868425e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+63,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,2.916989615187049e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+64,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.749999450519681e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+65,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,2.666027285158634e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+66,leaf:sports#t3,This article covers the topic of sports.,rewrite,198,0,198,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.0033610840036999434,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+67,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,1.2790987966582179e-05,1.0,,semreuse-gt,agnews-sub8000,8000,0.8,0
+68,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,5.459005478769541e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+69,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.416993422433734e-06,1.0,,semreuse-gt,agnews-sub8000,8000,0.8,0
+70,leaf:science and technology#t0,The document is about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.0000013541430235e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+71,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.250003257766366e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+72,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.5409757401794195e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+73,union:sports|world news#u0,The document is about sports or about world news.,rewrite,137,0,137,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,0.003495166980428621,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+74,leaf:business and finance#t0,The document is about business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,9.499985026195645e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+75,leaf:science and technology#t2,The passage is related to science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,3.583001671358943e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+76,leaf:science and technology#t2,The passage is related to science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,2.6669877115637064e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+77,leaf:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,5.707988748326898e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+78,leaf:world news#t0,The document is about world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,3.7080026231706142e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+79,leaf:business and finance#t3,This article covers the topic of business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.749999450519681e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+80,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,1.575000351294875e-05,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+81,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,6.999995093792677e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+82,union:science and technology|sports#u1,This text discusses either science and technology or sports.,rewrite,137,0,137,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,0.003654250002000481,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+83,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,1.0540999937802553e-05,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+84,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.62500611320138e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+85,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,4.2079773265868425e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+86,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.291010554879904e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+87,leaf:science and technology#t1,This text discusses science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.292000085115433e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+88,leaf:business and finance#t1,This text discusses business and finance.,rewrite,213,0,213,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.002901708008721471,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+89,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,9.958981536328793e-06,1.0,,semreuse-gt,agnews-sub8000,8000,0.8,0
+90,union:business and finance|world news#u0,The document is about business and finance or about world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.919806517311609,False,0.90325,False,8.37500556372106e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+91,union:business and finance|world news#u0,The document is about business and finance or about world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.919806517311609,False,0.90325,False,1.4625024050474167e-05,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+92,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.959001671522856e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+93,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.958004526793957e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+94,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,2.833025064319372e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+95,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.6669953260570765e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+96,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,3.958994057029486e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+97,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,4.291010554879904e-06,1.0,,semreuse-gt,agnews-sub8000,8000,0.8,0
+98,leaf:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.958004526793957e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+99,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.082976374775171e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+100,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.4590193536132574e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+101,leaf:world news#t2,The passage is related to world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.417001036927104e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+102,union:science and technology|world news#u1,This text discusses either science and technology or world news.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.919806517311609,False,0.90325,False,3.9590231608599424e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+103,leaf:business and finance#t1,This text discusses business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.0000013541430235e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+104,leaf:science and technology#t3,This article covers the topic of science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,2.874992787837982e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+105,leaf:science and technology#t0,The document is about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.6249984987080097e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+106,union:business and finance|science and technology#u1,This text discusses either business and finance or science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,4.790985258296132e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+107,union:business and finance|sports#u0,The document is about business and finance or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,4.292000085115433e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+108,leaf:science and technology#t2,The passage is related to science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,4.375004209578037e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+109,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,3.958994057029486e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+110,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.749999450519681e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+111,leaf:science and technology#t0,The document is about science and technology.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.290981451049447e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+112,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.042019670829177e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+113,leaf:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,3.915978595614433e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+114,leaf:business and finance#t2,The passage is related to business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,3.1669915188103914e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+115,leaf:business and finance#t0,The document is about business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.916975740343332e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+116,union:science and technology|sports#u0,The document is about science and technology or about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,4000,0.9197043079276064,False,0.902,False,5.792011506855488e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+117,leaf:sports#t0,The document is about sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.7910067476332188e-06,1.0,,semreuse-gt,agnews-sub8000,8000,0.8,0
+118,leaf:business and finance#t0,The document is about business and finance.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,2.9579969123005867e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0
+119,leaf:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.375004209578037e-06,1.0,False,semreuse-gt,agnews-sub8000,8000,0.8,0

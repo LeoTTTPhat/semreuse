@@ -1,0 +1,841 @@
+query_index,predicate_name,predicate_text,reuse_kind,oracle_calls,candidate_calls,audit_calls,escalation_calls,nli_pair_scores,precision,recall,f1,n_true_pos_rows,recall_bound,bound_violated,precision_bound,precision_bound_violated,latency_s,recall_oracle,bound_violated_oracle,method,corpus,n_rows,overlap,seed
+0,group:motor vehicles#t0,The document is about motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00022033299319446087,1.0,,cold,20ng-sub7951,7951,0.8,0
+1,group:religion#t3,This article covers the topic of religion.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1151,,,,,0.000244334019953385,1.0,,cold,20ng-sub7951,7951,0.8,0
+2,leaf:religious debate#t0,The document is about religious debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,351,,,,,8.812500163912773e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+3,group:politics#t1,This text discusses politics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1200,,,,,0.00023587499163113534,1.0,,cold,20ng-sub7951,7951,0.8,0
+4,union:gun control|medicine#u0,The document is about gun control or about medicine.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001662079885136336,1.0,,cold,20ng-sub7951,7951,0.8,0
+5,group:motor vehicles#t0,The document is about motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00016233400674536824,1.0,,cold,20ng-sub7951,7951,0.8,0
+6,group:politics#t1,This text discusses politics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1200,,,,,0.00022124999668449163,1.0,,cold,20ng-sub7951,7951,0.8,0
+7,group:religion#t0,The document is about religion.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1151,,,,,0.0002141670265700668,1.0,,cold,20ng-sub7951,7951,0.8,0
+8,leaf:political debate#t1,This text discusses political debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.31669894978404e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+9,group:sports#t1,This text discusses sports.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00015762497787363827,1.0,,cold,20ng-sub7951,7951,0.8,0
+10,group:science#t1,This text discusses science.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1600,,,,,0.00029879098292440176,1.0,,cold,20ng-sub7951,7951,0.8,0
+11,leaf:hockey#t1,This text discusses hockey.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.979100337252021e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+12,leaf:religious debate#t2,The passage is related to religious debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,351,,,,,8.408300345763564e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+13,leaf:political debate#t0,The document is about political debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.945799734443426e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+14,leaf:items for sale#t3,This article covers the topic of items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.816700963303447e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+15,leaf:Christianity#t3,This article covers the topic of Christianity.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.462497498840094e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+16,union:electronics|hockey#u0,The document is about electronics or about hockey.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00016141700325533748,1.0,,cold,20ng-sub7951,7951,0.8,0
+17,group:science#t2,The passage is related to science.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1600,,,,,0.0002920420083682984,1.0,,cold,20ng-sub7951,7951,0.8,0
+18,group:computers#t1,This text discusses computers.,cold,7951,7951,0,0,0,1.0,1.0,1.0,2000,,,,,0.00038216597749851644,1.0,,cold,20ng-sub7951,7951,0.8,0
+19,union:Macintosh hardware|items for sale#u1,This text discusses either Macintosh hardware or items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014337501488626003,1.0,,cold,20ng-sub7951,7951,0.8,0
+20,group:motor vehicles#t3,This article covers the topic of motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00015520802116952837,1.0,,cold,20ng-sub7951,7951,0.8,0
+21,group:sports#t3,This article covers the topic of sports.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014387501869350672,1.0,,cold,20ng-sub7951,7951,0.8,0
+22,group:motor vehicles#t3,This article covers the topic of motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014583300799131393,1.0,,cold,20ng-sub7951,7951,0.8,0
+23,group:motor vehicles#t3,This article covers the topic of motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014062502305023372,1.0,,cold,20ng-sub7951,7951,0.8,0
+24,union:PC hardware|cryptography#u0,The document is about PC hardware or about cryptography.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.000153791974298656,1.0,,cold,20ng-sub7951,7951,0.8,0
+25,leaf:political debate#t1,This text discusses political debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.125000749714673e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+26,union:Macintosh hardware|space exploration#u1,This text discusses either Macintosh hardware or space exploration.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00013883400242775679,1.0,,cold,20ng-sub7951,7951,0.8,0
+27,leaf:baseball#t2,The passage is related to baseball.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.845798972994089e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+28,group:computers#t0,The document is about computers.,cold,7951,7951,0,0,0,1.0,1.0,1.0,2000,,,,,0.00033483299193903804,1.0,,cold,20ng-sub7951,7951,0.8,0
+29,leaf:baseball#t3,This article covers the topic of baseball.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.891698624007404e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+30,leaf:electronics#t0,The document is about electronics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.829199941828847e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+31,union:PC hardware|items for sale#u1,This text discusses either PC hardware or items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00015733300824649632,1.0,,cold,20ng-sub7951,7951,0.8,0
+32,union:computer graphics|motorcycles#u0,The document is about computer graphics or about motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00015145799261517823,1.0,,cold,20ng-sub7951,7951,0.8,0
+33,union:Macintosh hardware|electronics#u0,The document is about Macintosh hardware or about electronics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001447079994250089,1.0,,cold,20ng-sub7951,7951,0.8,0
+34,group:computers#t1,This text discusses computers.,cold,7951,7951,0,0,0,1.0,1.0,1.0,2000,,,,,0.00032995801302604377,1.0,,cold,20ng-sub7951,7951,0.8,0
+35,group:religion#t1,This text discusses religion.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1151,,,,,0.0002076669770758599,1.0,,cold,20ng-sub7951,7951,0.8,0
+36,group:computers#t0,The document is about computers.,cold,7951,7951,0,0,0,1.0,1.0,1.0,2000,,,,,0.0003325830039102584,1.0,,cold,20ng-sub7951,7951,0.8,0
+37,union:Middle East affairs|items for sale#u1,This text discusses either Middle East affairs or items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001433329889550805,1.0,,cold,20ng-sub7951,7951,0.8,0
+38,leaf:the Microsoft Windows operating system#t1,This text discusses the Microsoft Windows operating system.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.224999717436731e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+39,group:sports#t2,The passage is related to sports.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001421670021954924,1.0,,cold,20ng-sub7951,7951,0.8,0
+40,leaf:motorcycles#t0,The document is about motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.00013687499449588358,1.0,,cold,20ng-sub7951,7951,0.8,0
+41,group:motor vehicles#t0,The document is about motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00016016699373722076,1.0,,cold,20ng-sub7951,7951,0.8,0
+42,union:Christianity|political debate#u1,This text discusses either Christianity or political debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00015945802442729473,1.0,,cold,20ng-sub7951,7951,0.8,0
+43,group:motor vehicles#t2,The passage is related to motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001514999894425273,1.0,,cold,20ng-sub7951,7951,0.8,0
+44,leaf:motorcycles#t2,The passage is related to motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.62079905346036e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+45,group:motor vehicles#t1,This text discusses motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014429198927246034,1.0,,cold,20ng-sub7951,7951,0.8,0
+46,group:religion#t0,The document is about religion.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1151,,,,,0.0002150830114260316,1.0,,cold,20ng-sub7951,7951,0.8,0
+47,group:sports#t3,This article covers the topic of sports.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014833398745395243,1.0,,cold,20ng-sub7951,7951,0.8,0
+48,union:Macintosh hardware|cars#u1,This text discusses either Macintosh hardware or cars.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001374170242343098,1.0,,cold,20ng-sub7951,7951,0.8,0
+49,leaf:computer graphics#t1,This text discusses computer graphics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.387502748519182e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+50,union:atheism|hockey#u1,This text discusses either atheism or hockey.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001391249825246632,1.0,,cold,20ng-sub7951,7951,0.8,0
+51,leaf:items for sale#t0,The document is about items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.408400415442884e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+52,leaf:baseball#t0,The document is about baseball.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.045899448916316e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+53,union:hockey|motorcycles#u0,The document is about hockey or about motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001484160020481795,1.0,,cold,20ng-sub7951,7951,0.8,0
+54,group:politics#t0,The document is about politics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1200,,,,,0.00022149999858811498,1.0,,cold,20ng-sub7951,7951,0.8,0
+55,group:motor vehicles#t1,This text discusses motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001440000196453184,1.0,,cold,20ng-sub7951,7951,0.8,0
+56,leaf:atheism#t3,This article covers the topic of atheism.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.650000043213367e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+57,union:atheism|gun control#u1,This text discusses either atheism or gun control.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00015525001799687743,1.0,,cold,20ng-sub7951,7951,0.8,0
+58,leaf:cars#t2,The passage is related to cars.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.870799163356423e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+59,group:sports#t2,The passage is related to sports.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00013937498442828655,1.0,,cold,20ng-sub7951,7951,0.8,0
+60,group:motor vehicles#t2,The passage is related to motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001490419963374734,1.0,,cold,20ng-sub7951,7951,0.8,0
+61,group:computers#t0,The document is about computers.,cold,7951,7951,0,0,0,1.0,1.0,1.0,2000,,,,,0.00034454200067557395,1.0,,cold,20ng-sub7951,7951,0.8,0
+62,union:medicine|the Microsoft Windows operating system#u0,The document is about medicine or about the Microsoft Windows operating system.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014345801901072264,1.0,,cold,20ng-sub7951,7951,0.8,0
+63,union:baseball|items for sale#u0,The document is about baseball or about items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001475839817430824,1.0,,cold,20ng-sub7951,7951,0.8,0
+64,union:atheism|medicine#u1,This text discusses either atheism or medicine.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014229200314730406,1.0,,cold,20ng-sub7951,7951,0.8,0
+65,union:hockey|the X Window System#u1,This text discusses either hockey or the X Window System.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001405829971190542,1.0,,cold,20ng-sub7951,7951,0.8,0
+66,leaf:cryptography#t0,The document is about cryptography.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.270799298770726e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+67,leaf:motorcycles#t3,This article covers the topic of motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.733299910090864e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+68,leaf:hockey#t1,This text discusses hockey.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.591702160425484e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+69,leaf:baseball#t2,The passage is related to baseball.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.950002327561378e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+70,group:motor vehicles#t0,The document is about motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001480839855503291,1.0,,cold,20ng-sub7951,7951,0.8,0
+71,leaf:the Microsoft Windows operating system#t2,The passage is related to the Microsoft Windows operating system.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.404200732707977e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+72,leaf:motorcycles#t2,The passage is related to motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.479200187139213e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+73,group:sports#t2,The passage is related to sports.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00018108400399796665,1.0,,cold,20ng-sub7951,7951,0.8,0
+74,union:Macintosh hardware|electronics#u1,This text discusses either Macintosh hardware or electronics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00016670802142471075,1.0,,cold,20ng-sub7951,7951,0.8,0
+75,leaf:Christianity#t3,This article covers the topic of Christianity.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.53329838719219e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+76,group:sports#t2,The passage is related to sports.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001545000122860074,1.0,,cold,20ng-sub7951,7951,0.8,0
+77,leaf:religious debate#t3,This article covers the topic of religious debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,351,,,,,8.308299584314227e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+78,union:atheism|baseball#u1,This text discusses either atheism or baseball.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00015579198952764273,1.0,,cold,20ng-sub7951,7951,0.8,0
+79,leaf:items for sale#t2,The passage is related to items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.629100582562387e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+80,union:Macintosh hardware|religious debate#u0,The document is about Macintosh hardware or about religious debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,751,,,,,0.00014633301179856062,1.0,,cold,20ng-sub7951,7951,0.8,0
+81,group:motor vehicles#t1,This text discusses motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00015458400594070554,1.0,,cold,20ng-sub7951,7951,0.8,0
+82,leaf:cars#t0,The document is about cars.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.158298442140222e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+83,leaf:PC hardware#t0,The document is about PC hardware.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.900000830180943e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+84,group:religion#t2,The passage is related to religion.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1151,,,,,0.00022079198970459402,1.0,,cold,20ng-sub7951,7951,0.8,0
+85,union:Christianity|hockey#u0,The document is about Christianity or about hockey.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014312498387880623,1.0,,cold,20ng-sub7951,7951,0.8,0
+86,group:religion#t0,The document is about religion.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1151,,,,,0.00020775001030415297,1.0,,cold,20ng-sub7951,7951,0.8,0
+87,union:atheism|computer graphics#u1,This text discusses either atheism or computer graphics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001410839904565364,1.0,,cold,20ng-sub7951,7951,0.8,0
+88,union:motorcycles|political debate#u1,This text discusses either motorcycles or political debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001528330030851066,1.0,,cold,20ng-sub7951,7951,0.8,0
+89,group:motor vehicles#t0,The document is about motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001423330104444176,1.0,,cold,20ng-sub7951,7951,0.8,0
+90,union:PC hardware|political debate#u0,The document is about PC hardware or about political debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00015062501188367605,1.0,,cold,20ng-sub7951,7951,0.8,0
+91,leaf:Macintosh hardware#t0,The document is about Macintosh hardware.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.249999907799065e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+92,leaf:items for sale#t1,This text discusses items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.491701398976147e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+93,leaf:the Microsoft Windows operating system#t0,The document is about the Microsoft Windows operating system.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.48750171624124e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+94,leaf:the Microsoft Windows operating system#t1,This text discusses the Microsoft Windows operating system.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.129099685698748e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+95,group:computers#t3,This article covers the topic of computers.,cold,7951,7951,0,0,0,1.0,1.0,1.0,2000,,,,,0.000338084006216377,1.0,,cold,20ng-sub7951,7951,0.8,0
+96,leaf:PC hardware#t1,This text discusses PC hardware.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,9.120901813730597e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+97,leaf:cars#t2,The passage is related to cars.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.00010258401744067669,1.0,,cold,20ng-sub7951,7951,0.8,0
+98,union:Christianity|items for sale#u0,The document is about Christianity or about items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00015262499800883234,1.0,,cold,20ng-sub7951,7951,0.8,0
+99,group:politics#t2,The passage is related to politics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1200,,,,,0.00029408399132080376,1.0,,cold,20ng-sub7951,7951,0.8,0
+100,leaf:gun control#t2,The passage is related to gun control.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,9.38749872148037e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+101,union:Middle East affairs|items for sale#u1,This text discusses either Middle East affairs or items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00015016700490377843,1.0,,cold,20ng-sub7951,7951,0.8,0
+102,leaf:computer graphics#t3,This article covers the topic of computer graphics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.11249774415046e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+103,leaf:religious debate#t3,This article covers the topic of religious debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,351,,,,,8.662499021738768e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+104,leaf:atheism#t3,This article covers the topic of atheism.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.83340074121952e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+105,group:religion#t1,This text discusses religion.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1151,,,,,0.0002057089877780527,1.0,,cold,20ng-sub7951,7951,0.8,0
+106,union:hockey|items for sale#u0,The document is about hockey or about items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00013504098751582205,1.0,,cold,20ng-sub7951,7951,0.8,0
+107,group:motor vehicles#t0,The document is about motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014458398800343275,1.0,,cold,20ng-sub7951,7951,0.8,0
+108,union:space exploration|the Microsoft Windows operating system#u1,This text discusses either space exploration or the Microsoft Windows operating system.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001374160056002438,1.0,,cold,20ng-sub7951,7951,0.8,0
+109,group:sports#t2,The passage is related to sports.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014487499720416963,1.0,,cold,20ng-sub7951,7951,0.8,0
+110,group:sports#t1,This text discusses sports.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014308298705145717,1.0,,cold,20ng-sub7951,7951,0.8,0
+111,leaf:atheism#t3,This article covers the topic of atheism.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.412498234771192e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+112,leaf:Middle East affairs#t2,The passage is related to Middle East affairs.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.7791977673769e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+113,union:Macintosh hardware|motorcycles#u1,This text discusses either Macintosh hardware or motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014670900418423116,1.0,,cold,20ng-sub7951,7951,0.8,0
+114,union:political debate|religious debate#u0,The document is about political debate or about religious debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,751,,,,,0.00014362501678988338,1.0,,cold,20ng-sub7951,7951,0.8,0
+115,leaf:gun control#t3,This article covers the topic of gun control.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.520798292011023e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+116,leaf:medicine#t2,The passage is related to medicine.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.941699004732072e-05,1.0,,cold,20ng-sub7951,7951,0.8,0
+117,group:politics#t1,This text discusses politics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1200,,,,,0.00021645799279212952,1.0,,cold,20ng-sub7951,7951,0.8,0
+118,group:science#t2,The passage is related to science.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1600,,,,,0.00027829199098050594,1.0,,cold,20ng-sub7951,7951,0.8,0
+119,group:religion#t0,The document is about religion.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1151,,,,,0.0002095829986501485,1.0,,cold,20ng-sub7951,7951,0.8,0
+0,group:motor vehicles#t0,The document is about motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0002610000083222985,1.0,,exact,20ng-sub7951,7951,0.8,0
+1,group:religion#t3,This article covers the topic of religion.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1151,,,,,0.0002478749956935644,1.0,,exact,20ng-sub7951,7951,0.8,0
+2,leaf:religious debate#t0,The document is about religious debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,351,,,,,9.391599451191723e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+3,group:politics#t1,This text discusses politics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1200,,,,,0.0002357920166105032,1.0,,exact,20ng-sub7951,7951,0.8,0
+4,union:gun control|medicine#u0,The document is about gun control or about medicine.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00017654101247899234,1.0,,exact,20ng-sub7951,7951,0.8,0
+5,group:motor vehicles#t0,The document is about motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,4.832982085645199e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+6,group:politics#t1,This text discusses politics.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1200,,,,,3.7080026231706142e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+7,group:religion#t0,The document is about religion.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1151,,,,,0.00022833299590274692,1.0,,exact,20ng-sub7951,7951,0.8,0
+8,leaf:political debate#t1,This text discusses political debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,9.304098784923553e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+9,group:sports#t1,This text discusses sports.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001565830025356263,1.0,,exact,20ng-sub7951,7951,0.8,0
+10,group:science#t1,This text discusses science.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1600,,,,,0.0003148330142721534,1.0,,exact,20ng-sub7951,7951,0.8,0
+11,leaf:hockey#t1,This text discusses hockey.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.81669984664768e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+12,leaf:religious debate#t2,The passage is related to religious debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,351,,,,,8.874997729435563e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+13,leaf:political debate#t0,The document is about political debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.73749959282577e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+14,leaf:items for sale#t3,This article covers the topic of items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.124997839331627e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+15,leaf:Christianity#t3,This article covers the topic of Christianity.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.687499212101102e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+16,union:electronics|hockey#u0,The document is about electronics or about hockey.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001571669999975711,1.0,,exact,20ng-sub7951,7951,0.8,0
+17,group:science#t2,The passage is related to science.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1600,,,,,0.00029333398560993373,1.0,,exact,20ng-sub7951,7951,0.8,0
+18,group:computers#t1,This text discusses computers.,cold,7951,7951,0,0,0,1.0,1.0,1.0,2000,,,,,0.00038387501263059676,1.0,,exact,20ng-sub7951,7951,0.8,0
+19,union:Macintosh hardware|items for sale#u1,This text discusses either Macintosh hardware or items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014691700926050544,1.0,,exact,20ng-sub7951,7951,0.8,0
+20,group:motor vehicles#t3,This article covers the topic of motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00015733300824649632,1.0,,exact,20ng-sub7951,7951,0.8,0
+21,group:sports#t3,This article covers the topic of sports.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014779099728912115,1.0,,exact,20ng-sub7951,7951,0.8,0
+22,group:motor vehicles#t3,This article covers the topic of motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,3.082997864112258e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+23,group:motor vehicles#t3,This article covers the topic of motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,2.582994056865573e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+24,union:PC hardware|cryptography#u0,The document is about PC hardware or about cryptography.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00015741700190119445,1.0,,exact,20ng-sub7951,7951,0.8,0
+25,leaf:political debate#t1,This text discusses political debate.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,,,,,3.875000402331352e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+26,union:Macintosh hardware|space exploration#u1,This text discusses either Macintosh hardware or space exploration.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00015425001038238406,1.0,,exact,20ng-sub7951,7951,0.8,0
+27,leaf:baseball#t2,The passage is related to baseball.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,9.012501686811447e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+28,group:computers#t0,The document is about computers.,cold,7951,7951,0,0,0,1.0,1.0,1.0,2000,,,,,0.0003904579789377749,1.0,,exact,20ng-sub7951,7951,0.8,0
+29,leaf:baseball#t3,This article covers the topic of baseball.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.0001285840116906911,1.0,,exact,20ng-sub7951,7951,0.8,0
+30,leaf:electronics#t0,The document is about electronics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.00010375000420026481,1.0,,exact,20ng-sub7951,7951,0.8,0
+31,union:PC hardware|items for sale#u1,This text discusses either PC hardware or items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00016575001063756645,1.0,,exact,20ng-sub7951,7951,0.8,0
+32,union:computer graphics|motorcycles#u0,The document is about computer graphics or about motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00016658302047289908,1.0,,exact,20ng-sub7951,7951,0.8,0
+33,union:Macintosh hardware|electronics#u0,The document is about Macintosh hardware or about electronics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001669999910518527,1.0,,exact,20ng-sub7951,7951,0.8,0
+34,group:computers#t1,This text discusses computers.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.708992153406143e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+35,group:religion#t1,This text discusses religion.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1151,,,,,0.0002385420084465295,1.0,,exact,20ng-sub7951,7951,0.8,0
+36,group:computers#t0,The document is about computers.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.2079988159239292e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+37,union:Middle East affairs|items for sale#u1,This text discusses either Middle East affairs or items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014637500862590969,1.0,,exact,20ng-sub7951,7951,0.8,0
+38,leaf:the Microsoft Windows operating system#t1,This text discusses the Microsoft Windows operating system.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.950002327561378e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+39,group:sports#t2,The passage is related to sports.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014741698396392167,1.0,,exact,20ng-sub7951,7951,0.8,0
+40,leaf:motorcycles#t0,The document is about motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,9.208300616592169e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+41,group:motor vehicles#t0,The document is about motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,3.04199056699872e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+42,union:Christianity|political debate#u1,This text discusses either Christianity or political debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001498339988756925,1.0,,exact,20ng-sub7951,7951,0.8,0
+43,group:motor vehicles#t2,The passage is related to motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014766701497137547,1.0,,exact,20ng-sub7951,7951,0.8,0
+44,leaf:motorcycles#t2,The passage is related to motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.891700417734683e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+45,group:motor vehicles#t1,This text discusses motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00015283297398127615,1.0,,exact,20ng-sub7951,7951,0.8,0
+46,group:religion#t0,The document is about religion.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1151,,,,,3.416993422433734e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+47,group:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,2.749991836026311e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+48,union:Macintosh hardware|cars#u1,This text discusses either Macintosh hardware or cars.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001373330014757812,1.0,,exact,20ng-sub7951,7951,0.8,0
+49,leaf:computer graphics#t1,This text discusses computer graphics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.583298767916858e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+50,union:atheism|hockey#u1,This text discusses either atheism or hockey.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014024999109096825,1.0,,exact,20ng-sub7951,7951,0.8,0
+51,leaf:items for sale#t0,The document is about items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.22919828351587e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+52,leaf:baseball#t0,The document is about baseball.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.695802534930408e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+53,union:hockey|motorcycles#u0,The document is about hockey or about motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00015358300879597664,1.0,,exact,20ng-sub7951,7951,0.8,0
+54,group:politics#t0,The document is about politics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1200,,,,,0.00021945900516584516,1.0,,exact,20ng-sub7951,7951,0.8,0
+55,group:motor vehicles#t1,This text discusses motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,2.3329921532422304e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+56,leaf:atheism#t3,This article covers the topic of atheism.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.308299584314227e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+57,union:atheism|gun control#u1,This text discusses either atheism or gun control.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001582919794600457,1.0,,exact,20ng-sub7951,7951,0.8,0
+58,leaf:cars#t2,The passage is related to cars.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.091700146906078e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+59,group:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,2.2500171326100826e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+60,group:motor vehicles#t2,The passage is related to motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,2.415996277704835e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+61,group:computers#t0,The document is about computers.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.4590117391198874e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+62,union:medicine|the Microsoft Windows operating system#u0,The document is about medicine or about the Microsoft Windows operating system.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014408299466595054,1.0,,exact,20ng-sub7951,7951,0.8,0
+63,union:baseball|items for sale#u0,The document is about baseball or about items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001465829845983535,1.0,,exact,20ng-sub7951,7951,0.8,0
+64,union:atheism|medicine#u1,This text discusses either atheism or medicine.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014799999189563096,1.0,,exact,20ng-sub7951,7951,0.8,0
+65,union:hockey|the X Window System#u1,This text discusses either hockey or the X Window System.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014325001393444836,1.0,,exact,20ng-sub7951,7951,0.8,0
+66,leaf:cryptography#t0,The document is about cryptography.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.420800440944731e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+67,leaf:motorcycles#t3,This article covers the topic of motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,9.362501441501081e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+68,leaf:hockey#t1,This text discusses hockey.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,,,,,3.0410010367631912e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+69,leaf:baseball#t2,The passage is related to baseball.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,,,,,2.7909991331398487e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+70,group:motor vehicles#t0,The document is about motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,2.874992787837982e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+71,leaf:the Microsoft Windows operating system#t2,The passage is related to the Microsoft Windows operating system.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.083297871053219e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+72,leaf:motorcycles#t2,The passage is related to motorcycles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,,,,,2.9579969123005867e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+73,group:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,2.5830231606960297e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+74,union:Macintosh hardware|electronics#u1,This text discusses either Macintosh hardware or electronics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0001518749922979623,1.0,,exact,20ng-sub7951,7951,0.8,0
+75,leaf:Christianity#t3,This article covers the topic of Christianity.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,,,,,2.9999937396496534e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+76,group:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,2.04198295250535e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+77,leaf:religious debate#t3,This article covers the topic of religious debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,351,,,,,8.670799434185028e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+78,union:atheism|baseball#u1,This text discusses either atheism or baseball.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00015812498168088496,1.0,,exact,20ng-sub7951,7951,0.8,0
+79,leaf:items for sale#t2,The passage is related to items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.845900836400688e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+80,union:Macintosh hardware|religious debate#u0,The document is about Macintosh hardware or about religious debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,751,,,,,0.00014345801901072264,1.0,,exact,20ng-sub7951,7951,0.8,0
+81,group:motor vehicles#t1,This text discusses motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,2.7920177672058344e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+82,leaf:cars#t0,The document is about cars.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.270901162177324e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+83,leaf:PC hardware#t0,The document is about PC hardware.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,9.108299855142832e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+84,group:religion#t2,The passage is related to religion.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1151,,,,,0.00020812498405575752,1.0,,exact,20ng-sub7951,7951,0.8,0
+85,union:Christianity|hockey#u0,The document is about Christianity or about hockey.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00013983299140818417,1.0,,exact,20ng-sub7951,7951,0.8,0
+86,group:religion#t0,The document is about religion.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1151,,,,,2.9579969123005867e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+87,union:atheism|computer graphics#u1,This text discusses either atheism or computer graphics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014429198927246034,1.0,,exact,20ng-sub7951,7951,0.8,0
+88,union:motorcycles|political debate#u1,This text discusses either motorcycles or political debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00015966698992997408,1.0,,exact,20ng-sub7951,7951,0.8,0
+89,group:motor vehicles#t0,The document is about motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,2.4589826352894306e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+90,union:PC hardware|political debate#u0,The document is about PC hardware or about political debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.000155999994603917,1.0,,exact,20ng-sub7951,7951,0.8,0
+91,leaf:Macintosh hardware#t0,The document is about Macintosh hardware.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.87499884609133e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+92,leaf:items for sale#t1,This text discusses items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.750000804662704e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+93,leaf:the Microsoft Windows operating system#t0,The document is about the Microsoft Windows operating system.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,7.97920220065862e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+94,leaf:the Microsoft Windows operating system#t1,This text discusses the Microsoft Windows operating system.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,,,,,3.0410010367631912e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+95,group:computers#t3,This article covers the topic of computers.,cold,7951,7951,0,0,0,1.0,1.0,1.0,2000,,,,,0.0003357499954290688,1.0,,exact,20ng-sub7951,7951,0.8,0
+96,leaf:PC hardware#t1,This text discusses PC hardware.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,9.07079956959933e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+97,leaf:cars#t2,The passage is related to cars.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,,,,,2.7920177672058344e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+98,union:Christianity|items for sale#u0,The document is about Christianity or about items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014474999625235796,1.0,,exact,20ng-sub7951,7951,0.8,0
+99,group:politics#t2,The passage is related to politics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1200,,,,,0.00022170800366438925,1.0,,exact,20ng-sub7951,7951,0.8,0
+100,leaf:gun control#t2,The passage is related to gun control.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,9.245899855159223e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+101,union:Middle East affairs|items for sale#u1,This text discusses either Middle East affairs or items for sale.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,2.874992787837982e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+102,leaf:computer graphics#t3,This article covers the topic of computer graphics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.1458012573421e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+103,leaf:religious debate#t3,This article covers the topic of religious debate.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,351,,,,,2.1669839043170214e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+104,leaf:atheism#t3,This article covers the topic of atheism.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,,,,,2.9999937396496534e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+105,group:religion#t1,This text discusses religion.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1151,,,,,2.8329959604889154e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+106,union:hockey|items for sale#u0,The document is about hockey or about items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014516699593514204,1.0,,exact,20ng-sub7951,7951,0.8,0
+107,group:motor vehicles#t0,The document is about motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,2.542015863582492e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+108,union:space exploration|the Microsoft Windows operating system#u1,This text discusses either space exploration or the Microsoft Windows operating system.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00014562500291503966,1.0,,exact,20ng-sub7951,7951,0.8,0
+109,group:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,2.541986759752035e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+110,group:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,2.875021891668439e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+111,leaf:atheism#t3,This article covers the topic of atheism.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,,,,,2.6250199880450964e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+112,leaf:Middle East affairs#t2,The passage is related to Middle East affairs.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.50000069476664e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+113,union:Macintosh hardware|motorcycles#u1,This text discusses either Macintosh hardware or motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00015995799913071096,1.0,,exact,20ng-sub7951,7951,0.8,0
+114,union:political debate|religious debate#u0,The document is about political debate or about religious debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,751,,,,,0.00014962500426918268,1.0,,exact,20ng-sub7951,7951,0.8,0
+115,leaf:gun control#t3,This article covers the topic of gun control.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,9.47499938774854e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+116,leaf:medicine#t2,The passage is related to medicine.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,8.554200758226216e-05,1.0,,exact,20ng-sub7951,7951,0.8,0
+117,group:politics#t1,This text discusses politics.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1200,,,,,3.1660019885748625e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+118,group:science#t2,The passage is related to science.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1600,,,,,2.749991836026311e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+119,group:religion#t0,The document is about religion.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1151,,,,,2.8339854907244444e-06,1.0,,exact,20ng-sub7951,7951,0.8,0
+0,group:motor vehicles#t0,The document is about motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.025336791994050145,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+1,group:religion#t3,This article covers the topic of religion.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1151,,,,,0.020737666985951364,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+2,leaf:religious debate#t0,The document is about religious debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,351,,,,,0.010306125011993572,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+3,group:politics#t1,This text discusses politics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1200,,,,,0.03895170899340883,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+4,union:gun control|medicine#u0,The document is about gun control or about medicine.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.017449208011385053,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+5,group:motor vehicles#t0,The document is about motor vehicles.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,1.912500010803342e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+6,group:politics#t1,This text discusses politics.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,1200,,,,,1.1791009455919266e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+7,group:religion#t0,The document is about religion.,embed-hit@0.89,0,0,0,0,0,1.0,0.3049522154648132,0.4673768308921438,1151,,,,,0.0264162500097882,0.3049522154648132,,embed@0.8,20ng-sub7951,7951,0.8,0
+8,leaf:political debate#t1,This text discusses political debate.,embed-hit@0.87,0,0,0,0,0,0.3333333333333333,1.0,0.5,400,,,,,0.010929125011898577,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+9,group:sports#t1,This text discusses sports.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.011493458005134016,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+10,group:science#t1,This text discusses science.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1600,,,,,0.011040624987799674,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+11,leaf:hockey#t1,This text discusses hockey.,embed-hit@0.81,0,0,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,0.011007667024387047,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+12,leaf:religious debate#t2,The passage is related to religious debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,351,,,,,0.010416834003990516,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+13,leaf:political debate#t0,The document is about political debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.006441125005949289,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+14,leaf:items for sale#t3,This article covers the topic of items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.007912416011095047,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+15,leaf:Christianity#t3,This article covers the topic of Christianity.,embed-hit@0.83,0,0,0,0,0,0.3475238922675934,1.0,0.5157962604771116,400,,,,,0.006917125021573156,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+16,union:electronics|hockey#u0,The document is about electronics or about hockey.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.022497541998745874,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+17,group:science#t2,The passage is related to science.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1600,,,,,0.00813999999081716,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+18,group:computers#t1,This text discusses computers.,cold,7951,7951,0,0,0,1.0,1.0,1.0,2000,,,,,0.008207000006223097,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+19,union:Macintosh hardware|items for sale#u1,This text discusses either Macintosh hardware or items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.01543691600090824,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+20,group:motor vehicles#t3,This article covers the topic of motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.008060207997914404,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+21,group:sports#t3,This article covers the topic of sports.,embed-hit@0.80,0,0,0,0,0,1.0,1.0,1.0,800,,,,,0.00788070898852311,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+22,group:motor vehicles#t3,This article covers the topic of motor vehicles.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,2.3208005586639047e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+23,group:motor vehicles#t3,This article covers the topic of motor vehicles.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,1.8082995666190982e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+24,union:PC hardware|cryptography#u0,The document is about PC hardware or about cryptography.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0075703329930547625,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+25,leaf:political debate#t1,This text discusses political debate.,embed-hit@0.87,0,0,0,0,0,0.3333333333333333,1.0,0.5,400,,,,,3.129098331555724e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+26,union:Macintosh hardware|space exploration#u1,This text discusses either Macintosh hardware or space exploration.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.007769375020870939,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+27,leaf:baseball#t2,The passage is related to baseball.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.008045333001064137,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+28,group:computers#t0,The document is about computers.,embed-hit@0.81,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,0.008349082985660061,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+29,leaf:baseball#t3,This article covers the topic of baseball.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.0075569580076262355,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+30,leaf:electronics#t0,The document is about electronics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.008480708027491346,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+31,union:PC hardware|items for sale#u1,This text discusses either PC hardware or items for sale.,embed-hit@0.82,0,0,0,0,0,0.5,0.5,0.5,800,,,,,0.007751875004032627,0.5,,embed@0.8,20ng-sub7951,7951,0.8,0
+32,union:computer graphics|motorcycles#u0,The document is about computer graphics or about motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.008312499994644895,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+33,union:Macintosh hardware|electronics#u0,The document is about Macintosh hardware or about electronics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.008131082984618843,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+34,group:computers#t1,This text discusses computers.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.883299021050334e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+35,group:religion#t1,This text discusses religion.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1151,,,,,0.008845875010592863,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+36,group:computers#t0,The document is about computers.,embed-hit@0.81,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,2.90420139208436e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+37,union:Middle East affairs|items for sale#u1,This text discusses either Middle East affairs or items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.018320957984542474,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+38,leaf:the Microsoft Windows operating system#t1,This text discusses the Microsoft Windows operating system.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.008509084000252187,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+39,group:sports#t2,The passage is related to sports.,embed-hit@0.85,0,0,0,0,0,1.0,0.5,0.6666666666666666,800,,,,,0.008257417008280754,0.5,,embed@0.8,20ng-sub7951,7951,0.8,0
+40,leaf:motorcycles#t0,The document is about motorcycles.,embed-hit@0.86,0,0,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,0.008357707993127406,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+41,group:motor vehicles#t0,The document is about motor vehicles.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,2.7291011065244675e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+42,union:Christianity|political debate#u1,This text discusses either Christianity or political debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0074545000097714365,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+43,group:motor vehicles#t2,The passage is related to motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.008010624995222315,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+44,leaf:motorcycles#t2,The passage is related to motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.007838542020181194,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+45,group:motor vehicles#t1,This text discusses motor vehicles.,embed-hit@0.82,0,0,0,0,0,1.0,1.0,1.0,800,,,,,0.008490417007124051,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+46,group:religion#t0,The document is about religion.,embed-hit@0.89,0,0,0,0,0,1.0,0.3049522154648132,0.4673768308921438,1151,,,,,3.5500008380040526e-05,0.3049522154648132,,embed@0.8,20ng-sub7951,7951,0.8,0
+47,group:sports#t3,This article covers the topic of sports.,embed-hit@0.80,0,0,0,0,0,1.0,1.0,1.0,800,,,,,2.7083995519205928e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+48,union:Macintosh hardware|cars#u1,This text discusses either Macintosh hardware or cars.,embed-hit@0.80,0,0,0,0,0,0.5,0.5,0.5,800,,,,,0.0066238339932169765,0.5,,embed@0.8,20ng-sub7951,7951,0.8,0
+49,leaf:computer graphics#t1,This text discusses computer graphics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.008081625011982396,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+50,union:atheism|hockey#u1,This text discusses either atheism or hockey.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.008041207998758182,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+51,leaf:items for sale#t0,The document is about items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.007687334000365809,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+52,leaf:baseball#t0,The document is about baseball.,embed-hit@0.81,0,0,0,0,0,1.0,1.0,1.0,400,,,,,0.007961916999192908,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+53,union:hockey|motorcycles#u0,The document is about hockey or about motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.008123707986669615,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+54,group:politics#t0,The document is about politics.,embed-hit@0.88,0,0,0,0,0,1.0,0.3333333333333333,0.5,1200,,,,,0.007752624980639666,0.3333333333333333,,embed@0.8,20ng-sub7951,7951,0.8,0
+55,group:motor vehicles#t1,This text discusses motor vehicles.,embed-hit@0.82,0,0,0,0,0,1.0,1.0,1.0,800,,,,,3.1249976018443704e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+56,leaf:atheism#t3,This article covers the topic of atheism.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.007389790989691392,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+57,union:atheism|gun control#u1,This text discusses either atheism or gun control.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.006748499989043921,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+58,leaf:cars#t2,The passage is related to cars.,embed-hit@0.88,0,0,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,0.006611208984395489,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+59,group:sports#t2,The passage is related to sports.,embed-hit@0.85,0,0,0,0,0,1.0,0.5,0.6666666666666666,800,,,,,3.270801971666515e-05,0.5,,embed@0.8,20ng-sub7951,7951,0.8,0
+60,group:motor vehicles#t2,The passage is related to motor vehicles.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,3.166700480505824e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+61,group:computers#t0,The document is about computers.,embed-hit@0.81,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.091598046012223e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+62,union:medicine|the Microsoft Windows operating system#u0,The document is about medicine or about the Microsoft Windows operating system.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.025242417003028095,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+63,union:baseball|items for sale#u0,The document is about baseball or about items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.012022583017824218,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+64,union:atheism|medicine#u1,This text discusses either atheism or medicine.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.008662458014441654,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+65,union:hockey|the X Window System#u1,This text discusses either hockey or the X Window System.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.01061312499223277,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+66,leaf:cryptography#t0,The document is about cryptography.,embed-hit@0.85,0,0,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,0.011295083997538313,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+67,leaf:motorcycles#t3,This article covers the topic of motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.008082083018962294,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+68,leaf:hockey#t1,This text discusses hockey.,embed-hit@0.81,0,0,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,4.070799332112074e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+69,leaf:baseball#t2,The passage is related to baseball.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,400,,,,,3.445899346843362e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+70,group:motor vehicles#t0,The document is about motor vehicles.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,3.154200385324657e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+71,leaf:the Microsoft Windows operating system#t2,The passage is related to the Microsoft Windows operating system.,embed-hit@0.83,0,0,0,0,0,1.0,1.0,1.0,400,,,,,0.011472040991066024,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+72,leaf:motorcycles#t2,The passage is related to motorcycles.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,400,,,,,3.591700806282461e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+73,group:sports#t2,The passage is related to sports.,embed-hit@0.85,0,0,0,0,0,1.0,0.5,0.6666666666666666,800,,,,,3.19159880746156e-05,0.5,,embed@0.8,20ng-sub7951,7951,0.8,0
+74,union:Macintosh hardware|electronics#u1,This text discusses either Macintosh hardware or electronics.,embed-hit@0.86,0,0,0,0,0,0.5,0.5,0.5,800,,,,,0.011274749995209277,0.5,,embed@0.8,20ng-sub7951,7951,0.8,0
+75,leaf:Christianity#t3,This article covers the topic of Christianity.,embed-hit@0.83,0,0,0,0,0,0.3475238922675934,1.0,0.5157962604771116,400,,,,,3.574998117983341e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+76,group:sports#t2,The passage is related to sports.,embed-hit@0.85,0,0,0,0,0,1.0,0.5,0.6666666666666666,800,,,,,3.116598236374557e-05,0.5,,embed@0.8,20ng-sub7951,7951,0.8,0
+77,leaf:religious debate#t3,This article covers the topic of religious debate.,embed-hit@0.80,0,0,0,0,0,0.3049522154648132,1.0,0.4673768308921438,351,,,,,0.012061499990522861,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+78,union:atheism|baseball#u1,This text discusses either atheism or baseball.,embed-hit@0.83,0,0,0,0,0,0.5,0.5,0.5,800,,,,,0.011711500003002584,0.5,,embed@0.8,20ng-sub7951,7951,0.8,0
+79,leaf:items for sale#t2,The passage is related to items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.008319750020746142,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+80,union:Macintosh hardware|religious debate#u0,The document is about Macintosh hardware or about religious debate.,embed-hit@0.80,0,0,0,0,0,0.5,0.5326231691078562,0.5157962604771116,751,,,,,0.011171999998623505,0.5326231691078562,,embed@0.8,20ng-sub7951,7951,0.8,0
+81,group:motor vehicles#t1,This text discusses motor vehicles.,embed-hit@0.82,0,0,0,0,0,1.0,1.0,1.0,800,,,,,3.6999990697950125e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+82,leaf:cars#t0,The document is about cars.,embed-hit@0.89,0,0,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,0.008118750003632158,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+83,leaf:PC hardware#t0,The document is about PC hardware.,embed-hit@0.82,0,0,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,0.011155082989716902,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+84,group:religion#t2,The passage is related to religion.,embed-hit@0.89,0,0,0,0,0,1.0,0.3049522154648132,0.4673768308921438,1151,,,,,0.009762208006577566,0.3049522154648132,,embed@0.8,20ng-sub7951,7951,0.8,0
+85,union:Christianity|hockey#u0,The document is about Christianity or about hockey.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.011216042010346428,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+86,group:religion#t0,The document is about religion.,embed-hit@0.89,0,0,0,0,0,1.0,0.3049522154648132,0.4673768308921438,1151,,,,,5.258299643173814e-05,0.3049522154648132,,embed@0.8,20ng-sub7951,7951,0.8,0
+87,union:atheism|computer graphics#u1,This text discusses either atheism or computer graphics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.011993167019682005,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+88,union:motorcycles|political debate#u1,This text discusses either motorcycles or political debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.009036959003424272,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+89,group:motor vehicles#t0,The document is about motor vehicles.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,4.129199078306556e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+90,union:PC hardware|political debate#u0,The document is about PC hardware or about political debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.01042600002256222,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+91,leaf:Macintosh hardware#t0,The document is about Macintosh hardware.,embed-hit@0.94,0,0,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,0.007005874998867512,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+92,leaf:items for sale#t1,This text discusses items for sale.,embed-hit@0.88,0,0,0,0,0,1.0,1.0,1.0,400,,,,,0.034040375001495704,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+93,leaf:the Microsoft Windows operating system#t0,The document is about the Microsoft Windows operating system.,embed-hit@0.88,0,0,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,0.04731091600842774,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+94,leaf:the Microsoft Windows operating system#t1,This text discusses the Microsoft Windows operating system.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,400,,,,,3.837500116787851e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+95,group:computers#t3,This article covers the topic of computers.,cold,7951,7951,0,0,0,1.0,1.0,1.0,2000,,,,,0.006823625008109957,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+96,leaf:PC hardware#t1,This text discusses PC hardware.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.007803916989360005,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+97,leaf:cars#t2,The passage is related to cars.,embed-hit@0.88,0,0,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,4.299997817724943e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+98,union:Christianity|items for sale#u0,The document is about Christianity or about items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.005984333984088153,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+99,group:politics#t2,The passage is related to politics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1200,,,,,0.007278334000147879,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+100,leaf:gun control#t2,The passage is related to gun control.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.008012000005692244,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+101,union:Middle East affairs|items for sale#u1,This text discusses either Middle East affairs or items for sale.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,4.720798460766673e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+102,leaf:computer graphics#t3,This article covers the topic of computer graphics.,embed-hit@0.82,0,0,0,0,0,1.0,1.0,1.0,400,,,,,0.006016291998093948,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+103,leaf:religious debate#t3,This article covers the topic of religious debate.,embed-hit@0.80,0,0,0,0,0,0.3049522154648132,1.0,0.4673768308921438,351,,,,,4.183399141766131e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+104,leaf:atheism#t3,This article covers the topic of atheism.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,400,,,,,3.825000021606684e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+105,group:religion#t1,This text discusses religion.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,1151,,,,,3.7874997360631824e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+106,union:hockey|items for sale#u0,The document is about hockey or about items for sale.,embed-hit@0.84,0,0,0,0,0,0.5,0.5,0.5,800,,,,,0.00708875001873821,0.5,,embed@0.8,20ng-sub7951,7951,0.8,0
+107,group:motor vehicles#t0,The document is about motor vehicles.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,5.158298881724477e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+108,union:space exploration|the Microsoft Windows operating system#u1,This text discusses either space exploration or the Microsoft Windows operating system.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.008141291997162625,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+109,group:sports#t2,The passage is related to sports.,embed-hit@0.85,0,0,0,0,0,1.0,0.5,0.6666666666666666,800,,,,,5.954198422841728e-05,0.5,,embed@0.8,20ng-sub7951,7951,0.8,0
+110,group:sports#t1,This text discusses sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,4.2499974370002747e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+111,leaf:atheism#t3,This article covers the topic of atheism.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,400,,,,,4.149999585933983e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+112,leaf:Middle East affairs#t2,The passage is related to Middle East affairs.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.0071816249983385205,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+113,union:Macintosh hardware|motorcycles#u1,This text discusses either Macintosh hardware or motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.011712500010617077,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+114,union:political debate|religious debate#u0,The document is about political debate or about religious debate.,embed-hit@0.94,0,0,0,0,0,1.0,0.4673768308921438,0.6370235934664247,751,,,,,0.011408416990889236,0.4673768308921438,,embed@0.8,20ng-sub7951,7951,0.8,0
+115,leaf:gun control#t3,This article covers the topic of gun control.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.01104174999636598,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+116,leaf:medicine#t2,The passage is related to medicine.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.015250000025844201,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+117,group:politics#t1,This text discusses politics.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,1200,,,,,5.195799167267978e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+118,group:science#t2,The passage is related to science.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,1600,,,,,4.516699118539691e-05,1.0,,embed@0.8,20ng-sub7951,7951,0.8,0
+119,group:religion#t0,The document is about religion.,embed-hit@0.89,0,0,0,0,0,1.0,0.3049522154648132,0.4673768308921438,1151,,,,,4.408301902003586e-05,0.3049522154648132,,embed@0.8,20ng-sub7951,7951,0.8,0
+0,group:motor vehicles#t0,The document is about motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.009079749986995012,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+1,group:religion#t3,This article covers the topic of religion.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1151,,,,,0.012434416974429041,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+2,leaf:religious debate#t0,The document is about religious debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,351,,,,,0.012285083008464426,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+3,group:politics#t1,This text discusses politics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1200,,,,,0.013721666007768363,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+4,union:gun control|medicine#u0,The document is about gun control or about medicine.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.011790000018663704,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+5,group:motor vehicles#t0,The document is about motor vehicles.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,1.8499995348975062e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+6,group:politics#t1,This text discusses politics.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,1200,,,,,1.116600469686091e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+7,group:religion#t0,The document is about religion.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1151,,,,,0.01432387498789467,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+8,leaf:political debate#t1,This text discusses political debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.012288375000935048,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+9,group:sports#t1,This text discusses sports.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.012557125010062009,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+10,group:science#t1,This text discusses science.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1600,,,,,0.01394441700540483,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+11,leaf:hockey#t1,This text discusses hockey.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.013156291999621317,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+12,leaf:religious debate#t2,The passage is related to religious debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,351,,,,,0.012271250016056001,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+13,leaf:political debate#t0,The document is about political debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.007849166984669864,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+14,leaf:items for sale#t3,This article covers the topic of items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.012330042023677379,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+15,leaf:Christianity#t3,This article covers the topic of Christianity.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.013082291989121586,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+16,union:electronics|hockey#u0,The document is about electronics or about hockey.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.008050208009080961,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+17,group:science#t2,The passage is related to science.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1600,,,,,0.00822470901766792,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+18,group:computers#t1,This text discusses computers.,cold,7951,7951,0,0,0,1.0,1.0,1.0,2000,,,,,0.01161612500436604,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+19,union:Macintosh hardware|items for sale#u1,This text discusses either Macintosh hardware or items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.009206540999002755,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+20,group:motor vehicles#t3,This article covers the topic of motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.006766999984392896,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+21,group:sports#t3,This article covers the topic of sports.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.007164874987211078,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+22,group:motor vehicles#t3,This article covers the topic of motor vehicles.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,3.0415976652875543e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+23,group:motor vehicles#t3,This article covers the topic of motor vehicles.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,2.274999860674143e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+24,union:PC hardware|cryptography#u0,The document is about PC hardware or about cryptography.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.008130667003570125,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+25,leaf:political debate#t1,This text discusses political debate.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,400,,,,,2.895799116231501e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+26,union:Macintosh hardware|space exploration#u1,This text discusses either Macintosh hardware or space exploration.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00598908300162293,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+27,leaf:baseball#t2,The passage is related to baseball.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.010840125003596768,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+28,group:computers#t0,The document is about computers.,cold,7951,7951,0,0,0,1.0,1.0,1.0,2000,,,,,0.01776954100932926,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+29,leaf:baseball#t3,This article covers the topic of baseball.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.01140691598993726,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+30,leaf:electronics#t0,The document is about electronics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.012966082984348759,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+31,union:PC hardware|items for sale#u1,This text discusses either PC hardware or items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.015803290996700525,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+32,union:computer graphics|motorcycles#u0,The document is about computer graphics or about motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.011815541016403586,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+33,union:Macintosh hardware|electronics#u0,The document is about Macintosh hardware or about electronics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.01547325000865385,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+34,group:computers#t1,This text discusses computers.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.258298966102302e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+35,group:religion#t1,This text discusses religion.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1151,,,,,0.014088875002926216,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+36,group:computers#t0,The document is about computers.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.274998744018376e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+37,union:Middle East affairs|items for sale#u1,This text discusses either Middle East affairs or items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.01686204198631458,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+38,leaf:the Microsoft Windows operating system#t1,This text discusses the Microsoft Windows operating system.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.01201970802503638,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+39,group:sports#t2,The passage is related to sports.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.010712332994444296,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+40,leaf:motorcycles#t0,The document is about motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.014820000011241063,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+41,group:motor vehicles#t0,The document is about motor vehicles.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,3.700001980178058e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+42,union:Christianity|political debate#u1,This text discusses either Christianity or political debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.013148958998499438,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+43,group:motor vehicles#t2,The passage is related to motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.012243916018633172,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+44,leaf:motorcycles#t2,The passage is related to motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.010760125005617738,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+45,group:motor vehicles#t1,This text discusses motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.012625375005882233,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+46,group:religion#t0,The document is about religion.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,1151,,,,,4.1916006011888385e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+47,group:sports#t3,This article covers the topic of sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,3.4958007745444775e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+48,union:Macintosh hardware|cars#u1,This text discusses either Macintosh hardware or cars.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.010883333015954122,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+49,leaf:computer graphics#t1,This text discusses computer graphics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.017239542008610442,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+50,union:atheism|hockey#u1,This text discusses either atheism or hockey.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.010225375008303672,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+51,leaf:items for sale#t0,The document is about items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.010587041993858293,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+52,leaf:baseball#t0,The document is about baseball.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.018101207999279723,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+53,union:hockey|motorcycles#u0,The document is about hockey or about motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.013023875013459474,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+54,group:politics#t0,The document is about politics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1200,,,,,0.013018833007663488,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+55,group:motor vehicles#t1,This text discusses motor vehicles.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,4.199999966658652e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+56,leaf:atheism#t3,This article covers the topic of atheism.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.011482917005196214,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+57,union:atheism|gun control#u1,This text discusses either atheism or gun control.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.007147583004552871,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+58,leaf:cars#t2,The passage is related to cars.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.007892583991633728,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+59,group:sports#t2,The passage is related to sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,5.2875024266541004e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+60,group:motor vehicles#t2,The passage is related to motor vehicles.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,4.0917017031461e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+61,group:computers#t0,The document is about computers.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.7291989428922534e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+62,union:medicine|the Microsoft Windows operating system#u0,The document is about medicine or about the Microsoft Windows operating system.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.007011624984443188,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+63,union:baseball|items for sale#u0,The document is about baseball or about items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.006980000005569309,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+64,union:atheism|medicine#u1,This text discusses either atheism or medicine.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0095250419981312,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+65,union:hockey|the X Window System#u1,This text discusses either hockey or the X Window System.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.011405625002225861,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+66,leaf:cryptography#t0,The document is about cryptography.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.010803334007505327,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+67,leaf:motorcycles#t3,This article covers the topic of motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.008941208012402058,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+68,leaf:hockey#t1,This text discusses hockey.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,400,,,,,4.804198397323489e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+69,leaf:baseball#t2,The passage is related to baseball.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,400,,,,,4.137499490752816e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+70,group:motor vehicles#t0,The document is about motor vehicles.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,3.999998443759978e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+71,leaf:the Microsoft Windows operating system#t2,The passage is related to the Microsoft Windows operating system.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.008699583995621651,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+72,leaf:motorcycles#t2,The passage is related to motorcycles.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,400,,,,,5.008300649933517e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+73,group:sports#t2,The passage is related to sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,4.279200220480561e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+74,union:Macintosh hardware|electronics#u1,This text discusses either Macintosh hardware or electronics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.011192334000952542,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+75,leaf:Christianity#t3,This article covers the topic of Christianity.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,400,,,,,4.841701593250036e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+76,group:sports#t2,The passage is related to sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,4.045802052132785e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+77,leaf:religious debate#t3,This article covers the topic of religious debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,351,,,,,0.010748959000920877,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+78,union:atheism|baseball#u1,This text discusses either atheism or baseball.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.011663207988021895,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+79,leaf:items for sale#t2,The passage is related to items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.010598542023217306,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+80,union:Macintosh hardware|religious debate#u0,The document is about Macintosh hardware or about religious debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,751,,,,,0.0074052499840036035,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+81,group:motor vehicles#t1,This text discusses motor vehicles.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,5.474998033605516e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+82,leaf:cars#t0,The document is about cars.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.010972792020766065,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+83,leaf:PC hardware#t0,The document is about PC hardware.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.010327582975151017,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+84,group:religion#t2,The passage is related to religion.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1151,,,,,0.009290542016969994,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+85,union:Christianity|hockey#u0,The document is about Christianity or about hockey.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00934879097621888,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+86,group:religion#t0,The document is about religion.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,1151,,,,,5.366699770092964e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+87,union:atheism|computer graphics#u1,This text discusses either atheism or computer graphics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.010625709022860974,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+88,union:motorcycles|political debate#u1,This text discusses either motorcycles or political debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.01073741598520428,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+89,group:motor vehicles#t0,The document is about motor vehicles.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,5.6124990805983543e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+90,union:PC hardware|political debate#u0,The document is about PC hardware or about political debate.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0071672500052955,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+91,leaf:Macintosh hardware#t0,The document is about Macintosh hardware.,embed-hit@0.94,0,0,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,0.008330750017194077,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+92,leaf:items for sale#t1,This text discusses items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.0069086659932509065,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+93,leaf:the Microsoft Windows operating system#t0,The document is about the Microsoft Windows operating system.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.007281708007212728,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+94,leaf:the Microsoft Windows operating system#t1,This text discusses the Microsoft Windows operating system.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,400,,,,,6.212500738911331e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+95,group:computers#t3,This article covers the topic of computers.,cold,7951,7951,0,0,0,1.0,1.0,1.0,2000,,,,,0.008313333004480228,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+96,leaf:PC hardware#t1,This text discusses PC hardware.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.00759508297778666,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+97,leaf:cars#t2,The passage is related to cars.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,400,,,,,5.658299778588116e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+98,union:Christianity|items for sale#u0,The document is about Christianity or about items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.006839417008450255,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+99,group:politics#t2,The passage is related to politics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1200,,,,,0.006354000011924654,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+100,leaf:gun control#t2,The passage is related to gun control.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.00603208300890401,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+101,union:Middle East affairs|items for sale#u1,This text discusses either Middle East affairs or items for sale.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,5.924998549744487e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+102,leaf:computer graphics#t3,This article covers the topic of computer graphics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.005822542007081211,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+103,leaf:religious debate#t3,This article covers the topic of religious debate.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,351,,,,,5.904198042117059e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+104,leaf:atheism#t3,This article covers the topic of atheism.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,400,,,,,5.416700150817633e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+105,group:religion#t1,This text discusses religion.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,1151,,,,,5.370800499804318e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+106,union:hockey|items for sale#u0,The document is about hockey or about items for sale.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.005971500009763986,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+107,group:motor vehicles#t0,The document is about motor vehicles.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,5.8999983593821526e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+108,union:space exploration|the Microsoft Windows operating system#u1,This text discusses either space exploration or the Microsoft Windows operating system.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.006066625006496906,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+109,group:sports#t2,The passage is related to sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,7.599999662488699e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+110,group:sports#t1,This text discusses sports.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,800,,,,,5.7792000006884336e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+111,leaf:atheism#t3,This article covers the topic of atheism.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,400,,,,,5.6042015785351396e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+112,leaf:Middle East affairs#t2,The passage is related to Middle East affairs.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.008521583979018033,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+113,union:Macintosh hardware|motorcycles#u1,This text discusses either Macintosh hardware or motorcycles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.006587416981346905,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+114,union:political debate|religious debate#u0,The document is about political debate or about religious debate.,embed-hit@0.94,0,0,0,0,0,1.0,0.4673768308921438,0.6370235934664247,751,,,,,0.006607834016904235,0.4673768308921438,,embed@0.9,20ng-sub7951,7951,0.8,0
+115,leaf:gun control#t3,This article covers the topic of gun control.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.006220625014975667,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+116,leaf:medicine#t2,The passage is related to medicine.,cold,7951,7951,0,0,0,1.0,1.0,1.0,400,,,,,0.006222708005225286,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+117,group:politics#t1,This text discusses politics.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,1200,,,,,6.479100557044148e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+118,group:science#t2,The passage is related to science.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,1600,,,,,5.833301111124456e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+119,group:religion#t0,The document is about religion.,embed-hit@1.00,0,0,0,0,0,1.0,1.0,1.0,1151,,,,,5.76250022277236e-05,1.0,,embed@0.9,20ng-sub7951,7951,0.8,0
+0,group:motor vehicles#t0,The document is about motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00024287498672492802,1.0,,semreuse,20ng-sub7951,7951,0.8,0
+1,group:religion#t3,This article covers the topic of religion.,cold,7951,7951,0,0,2,1.0,1.0,1.0,1151,,,,,0.09278162498958409,1.0,,semreuse,20ng-sub7951,7951,0.8,0
+2,leaf:religious debate#t0,The document is about religious debate.,rewrite,7951,6800,29,1122,4,1.0,1.0,1.0,351,1.0,False,1.0,False,0.10455633400124498,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+3,group:politics#t1,This text discusses politics.,cold,7951,7951,0,0,6,1.0,1.0,1.0,1200,,,,,0.12545254098949954,1.0,,semreuse,20ng-sub7951,7951,0.8,0
+4,union:gun control|medicine#u0,The document is about gun control or about medicine.,cold,7951,7951,0,0,8,1.0,1.0,1.0,800,,,,,0.08129895900492556,1.0,,semreuse,20ng-sub7951,7951,0.8,0
+5,group:motor vehicles#t0,The document is about motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,7.624999852851033e-06,1.0,,semreuse,20ng-sub7951,7951,0.8,0
+6,group:politics#t1,This text discusses politics.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1200,,,,,4.8340007197111845e-06,1.0,,semreuse,20ng-sub7951,7951,0.8,0
+7,group:religion#t0,The document is about religion.,rewrite,7951,351,897,6703,10,1.0,1.0,1.0,1151,1.0,False,1.0,False,0.07259754202095792,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+8,leaf:political debate#t1,This text discusses political debate.,rewrite,7951,6751,29,1171,12,1.0,1.0,1.0,400,1.0,False,1.0,False,0.12344262501574121,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+9,group:sports#t1,This text discusses sports.,cold,7951,7951,0,0,14,1.0,1.0,1.0,800,,,,,0.16401520901126787,1.0,,semreuse,20ng-sub7951,7951,0.8,0
+10,group:science#t1,This text discusses science.,cold,7951,7951,0,0,16,1.0,1.0,1.0,1600,,,,,0.09379116698983125,1.0,,semreuse,20ng-sub7951,7951,0.8,0
+11,leaf:hockey#t1,This text discusses hockey.,rewrite,7951,7151,29,771,18,1.0,1.0,1.0,400,1.0,False,1.0,False,0.07855208299588412,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+12,leaf:religious debate#t2,The passage is related to religious debate.,rewrite,1885,800,1085,0,20,1.0,1.0,1.0,351,0.9246376811594202,False,0.9088319088319088,False,0.06379979100893252,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+13,leaf:political debate#t0,The document is about political debate.,rewrite,1060,0,1060,0,22,1.0,1.0,1.0,400,0.9236641221374046,False,0.9075,False,0.14004662501974963,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+14,leaf:items for sale#t3,This article covers the topic of items for sale.,rewrite,7951,800,0,7151,24,1.0,1.0,1.0,400,1.0,False,1.0,False,0.12755883400677703,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+15,leaf:Christianity#t3,This article covers the topic of Christianity.,rewrite,7951,6800,29,1122,26,1.0,1.0,1.0,400,1.0,False,1.0,False,0.07925387501018122,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+16,union:electronics|hockey#u0,The document is about electronics or about hockey.,cold,7951,7951,0,0,28,1.0,1.0,1.0,800,,,,,0.12904141697799787,1.0,,semreuse,20ng-sub7951,7951,0.8,0
+17,group:science#t2,The passage is related to science.,rewrite,251,0,251,0,30,1.0,1.0,1.0,1600,0.9204328453214513,False,0.90375,False,0.14685387499048375,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+18,group:computers#t1,This text discusses computers.,cold,7951,7951,0,0,32,1.0,1.0,1.0,2000,,,,,0.08492795898928307,1.0,,semreuse,20ng-sub7951,7951,0.8,0
+19,union:Macintosh hardware|items for sale#u1,This text discusses either Macintosh hardware or items for sale.,rewrite,7587,5551,72,1964,34,1.0,1.0,1.0,800,1.0,False,0.95375,False,0.09355704102199525,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+20,group:motor vehicles#t3,This article covers the topic of motor vehicles.,cold,7951,7951,0,0,36,1.0,1.0,1.0,800,,,,,0.07731037499615923,1.0,,semreuse,20ng-sub7951,7951,0.8,0
+21,group:sports#t3,This article covers the topic of sports.,rewrite,896,400,496,0,38,1.0,1.0,1.0,800,0.9214975845410628,False,0.95375,False,0.16124362498521805,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+22,group:motor vehicles#t3,This article covers the topic of motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,1.0167015716433525e-05,1.0,,semreuse,20ng-sub7951,7951,0.8,0
+23,group:motor vehicles#t3,This article covers the topic of motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,3.749999450519681e-06,1.0,,semreuse,20ng-sub7951,7951,0.8,0
+24,union:PC hardware|cryptography#u0,The document is about PC hardware or about cryptography.,rewrite,7951,5951,29,1971,40,1.0,1.0,1.0,800,1.0,False,1.0,False,0.22183266701176763,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+25,leaf:political debate#t1,This text discusses political debate.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,1.0,False,1.0,False,2.2833002731204033e-05,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+26,union:Macintosh hardware|space exploration#u1,This text discusses either Macintosh hardware or space exploration.,rewrite,7951,5951,29,1971,42,1.0,1.0,1.0,800,1.0,False,1.0,False,0.18709491699701175,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+27,leaf:baseball#t2,The passage is related to baseball.,rewrite,7951,7151,29,771,44,1.0,1.0,1.0,400,1.0,False,1.0,False,0.13806195900542662,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+28,group:computers#t0,The document is about computers.,rewrite,2135,2000,135,0,46,1.0,1.0,1.0,2000,0.9195402298850575,False,1.0,False,0.22726445901207626,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+29,leaf:baseball#t3,This article covers the topic of baseball.,rewrite,7951,7151,29,771,48,1.0,1.0,1.0,400,1.0,False,1.0,False,0.12246145799872465,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+30,leaf:electronics#t0,The document is about electronics.,rewrite,7951,0,0,7951,50,1.0,1.0,1.0,400,1.0,False,1.0,False,0.17910570799722336,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+31,union:PC hardware|items for sale#u1,This text discusses either PC hardware or items for sale.,rewrite,7590,5151,117,2322,52,1.0,1.0,1.0,800,1.0,False,0.95375,False,0.2002131249755621,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+32,union:computer graphics|motorcycles#u0,The document is about computer graphics or about motorcycles.,rewrite,7951,7151,29,771,54,1.0,1.0,1.0,800,1.0,False,1.0,False,0.17016262499964796,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+33,union:Macintosh hardware|electronics#u0,The document is about Macintosh hardware or about electronics.,rewrite,7587,5551,72,1964,56,1.0,1.0,1.0,800,1.0,False,0.95375,False,0.12310083300690167,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+34,group:computers#t1,This text discusses computers.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,9.834009688347578e-06,1.0,,semreuse,20ng-sub7951,7951,0.8,0
+35,group:religion#t1,This text discusses religion.,rewrite,1395,1151,244,0,58,1.0,1.0,1.0,1151,0.9200639488409272,False,1.0,False,0.11903625002014451,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+36,group:computers#t0,The document is about computers.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9195402298850575,False,1.0,False,1.0499992640689015e-05,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+37,union:Middle East affairs|items for sale#u1,This text discusses either Middle East affairs or items for sale.,rewrite,7590,5200,117,2273,60,1.0,1.0,1.0,800,1.0,False,0.95375,False,0.08925095899030566,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+38,leaf:the Microsoft Windows operating system#t1,This text discusses the Microsoft Windows operating system.,rewrite,7951,5951,29,1971,62,1.0,1.0,1.0,400,1.0,False,1.0,False,0.09402012501959689,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+39,group:sports#t2,The passage is related to sports.,rewrite,1170,800,370,0,64,1.0,1.0,1.0,800,0.9205983889528193,False,1.0,False,0.08990849999827333,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+40,leaf:motorcycles#t0,The document is about motorcycles.,rewrite,7951,7151,29,771,66,1.0,1.0,1.0,400,1.0,False,1.0,False,0.09009791701100767,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+41,group:motor vehicles#t0,The document is about motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,7.541995728388429e-06,1.0,,semreuse,20ng-sub7951,7951,0.8,0
+42,union:Christianity|political debate#u1,This text discusses either Christianity or political debate.,rewrite,7590,5600,117,1873,68,1.0,1.0,1.0,800,1.0,False,0.95375,False,0.14139400000567548,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+43,group:motor vehicles#t2,The passage is related to motor vehicles.,rewrite,896,400,496,0,70,1.0,1.0,1.0,800,0.9214975845410628,False,0.95375,False,0.25281816598726436,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+44,leaf:motorcycles#t2,The passage is related to motorcycles.,rewrite,1495,400,1095,0,72,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,0.309012707992224,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+45,group:motor vehicles#t1,This text discusses motor vehicles.,rewrite,896,400,496,0,74,1.0,1.0,1.0,800,0.9214975845410628,False,0.95375,False,0.20288399999844842,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+46,group:religion#t0,The document is about religion.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1151,1.0,False,1.0,False,1.2417003745213151e-05,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+47,group:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,0.9214975845410628,False,0.95375,False,6.167014362290502e-06,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+48,union:Macintosh hardware|cars#u1,This text discusses either Macintosh hardware or cars.,rewrite,7951,7151,29,771,76,1.0,1.0,1.0,800,1.0,False,1.0,False,0.18464970801142044,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+49,leaf:computer graphics#t1,This text discusses computer graphics.,rewrite,7951,5951,29,1971,78,1.0,1.0,1.0,400,1.0,False,1.0,False,0.1431126669922378,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+50,union:atheism|hockey#u1,This text discusses either atheism or hockey.,rewrite,7951,7151,29,771,80,1.0,1.0,1.0,800,1.0,False,1.0,False,0.1810198340099305,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+51,leaf:items for sale#t0,The document is about items for sale.,rewrite,1268,400,868,0,82,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.26642762499977835,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+52,leaf:baseball#t0,The document is about baseball.,rewrite,1405,400,1005,0,84,1.0,1.0,1.0,400,0.9236641221374046,False,0.9075,False,0.1717523339902982,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+53,union:hockey|motorcycles#u0,The document is about hockey or about motorcycles.,rewrite,7951,7151,29,771,86,1.0,1.0,1.0,800,1.0,False,1.0,False,0.19382350001251325,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+54,group:politics#t0,The document is about politics.,rewrite,1432,1200,232,0,88,1.0,1.0,1.0,1200,0.9202453987730062,False,1.0,False,0.15715641601127572,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+55,group:motor vehicles#t1,This text discusses motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,0.9214975845410628,False,0.95375,False,2.6124995201826096e-05,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+56,leaf:atheism#t3,This article covers the topic of atheism.,rewrite,1541,800,741,0,90,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.1805504590156488,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+57,union:atheism|gun control#u1,This text discusses either atheism or gun control.,rewrite,7580,7551,29,0,92,1.0,1.0,1.0,800,1.0,False,0.95375,False,0.18176387500716373,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+58,leaf:cars#t2,The passage is related to cars.,rewrite,1495,400,1095,0,94,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,0.1783920419984497,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+59,group:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,0.9205983889528193,False,1.0,False,3.533298149704933e-05,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+60,group:motor vehicles#t2,The passage is related to motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,0.9214975845410628,False,0.95375,False,1.7417012713849545e-05,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+61,group:computers#t0,The document is about computers.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9195402298850575,False,1.0,False,1.820901525206864e-05,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+62,union:medicine|the Microsoft Windows operating system#u0,The document is about medicine or about the Microsoft Windows operating system.,rewrite,7951,4351,72,3528,96,1.0,1.0,1.0,800,1.0,False,1.0,False,0.3008116249984596,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+63,union:baseball|items for sale#u0,The document is about baseball or about items for sale.,rewrite,7587,6751,72,764,98,1.0,1.0,1.0,800,1.0,False,0.95375,False,0.3878745409892872,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+64,union:atheism|medicine#u1,This text discusses either atheism or medicine.,rewrite,7580,7551,29,0,100,1.0,1.0,1.0,800,1.0,False,0.95375,False,0.30938858300214633,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+65,union:hockey|the X Window System#u1,This text discusses either hockey or the X Window System.,rewrite,7951,4751,117,3083,102,1.0,1.0,1.0,800,1.0,False,1.0,False,0.2622229580010753,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+66,leaf:cryptography#t0,The document is about cryptography.,rewrite,1541,800,741,0,104,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.14700162500957958,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+67,leaf:motorcycles#t3,This article covers the topic of motorcycles.,rewrite,1751,800,951,0,106,1.0,1.0,1.0,400,0.9236641221374046,False,0.9075,False,0.315921207977226,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+68,leaf:hockey#t1,This text discusses hockey.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,1.0,False,1.0,False,1.0958989150822163e-05,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+69,leaf:baseball#t2,The passage is related to baseball.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,1.0,False,1.0,False,5.3340045269578695e-06,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+70,group:motor vehicles#t0,The document is about motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,5.791982403025031e-06,1.0,,semreuse,20ng-sub7951,7951,0.8,0
+71,leaf:the Microsoft Windows operating system#t2,The passage is related to the Microsoft Windows operating system.,rewrite,2517,1600,917,0,108,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,0.21105083302245475,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+72,leaf:motorcycles#t2,The passage is related to motorcycles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,1.1458992958068848e-05,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+73,group:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,0.9205983889528193,False,1.0,False,4.417001036927104e-06,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+74,union:Macintosh hardware|electronics#u1,This text discusses either Macintosh hardware or electronics.,rewrite,2426,2000,426,0,110,1.0,1.0,1.0,800,0.9214975845410628,False,0.95375,False,0.13128716699429788,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+75,leaf:Christianity#t3,This article covers the topic of Christianity.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,1.0,False,1.0,False,1.1708005331456661e-05,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+76,group:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,0.9205983889528193,False,1.0,False,4.999979864805937e-06,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+77,leaf:religious debate#t3,This article covers the topic of religious debate.,rewrite,2448,1151,933,364,112,1.0,1.0,1.0,351,0.9261213720316622,False,1.0,False,0.1337317499855999,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+78,union:atheism|baseball#u1,This text discusses either atheism or baseball.,rewrite,7587,6751,72,764,114,1.0,1.0,1.0,800,1.0,False,0.95375,False,0.13264420800260268,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+79,leaf:items for sale#t2,The passage is related to items for sale.,rewrite,1268,400,868,0,116,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.19416441599605605,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+80,union:Macintosh hardware|religious debate#u0,The document is about Macintosh hardware or about religious debate.,rewrite,7642,4400,168,3074,118,1.0,1.0,1.0,751,1.0,False,0.9573901464713716,False,0.30066679100855254,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+81,group:motor vehicles#t1,This text discusses motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,0.9214975845410628,False,0.95375,False,1.1083990102633834e-05,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+82,leaf:cars#t0,The document is about cars.,rewrite,1495,400,1095,0,120,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,0.2376091250043828,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+83,leaf:PC hardware#t0,The document is about PC hardware.,rewrite,3038,2400,638,0,122,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.14918558299541473,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+84,group:religion#t2,The passage is related to religion.,rewrite,1395,1151,244,0,124,1.0,1.0,1.0,1151,0.9200639488409272,False,1.0,False,0.13193804200273007,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+85,union:Christianity|hockey#u0,The document is about Christianity or about hockey.,rewrite,2347,1951,396,0,126,1.0,1.0,1.0,800,0.9214975845410628,False,0.95375,False,0.15065387499635108,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+86,group:religion#t0,The document is about religion.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1151,1.0,False,1.0,False,8.542003342881799e-06,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+87,union:atheism|computer graphics#u1,This text discusses either atheism or computer graphics.,rewrite,7229,5551,117,1561,128,1.0,1.0,1.0,800,1.0,False,0.9075,False,0.1690104169829283,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+88,union:motorcycles|political debate#u1,This text discusses either motorcycles or political debate.,rewrite,7587,6751,72,764,130,1.0,1.0,1.0,800,1.0,False,0.95375,False,0.224830833991291,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+89,group:motor vehicles#t0,The document is about motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,9.29197994992137e-06,1.0,,semreuse,20ng-sub7951,7951,0.8,0
+90,union:PC hardware|political debate#u0,The document is about PC hardware or about political debate.,rewrite,3866,3200,302,364,132,1.0,1.0,1.0,800,0.9216589861751152,False,1.0,False,0.2552728749869857,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+91,leaf:Macintosh hardware#t0,The document is about Macintosh hardware.,rewrite,2858,2000,858,0,134,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,0.37049587501678616,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+92,leaf:items for sale#t1,This text discusses items for sale.,rewrite,1268,400,868,0,136,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.32929408398922533,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+93,leaf:the Microsoft Windows operating system#t0,The document is about the Microsoft Windows operating system.,rewrite,2517,1600,917,0,138,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,0.25646887498442084,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+94,leaf:the Microsoft Windows operating system#t1,This text discusses the Microsoft Windows operating system.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,1.0,False,1.0,False,1.170899486169219e-05,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+95,group:computers#t3,This article covers the topic of computers.,rewrite,2514,2400,114,0,140,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,0.37516604200936854,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+96,leaf:PC hardware#t1,This text discusses PC hardware.,rewrite,3038,2400,638,0,142,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.25192216600407846,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+97,leaf:cars#t2,The passage is related to cars.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,1.1333992006257176e-05,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+98,union:Christianity|items for sale#u0,The document is about Christianity or about items for sale.,rewrite,7587,6400,72,1115,144,1.0,1.0,1.0,800,1.0,False,0.95375,False,0.26960237498860806,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+99,group:politics#t2,The passage is related to politics.,rewrite,1458,1200,258,0,146,1.0,1.0,1.0,1200,0.9202453987730062,False,1.0,False,0.3597354160156101,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+100,leaf:gun control#t2,The passage is related to gun control.,rewrite,1541,800,741,0,148,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.403540500003146,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+101,union:Middle East affairs|items for sale#u1,This text discusses either Middle East affairs or items for sale.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,1.0,False,0.95375,False,9.415991371497512e-06,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+102,leaf:computer graphics#t3,This article covers the topic of computer graphics.,rewrite,2517,1600,917,0,150,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,0.2618570839986205,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+103,leaf:religious debate#t3,This article covers the topic of religious debate.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,351,0.9261213720316622,False,1.0,False,1.4500023098662496e-05,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+104,leaf:atheism#t3,This article covers the topic of atheism.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,6.292015314102173e-06,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+105,group:religion#t1,This text discusses religion.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1151,0.9200639488409272,False,1.0,False,5.583016900345683e-06,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+106,union:hockey|items for sale#u0,The document is about hockey or about items for sale.,rewrite,7587,6751,72,764,152,1.0,1.0,1.0,800,1.0,False,0.95375,False,0.31068416600464843,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+107,group:motor vehicles#t0,The document is about motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,8.792005246505141e-06,1.0,,semreuse,20ng-sub7951,7951,0.8,0
+108,union:space exploration|the Microsoft Windows operating system#u1,This text discusses either space exploration or the Microsoft Windows operating system.,rewrite,7951,5951,29,1971,154,1.0,1.0,1.0,800,1.0,False,1.0,False,0.31766324999625795,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+109,group:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,0.9205983889528193,False,1.0,False,1.0334013495594263e-05,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+110,group:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,5.999987479299307e-06,1.0,,semreuse,20ng-sub7951,7951,0.8,0
+111,leaf:atheism#t3,This article covers the topic of atheism.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,5.832989700138569e-06,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+112,leaf:Middle East affairs#t2,The passage is related to Middle East affairs.,rewrite,3092,2351,741,0,156,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,0.19023154099704698,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+113,union:Macintosh hardware|motorcycles#u1,This text discusses either Macintosh hardware or motorcycles.,rewrite,1645,1200,445,0,158,1.0,1.0,1.0,800,0.9214975845410628,False,0.95375,False,0.46967766698799096,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+114,union:political debate|religious debate#u0,The document is about political debate or about religious debate.,rewrite,7590,5600,117,1873,160,1.0,1.0,1.0,751,1.0,False,0.9507323568575233,False,0.47924266700283624,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+115,leaf:gun control#t3,This article covers the topic of gun control.,rewrite,1541,800,741,0,162,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.4595152089896146,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+116,leaf:medicine#t2,The passage is related to medicine.,rewrite,2176,1200,976,0,164,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,0.34961699999985285,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+117,group:politics#t1,This text discusses politics.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1200,,,,,1.320798764936626e-05,1.0,,semreuse,20ng-sub7951,7951,0.8,0
+118,group:science#t2,The passage is related to science.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1600,0.9204328453214513,False,0.90375,False,7.499998901039362e-06,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+119,group:religion#t0,The document is about religion.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1151,1.0,False,1.0,False,5.5000127758830786e-06,1.0,False,semreuse,20ng-sub7951,7951,0.8,0
+0,group:motor vehicles#t0,The document is about motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00026649999199435115,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+1,group:religion#t3,This article covers the topic of religion.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1151,,,,,0.000631624978268519,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+2,leaf:religious debate#t0,The document is about religious debate.,rewrite,6800,6800,0,0,0,0.3049522154648132,1.0,0.4673768308921438,351,,,,,0.00029845800600014627,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+3,group:politics#t1,This text discusses politics.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1200,,,,,0.00041883400990627706,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+4,union:gun control|medicine#u0,The document is about gun control or about medicine.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0004896250029560179,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+5,group:motor vehicles#t0,The document is about motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,1.4958990504965186e-05,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+6,group:politics#t1,This text discusses politics.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1200,,,,,5.499983672052622e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+7,group:religion#t0,The document is about religion.,rewrite,1151,1151,0,0,0,1.0,1.0,1.0,1151,,,,,0.0006550420075654984,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+8,leaf:political debate#t1,This text discusses political debate.,rewrite,6751,6751,0,0,0,0.3333333333333333,1.0,0.5,400,,,,,0.00032062502577900887,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+9,group:sports#t1,This text discusses sports.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0003472499956842512,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+10,group:science#t1,This text discusses science.,cold,7951,7951,0,0,0,1.0,1.0,1.0,1600,,,,,0.0005049580067861825,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+11,leaf:hockey#t1,This text discusses hockey.,rewrite,7151,7151,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,0.00029820899362675846,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+12,leaf:religious debate#t2,The passage is related to religious debate.,rewrite,0,0,0,0,0,0.3049522154648132,1.0,0.4673768308921438,351,,,,,0.00023354199947789311,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+13,leaf:political debate#t0,The document is about political debate.,rewrite,0,0,0,0,0,0.3333333333333333,1.0,0.5,400,,,,,0.00021545900381170213,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+14,leaf:items for sale#t3,This article covers the topic of items for sale.,rewrite,800,800,0,0,0,1.0,0.0,0.0,400,,,,,0.0002948750043287873,0.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+15,leaf:Christianity#t3,This article covers the topic of Christianity.,rewrite,6800,6800,0,0,0,0.3475238922675934,1.0,0.5157962604771116,400,,,,,0.0003145829832646996,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+16,union:electronics|hockey#u0,The document is about electronics or about hockey.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.000536833016667515,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+17,group:science#t2,The passage is related to science.,rewrite,0,0,0,0,0,1.0,1.0,1.0,1600,,,,,0.0002665839856490493,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+18,group:computers#t1,This text discusses computers.,cold,7951,7951,0,0,0,1.0,1.0,1.0,2000,,,,,0.0007109580037649721,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+19,union:Macintosh hardware|items for sale#u1,This text discusses either Macintosh hardware or items for sale.,rewrite,5951,5951,0,0,0,0.3333333333333333,1.0,0.5,800,,,,,0.0004447920073289424,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+20,group:motor vehicles#t3,This article covers the topic of motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.00040737498784437776,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+21,group:sports#t3,This article covers the topic of sports.,rewrite,0,0,0,0,0,1.0,1.0,1.0,800,,,,,0.000260959001025185,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+22,group:motor vehicles#t3,This article covers the topic of motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,6.665999535471201e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+23,group:motor vehicles#t3,This article covers the topic of motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,3.749999450519681e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+24,union:PC hardware|cryptography#u0,The document is about PC hardware or about cryptography.,rewrite,5951,5951,0,0,0,0.3333333333333333,1.0,0.5,800,,,,,0.00043975000153295696,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+25,leaf:political debate#t1,This text discusses political debate.,exact-hit,0,0,0,0,0,0.3333333333333333,1.0,0.5,400,,,,,5.374982720240951e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+26,union:Macintosh hardware|space exploration#u1,This text discusses either Macintosh hardware or space exploration.,rewrite,5951,5951,0,0,0,0.3333333333333333,1.0,0.5,800,,,,,0.00041141698602586985,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+27,leaf:baseball#t2,The passage is related to baseball.,rewrite,7151,7151,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,0.0003762090054806322,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+28,group:computers#t0,The document is about computers.,rewrite,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,0.00035975000355392694,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+29,leaf:baseball#t3,This article covers the topic of baseball.,rewrite,7151,7151,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,0.000371000001905486,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+30,leaf:electronics#t0,The document is about electronics.,rewrite,0,0,0,0,0,1.0,0.0,0.0,400,,,,,0.00031829101499170065,0.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+31,union:PC hardware|items for sale#u1,This text discusses either PC hardware or items for sale.,rewrite,5951,5951,0,0,0,0.3333333333333333,1.0,0.5,800,,,,,0.0004560000088531524,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+32,union:computer graphics|motorcycles#u0,The document is about computer graphics or about motorcycles.,rewrite,7151,7151,0,0,0,0.6666666666666666,1.0,0.8,800,,,,,0.0004547499993350357,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+33,union:Macintosh hardware|electronics#u0,The document is about Macintosh hardware or about electronics.,rewrite,5951,5951,0,0,0,0.3333333333333333,1.0,0.5,800,,,,,0.0004539170186035335,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+34,group:computers#t1,This text discusses computers.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,5.250010872259736e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+35,group:religion#t1,This text discusses religion.,rewrite,0,0,0,0,0,1.0,1.0,1.0,1151,,,,,0.0003432090161368251,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+36,group:computers#t0,The document is about computers.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,6.249989382922649e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+37,union:Middle East affairs|items for sale#u1,This text discusses either Middle East affairs or items for sale.,rewrite,5600,5600,0,0,0,0.2908033442384587,1.0,0.4505773021684032,800,,,,,0.0005127910117153078,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+38,leaf:the Microsoft Windows operating system#t1,This text discusses the Microsoft Windows operating system.,rewrite,5951,5951,0,0,0,0.2,1.0,0.33333333333333337,400,,,,,0.00038949999725446105,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+39,group:sports#t2,The passage is related to sports.,rewrite,0,0,0,0,0,1.0,1.0,1.0,800,,,,,0.0003467499918770045,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+40,leaf:motorcycles#t0,The document is about motorcycles.,rewrite,7151,7151,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,0.000619333004578948,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+41,group:motor vehicles#t0,The document is about motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,7.0829992182552814e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+42,union:Christianity|political debate#u1,This text discusses either Christianity or political debate.,rewrite,5600,5600,0,0,0,0.340280731603573,1.0,0.5077753094255792,800,,,,,0.0006021249864716083,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+43,group:motor vehicles#t2,The passage is related to motor vehicles.,rewrite,0,0,0,0,0,1.0,1.0,1.0,800,,,,,0.00041720797889865935,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+44,leaf:motorcycles#t2,The passage is related to motorcycles.,rewrite,0,0,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,0.00035924999974668026,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+45,group:motor vehicles#t1,This text discusses motor vehicles.,rewrite,0,0,0,0,0,1.0,1.0,1.0,800,,,,,0.00036704199737869203,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+46,group:religion#t0,The document is about religion.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1151,,,,,6.040994776412845e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+47,group:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,4.249974153935909e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+48,union:Macintosh hardware|cars#u1,This text discusses either Macintosh hardware or cars.,rewrite,7151,7151,0,0,0,0.6666666666666666,1.0,0.8,800,,,,,0.0004898330080322921,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+49,leaf:computer graphics#t1,This text discusses computer graphics.,rewrite,5951,5951,0,0,0,0.2,1.0,0.33333333333333337,400,,,,,0.00042729199049063027,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+50,union:atheism|hockey#u1,This text discusses either atheism or hockey.,rewrite,7151,7151,0,0,0,0.6666666666666666,1.0,0.8,800,,,,,0.0005745840026065707,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+51,leaf:items for sale#t0,The document is about items for sale.,rewrite,400,400,0,0,0,1.0,1.0,1.0,400,,,,,0.00044008399709127843,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+52,leaf:baseball#t0,The document is about baseball.,rewrite,0,0,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,0.0003555000002961606,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+53,union:hockey|motorcycles#u0,The document is about hockey or about motorcycles.,rewrite,7151,7151,0,0,0,0.6666666666666666,1.0,0.8,800,,,,,0.0005317920004017651,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+54,group:politics#t0,The document is about politics.,rewrite,0,0,0,0,0,1.0,1.0,1.0,1200,,,,,0.0003619590133894235,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+55,group:motor vehicles#t1,This text discusses motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,5.333014996722341e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+56,leaf:atheism#t3,This article covers the topic of atheism.,rewrite,1200,1200,0,0,0,1.0,1.0,1.0,400,,,,,0.00042566697811707854,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+57,union:atheism|gun control#u1,This text discusses either atheism or gun control.,rewrite,7551,7551,0,0,0,1.0,1.0,1.0,800,,,,,0.0005154999962542206,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+58,leaf:cars#t2,The passage is related to cars.,rewrite,0,0,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,0.00040204200195148587,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+59,group:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,5.624984623864293e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+60,group:motor vehicles#t2,The passage is related to motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,3.4590193536132574e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+61,group:computers#t0,The document is about computers.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,,,,,3.583991201594472e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+62,union:medicine|the Microsoft Windows operating system#u0,The document is about medicine or about the Microsoft Windows operating system.,rewrite,4351,4351,0,0,0,0.2222222222222222,1.0,0.3636363636363636,800,,,,,0.0005511660128831863,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+63,union:baseball|items for sale#u0,The document is about baseball or about items for sale.,rewrite,6751,6751,0,0,0,0.6666666666666666,1.0,0.8,800,,,,,0.0005612079985439777,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+64,union:atheism|medicine#u1,This text discusses either atheism or medicine.,rewrite,7551,7551,0,0,0,1.0,1.0,1.0,800,,,,,0.0005283339996822178,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+65,union:hockey|the X Window System#u1,This text discusses either hockey or the X Window System.,rewrite,4751,4751,0,0,0,0.25,1.0,0.4,800,,,,,0.0006031669909134507,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+66,leaf:cryptography#t0,The document is about cryptography.,rewrite,2400,2400,0,0,0,1.0,1.0,1.0,400,,,,,0.00047041699872352183,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+67,leaf:motorcycles#t3,This article covers the topic of motorcycles.,rewrite,400,400,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,0.0004993749898858368,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+68,leaf:hockey#t1,This text discusses hockey.,exact-hit,0,0,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,5.457986844703555e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+69,leaf:baseball#t2,The passage is related to baseball.,exact-hit,0,0,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,3.583991201594472e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+70,group:motor vehicles#t0,The document is about motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,3.1249946914613247e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+71,leaf:the Microsoft Windows operating system#t2,The passage is related to the Microsoft Windows operating system.,rewrite,0,0,0,0,0,0.2,1.0,0.33333333333333337,400,,,,,0.0006714999908581376,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+72,leaf:motorcycles#t2,The passage is related to motorcycles.,exact-hit,0,0,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,7.750000804662704e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+73,group:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,4.458008334040642e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+74,union:Macintosh hardware|electronics#u1,This text discusses either Macintosh hardware or electronics.,rewrite,400,400,0,0,0,0.3333333333333333,1.0,0.5,800,,,,,0.0006947910005692393,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+75,leaf:Christianity#t3,This article covers the topic of Christianity.,exact-hit,0,0,0,0,0,0.3475238922675934,1.0,0.5157962604771116,400,,,,,6.333983037620783e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+76,group:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,3.790977643802762e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+77,leaf:religious debate#t3,This article covers the topic of religious debate.,rewrite,1200,1200,0,0,0,0.3049522154648132,1.0,0.4673768308921438,351,,,,,0.0005694999999832362,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+78,union:atheism|baseball#u1,This text discusses either atheism or baseball.,rewrite,6751,6751,0,0,0,0.6666666666666666,1.0,0.8,800,,,,,0.0006388750043697655,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+79,leaf:items for sale#t2,The passage is related to items for sale.,rewrite,400,400,0,0,0,1.0,1.0,1.0,400,,,,,0.000576916994759813,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+80,union:Macintosh hardware|religious debate#u0,The document is about Macintosh hardware or about religious debate.,rewrite,4400,4400,0,0,0,0.21148972120529427,1.0,0.3491399349139935,751,,,,,0.0006135000148788095,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+81,group:motor vehicles#t1,This text discusses motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,6.499991286545992e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+82,leaf:cars#t0,The document is about cars.,rewrite,0,0,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,0.00048079199041239917,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+83,leaf:PC hardware#t0,The document is about PC hardware.,rewrite,0,0,0,0,0,0.2,1.0,0.33333333333333337,400,,,,,0.0004977500066161156,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+84,group:religion#t2,The passage is related to religion.,rewrite,0,0,0,0,0,1.0,1.0,1.0,1151,,,,,0.000526333024026826,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+85,union:Christianity|hockey#u0,The document is about Christianity or about hockey.,rewrite,3551,3551,0,0,0,0.6666666666666666,1.0,0.8,800,,,,,0.0006983329949434847,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+86,group:religion#t0,The document is about religion.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1151,,,,,5.1670067477971315e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+87,union:atheism|computer graphics#u1,This text discusses either atheism or computer graphics.,rewrite,5551,5551,0,0,0,0.3333333333333333,1.0,0.5,800,,,,,0.0006221250223461539,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+88,union:motorcycles|political debate#u1,This text discusses either motorcycles or political debate.,rewrite,5951,5951,0,0,0,0.4,1.0,0.5714285714285715,800,,,,,0.0008959589758887887,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+89,group:motor vehicles#t0,The document is about motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,1.1833006283268332e-05,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+90,union:PC hardware|political debate#u0,The document is about PC hardware or about political debate.,rewrite,1200,1200,0,0,0,0.3333333333333333,1.0,0.5,800,,,,,0.0008910420001484454,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+91,leaf:Macintosh hardware#t0,The document is about Macintosh hardware.,rewrite,1600,1600,0,0,0,1.0,1.0,1.0,400,,,,,0.000682708021486178,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+92,leaf:items for sale#t1,This text discusses items for sale.,rewrite,400,400,0,0,0,1.0,1.0,1.0,400,,,,,0.0006527920195367187,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+93,leaf:the Microsoft Windows operating system#t0,The document is about the Microsoft Windows operating system.,rewrite,0,0,0,0,0,0.2,1.0,0.33333333333333337,400,,,,,0.0005003749975003302,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+94,leaf:the Microsoft Windows operating system#t1,This text discusses the Microsoft Windows operating system.,exact-hit,0,0,0,0,0,0.2,1.0,0.33333333333333337,400,,,,,5.999987479299307e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+95,group:computers#t3,This article covers the topic of computers.,rewrite,1600,1600,0,0,0,1.0,1.0,1.0,2000,,,,,0.000962791993515566,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+96,leaf:PC hardware#t1,This text discusses PC hardware.,rewrite,0,0,0,0,0,0.2,1.0,0.33333333333333337,400,,,,,0.0005321250064298511,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+97,leaf:cars#t2,The passage is related to cars.,exact-hit,0,0,0,0,0,0.5,1.0,0.6666666666666666,400,,,,,5.875015631318092e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+98,union:Christianity|items for sale#u0,The document is about Christianity or about items for sale.,rewrite,6400,6400,0,0,0,0.5157962604771116,1.0,0.680561463207146,800,,,,,0.0006725830025970936,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+99,group:politics#t2,The passage is related to politics.,rewrite,800,800,0,0,0,1.0,1.0,1.0,1200,,,,,0.0008033750054892153,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+100,leaf:gun control#t2,The passage is related to gun control.,rewrite,800,800,0,0,0,1.0,1.0,1.0,400,,,,,0.0005655830027535558,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+101,union:Middle East affairs|items for sale#u1,This text discusses either Middle East affairs or items for sale.,exact-hit,0,0,0,0,0,0.2908033442384587,1.0,0.4505773021684032,800,,,,,5.166017217561603e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+102,leaf:computer graphics#t3,This article covers the topic of computer graphics.,rewrite,0,0,0,0,0,0.2,1.0,0.33333333333333337,400,,,,,0.0005200839950703084,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+103,leaf:religious debate#t3,This article covers the topic of religious debate.,exact-hit,0,0,0,0,0,0.3049522154648132,1.0,0.4673768308921438,351,,,,,5.6670105550438166e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+104,leaf:atheism#t3,This article covers the topic of atheism.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,,,,,3.4580007195472717e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+105,group:religion#t1,This text discusses religion.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1151,,,,,3.0410010367631912e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+106,union:hockey|items for sale#u0,The document is about hockey or about items for sale.,rewrite,6751,6751,0,0,0,0.6666666666666666,1.0,0.8,800,,,,,0.000719542003935203,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+107,group:motor vehicles#t0,The document is about motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,5.125009920448065e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+108,union:space exploration|the Microsoft Windows operating system#u1,This text discusses either space exploration or the Microsoft Windows operating system.,rewrite,5951,5951,0,0,0,0.3333333333333333,1.0,0.5,800,,,,,0.0006743749836459756,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+109,group:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,4.792003892362118e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+110,group:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,3.0840164981782436e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+111,leaf:atheism#t3,This article covers the topic of atheism.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,,,,,2.9999937396496534e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+112,leaf:Middle East affairs#t2,The passage is related to Middle East affairs.,rewrite,400,400,0,0,0,0.1701403658017865,1.0,0.2908033442384587,400,,,,,0.0006250409933272749,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+113,union:Macintosh hardware|motorcycles#u1,This text discusses either Macintosh hardware or motorcycles.,rewrite,2800,2800,0,0,0,1.0,1.0,1.0,800,,,,,0.0007836250006221235,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+114,union:political debate|religious debate#u0,The document is about political debate or about religious debate.,rewrite,5600,5600,0,0,0,0.3194385367928541,1.0,0.4842037395228885,751,,,,,0.000825291994260624,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+115,leaf:gun control#t3,This article covers the topic of gun control.,rewrite,800,800,0,0,0,1.0,1.0,1.0,400,,,,,0.0007200840045697987,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+116,leaf:medicine#t2,The passage is related to medicine.,rewrite,1200,1200,0,0,0,1.0,1.0,1.0,400,,,,,0.0010168339940719306,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+117,group:politics#t1,This text discusses politics.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1200,,,,,9.749986929818988e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+118,group:science#t2,The passage is related to science.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1600,,,,,6.624992238357663e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+119,group:religion#t0,The document is about religion.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1151,,,,,5.250010872259736e-06,1.0,,semreuse-noaudit,20ng-sub7951,7951,0.8,0
+0,group:motor vehicles#t0,The document is about motor vehicles.,cold,7951,7951,0,0,0,1.0,1.0,1.0,800,,,,,0.0002747919934336096,1.0,,semreuse-gt,20ng-sub7951,7951,0.8,0
+1,group:religion#t3,This article covers the topic of religion.,rewrite,7178,7151,27,0,0,1.0,1.0,1.0,1151,0.9200639488409272,False,1.0,False,0.0022301659919321537,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+2,leaf:religious debate#t0,The document is about religious debate.,rewrite,1954,1151,803,0,0,1.0,1.0,1.0,351,0.9236842105263158,False,1.0,False,0.0026910839951597154,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+3,group:politics#t1,This text discusses politics.,rewrite,6078,6000,78,0,0,1.0,1.0,1.0,1200,0.9202453987730062,False,1.0,False,0.0022701669950038195,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+4,union:gun control|medicine#u0,The document is about gun control or about medicine.,rewrite,6119,6000,119,0,0,1.0,1.0,1.0,800,0.9216589861751152,False,1.0,False,0.002084500010823831,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+5,group:motor vehicles#t0,The document is about motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,1.0457995813339949e-05,1.0,,semreuse-gt,20ng-sub7951,7951,0.8,0
+6,group:politics#t1,This text discusses politics.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1200,0.9202453987730062,False,1.0,False,4.5000051613897085e-06,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+7,group:religion#t0,The document is about religion.,rewrite,404,0,404,0,0,1.0,1.0,1.0,1151,0.9204946996466431,False,0.9052997393570807,False,0.0036538339918479323,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+8,leaf:political debate#t1,This text discusses political debate.,rewrite,1622,800,822,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.002193208987591788,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+9,group:sports#t1,This text discusses sports.,rewrite,4637,4400,237,0,0,1.0,1.0,1.0,800,0.9216589861751152,False,1.0,False,0.002257874992210418,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+10,group:science#t1,This text discusses science.,rewrite,4131,4000,131,0,0,1.0,1.0,1.0,1600,0.9200690051753881,False,1.0,False,0.0025664999848231673,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+11,leaf:hockey#t1,This text discusses hockey.,rewrite,1541,800,741,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.002341292012715712,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+12,leaf:religious debate#t2,The passage is related to religious debate.,rewrite,1317,0,1317,0,0,1.0,1.0,1.0,351,0.9273255813953488,False,0.9088319088319088,False,0.002846165996743366,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+13,leaf:political debate#t0,The document is about political debate.,rewrite,1060,0,1060,0,0,1.0,1.0,1.0,400,0.9236641221374046,False,0.9075,False,0.002805208001518622,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+14,leaf:items for sale#t3,This article covers the topic of items for sale.,rewrite,4219,3600,619,0,0,1.0,1.0,1.0,400,0.9259259259259259,False,1.0,False,0.0022619170194957405,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+15,leaf:Christianity#t3,This article covers the topic of Christianity.,rewrite,1622,800,822,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.002241457987111062,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+16,union:electronics|hockey#u0,The document is about electronics or about hockey.,rewrite,3970,3600,370,0,0,1.0,1.0,1.0,800,0.9226118500604595,False,0.95375,False,0.002899874991271645,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+17,group:science#t2,The passage is related to science.,rewrite,251,0,251,0,0,1.0,1.0,1.0,1600,0.9204328453214513,False,0.90375,False,0.003122541995253414,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+18,group:computers#t1,This text discusses computers.,rewrite,4499,4400,99,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,0.002630750008393079,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+19,union:Macintosh hardware|items for sale#u1,This text discusses either Macintosh hardware or items for sale.,rewrite,3604,3200,404,0,0,1.0,1.0,1.0,800,0.9226118500604595,False,0.95375,False,0.0028697079978883266,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+20,group:motor vehicles#t3,This article covers the topic of motor vehicles.,rewrite,521,0,521,0,0,1.0,1.0,1.0,800,0.9211195928753181,False,0.905,False,0.0028915000148117542,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+21,group:sports#t3,This article covers the topic of sports.,rewrite,568,0,568,0,0,1.0,1.0,1.0,800,0.9213197969543148,False,0.9075,False,0.003405333001865074,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+22,group:motor vehicles#t3,This article covers the topic of motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,0.9211195928753181,False,0.905,False,9.916984708979726e-06,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+23,group:motor vehicles#t3,This article covers the topic of motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,0.9211195928753181,False,0.905,False,3.4589902497828007e-06,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+24,union:PC hardware|cryptography#u0,The document is about PC hardware or about cryptography.,rewrite,4280,4000,280,0,0,1.0,1.0,1.0,800,0.9216589861751152,False,1.0,False,0.002357499994104728,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+25,leaf:political debate#t1,This text discusses political debate.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,9.333976777270436e-06,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+26,union:Macintosh hardware|space exploration#u1,This text discusses either Macintosh hardware or space exploration.,rewrite,4651,4400,251,0,0,1.0,1.0,1.0,800,0.9216589861751152,False,1.0,False,0.0022757909900974482,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+27,leaf:baseball#t2,The passage is related to baseball.,rewrite,1268,400,868,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.0023714999842923135,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+28,group:computers#t0,The document is about computers.,rewrite,197,0,197,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,0.0032094170164782554,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+29,leaf:baseball#t3,This article covers the topic of baseball.,rewrite,1060,0,1060,0,0,1.0,1.0,1.0,400,0.9236641221374046,False,0.9075,False,0.0027431250200606883,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+30,leaf:electronics#t0,The document is about electronics.,rewrite,1268,400,868,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.002396500000031665,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+31,union:PC hardware|items for sale#u1,This text discusses either PC hardware or items for sale.,rewrite,4336,4000,336,0,0,1.0,1.0,1.0,800,0.9226118500604595,False,0.95375,False,0.002849750017048791,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+32,union:computer graphics|motorcycles#u0,The document is about computer graphics or about motorcycles.,rewrite,4280,4000,280,0,0,1.0,1.0,1.0,800,0.9216589861751152,False,1.0,False,0.002356166980462149,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+33,union:Macintosh hardware|electronics#u0,The document is about Macintosh hardware or about electronics.,rewrite,3970,3600,370,0,0,1.0,1.0,1.0,800,0.9226118500604595,False,0.95375,False,0.0028521250060293823,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+34,group:computers#t1,This text discusses computers.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.9199632014719411,False,1.0,False,1.0374991688877344e-05,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+35,group:religion#t1,This text discusses religion.,rewrite,404,0,404,0,0,1.0,1.0,1.0,1151,0.9204946996466431,False,0.9052997393570807,False,0.003683249989990145,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+36,group:computers#t0,The document is about computers.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,8.957984391599894e-06,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+37,union:Middle East affairs|items for sale#u1,This text discusses either Middle East affairs or items for sale.,rewrite,3970,3600,370,0,0,1.0,1.0,1.0,800,0.9226118500604595,False,0.95375,False,0.0028577499906532466,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+38,leaf:the Microsoft Windows operating system#t1,This text discusses the Microsoft Windows operating system.,rewrite,2030,1200,830,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.002447165985358879,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+39,group:sports#t2,The passage is related to sports.,rewrite,568,0,568,0,0,1.0,1.0,1.0,800,0.9213197969543148,False,0.9075,False,0.0035532079928088933,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+40,leaf:motorcycles#t0,The document is about motorcycles.,rewrite,1268,400,868,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.002533582999603823,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+41,group:motor vehicles#t0,The document is about motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,1.0208983439952135e-05,1.0,,semreuse-gt,20ng-sub7951,7951,0.8,0
+42,union:Christianity|political debate#u1,This text discusses either Christianity or political debate.,rewrite,4363,4000,363,0,0,1.0,1.0,1.0,800,0.9224904701397713,False,0.9075,False,0.0035355830041226,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+43,group:motor vehicles#t2,The passage is related to motor vehicles.,rewrite,521,0,521,0,0,1.0,1.0,1.0,800,0.9211195928753181,False,0.905,False,0.003054500004509464,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+44,leaf:motorcycles#t2,The passage is related to motorcycles.,rewrite,1154,0,1154,0,0,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,0.0029537079972214997,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+45,group:motor vehicles#t1,This text discusses motor vehicles.,rewrite,521,0,521,0,0,1.0,1.0,1.0,800,0.9211195928753181,False,0.905,False,0.0030343339894898236,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+46,group:religion#t0,The document is about religion.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1151,0.9204946996466431,False,0.9052997393570807,False,1.1374999303370714e-05,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+47,group:sports#t3,This article covers the topic of sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,0.9213197969543148,False,0.9075,False,5.332985892891884e-06,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+48,union:Macintosh hardware|cars#u1,This text discusses either Macintosh hardware or cars.,rewrite,5017,4800,217,0,0,1.0,1.0,1.0,800,0.9216589861751152,False,1.0,False,0.002333417010959238,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+49,leaf:computer graphics#t1,This text discusses computer graphics.,rewrite,1268,400,868,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.0025069589901249856,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+50,union:atheism|hockey#u1,This text discusses either atheism or hockey.,rewrite,4695,4400,295,0,0,1.0,1.0,1.0,800,0.9226118500604595,False,0.95375,False,0.0029268749931361526,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+51,leaf:items for sale#t0,The document is about items for sale.,rewrite,1154,0,1154,0,0,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,0.0029586250020656735,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+52,leaf:baseball#t0,The document is about baseball.,rewrite,1154,0,1154,0,0,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,0.0029252909880597144,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+53,union:hockey|motorcycles#u0,The document is about hockey or about motorcycles.,rewrite,4357,4000,357,0,0,1.0,1.0,1.0,800,0.9224904701397713,False,0.9075,False,0.003590709005948156,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+54,group:politics#t0,The document is about politics.,rewrite,389,0,389,0,0,1.0,1.0,1.0,1200,0.9203389830508475,False,0.905,False,0.0038787499943282455,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+55,group:motor vehicles#t1,This text discusses motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,0.9211195928753181,False,0.905,False,1.3082986697554588e-05,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+56,leaf:atheism#t3,This article covers the topic of atheism.,rewrite,1268,400,868,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.002600374980829656,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+57,union:atheism|gun control#u1,This text discusses either atheism or gun control.,rewrite,4342,4000,342,0,0,1.0,1.0,1.0,800,0.9226118500604595,False,0.95375,False,0.003056249988730997,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+58,leaf:cars#t2,The passage is related to cars.,rewrite,1268,400,868,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.002545333991292864,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+59,group:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,0.9213197969543148,False,0.9075,False,9.000010322779417e-06,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+60,group:motor vehicles#t2,The passage is related to motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,0.9211195928753181,False,0.905,False,4.290981451049447e-06,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+61,group:computers#t0,The document is about computers.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,2000,0.920061099796334,False,0.9035,False,4.0409795474261045e-06,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+62,union:medicine|the Microsoft Windows operating system#u0,The document is about medicine or about the Microsoft Windows operating system.,rewrite,4342,4000,342,0,0,1.0,1.0,1.0,800,0.9226118500604595,False,0.95375,False,0.0029895830084569752,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+63,union:baseball|items for sale#u0,The document is about baseball or about items for sale.,rewrite,3999,3600,399,0,0,1.0,1.0,1.0,800,0.9224904701397713,False,0.9075,False,0.026788624993059784,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+64,union:atheism|medicine#u1,This text discusses either atheism or medicine.,rewrite,3976,3600,376,0,0,1.0,1.0,1.0,800,0.9226118500604595,False,0.95375,False,0.0034047499939333647,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+65,union:hockey|the X Window System#u1,This text discusses either hockey or the X Window System.,rewrite,4695,4400,295,0,0,1.0,1.0,1.0,800,0.9226118500604595,False,0.95375,False,0.0028833750111516565,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+66,leaf:cryptography#t0,The document is about cryptography.,rewrite,1268,400,868,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.0032552079937886447,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+67,leaf:motorcycles#t3,This article covers the topic of motorcycles.,rewrite,1154,0,1154,0,0,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,0.0031400410225614905,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+68,leaf:hockey#t1,This text discusses hockey.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,1.2208009138703346e-05,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+69,leaf:baseball#t2,The passage is related to baseball.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,4.792003892362118e-06,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+70,group:motor vehicles#t0,The document is about motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,4.208006430417299e-06,1.0,,semreuse-gt,20ng-sub7951,7951,0.8,0
+71,leaf:the Microsoft Windows operating system#t2,The passage is related to the Microsoft Windows operating system.,rewrite,1154,0,1154,0,0,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,0.0028701249975711107,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+72,leaf:motorcycles#t2,The passage is related to motorcycles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,1.0374991688877344e-05,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+73,group:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,0.9213197969543148,False,0.9075,False,4.417001036927104e-06,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+74,union:Macintosh hardware|electronics#u1,This text discusses either Macintosh hardware or electronics.,rewrite,521,0,521,0,0,1.0,1.0,1.0,800,0.9211195928753181,False,0.905,False,0.002992166002513841,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+75,leaf:Christianity#t3,This article covers the topic of Christianity.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,1.1458003427833319e-05,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+76,group:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,0.9213197969543148,False,0.9075,False,4.125002305954695e-06,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+77,leaf:religious debate#t3,This article covers the topic of religious debate.,rewrite,1209,0,1209,0,0,1.0,1.0,1.0,351,0.9246376811594202,False,0.9088319088319088,False,0.0027867089956998825,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+78,union:atheism|baseball#u1,This text discusses either atheism or baseball.,rewrite,3999,3600,399,0,0,1.0,1.0,1.0,800,0.9224904701397713,False,0.9075,False,0.0033237090101465583,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+79,leaf:items for sale#t2,The passage is related to items for sale.,rewrite,1154,0,1154,0,0,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,0.0027291669975966215,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+80,union:Macintosh hardware|religious debate#u0,The document is about Macintosh hardware or about religious debate.,rewrite,4716,4400,316,0,0,1.0,1.0,1.0,751,0.9229781771501926,False,0.9573901464713716,False,0.0027182920021004975,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+81,group:motor vehicles#t1,This text discusses motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,0.9211195928753181,False,0.905,False,1.262497971765697e-05,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+82,leaf:cars#t0,The document is about cars.,rewrite,1154,0,1154,0,0,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,0.0028983750089537352,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+83,leaf:PC hardware#t0,The document is about PC hardware.,rewrite,1268,400,868,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.002383999992161989,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+84,group:religion#t2,The passage is related to religion.,rewrite,404,0,404,0,0,1.0,1.0,1.0,1151,0.9204946996466431,False,0.9052997393570807,False,0.0035075419873464853,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+85,union:Christianity|hockey#u0,The document is about Christianity or about hockey.,rewrite,3635,3200,435,0,0,1.0,1.0,1.0,800,0.9224904701397713,False,0.9075,False,0.003282332996604964,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+86,group:religion#t0,The document is about religion.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1151,0.9204946996466431,False,0.9052997393570807,False,7.791997632011771e-06,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+87,union:atheism|computer graphics#u1,This text discusses either atheism or computer graphics.,rewrite,4363,4000,363,0,0,1.0,1.0,1.0,800,0.9224904701397713,False,0.9075,False,0.0031029160018078983,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+88,union:motorcycles|political debate#u1,This text discusses either motorcycles or political debate.,rewrite,4363,4000,363,0,0,1.0,1.0,1.0,800,0.9224904701397713,False,0.9075,False,0.003124499984551221,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+89,group:motor vehicles#t0,The document is about motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,7.499998901039362e-06,1.0,,semreuse-gt,20ng-sub7951,7951,0.8,0
+90,union:PC hardware|political debate#u0,The document is about PC hardware or about political debate.,rewrite,4722,4400,322,0,0,1.0,1.0,1.0,800,0.9224904701397713,False,0.9075,False,0.003103915980318561,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+91,leaf:Macintosh hardware#t0,The document is about Macintosh hardware.,rewrite,1268,400,868,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.0022267499880399555,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+92,leaf:items for sale#t1,This text discusses items for sale.,rewrite,1154,0,1154,0,0,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,0.002588958013802767,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+93,leaf:the Microsoft Windows operating system#t0,The document is about the Microsoft Windows operating system.,rewrite,1060,0,1060,0,0,1.0,1.0,1.0,400,0.9236641221374046,False,0.9075,False,0.002585583977634087,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+94,leaf:the Microsoft Windows operating system#t1,This text discusses the Microsoft Windows operating system.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,5.707988748326898e-06,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+95,group:computers#t3,This article covers the topic of computers.,rewrite,414,0,414,0,0,1.0,1.0,1.0,2000,0.9196563921172309,False,0.91,False,0.005728332995204255,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+96,leaf:PC hardware#t1,This text discusses PC hardware.,rewrite,1154,0,1154,0,0,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,0.0029157080280128866,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+97,leaf:cars#t2,The passage is related to cars.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,1.1708005331456661e-05,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+98,union:Christianity|items for sale#u0,The document is about Christianity or about items for sale.,rewrite,3999,3600,399,0,0,1.0,1.0,1.0,800,0.9224904701397713,False,0.9075,False,0.0036351250018924475,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+99,group:politics#t2,The passage is related to politics.,rewrite,389,0,389,0,0,1.0,1.0,1.0,1200,0.9203389830508475,False,0.905,False,0.00372491599409841,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+100,leaf:gun control#t2,The passage is related to gun control.,rewrite,1268,400,868,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.002523458009818569,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+101,union:Middle East affairs|items for sale#u1,This text discusses either Middle East affairs or items for sale.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,0.9226118500604595,False,0.95375,False,1.3125012628734112e-05,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+102,leaf:computer graphics#t3,This article covers the topic of computer graphics.,rewrite,1060,0,1060,0,0,1.0,1.0,1.0,400,0.9236641221374046,False,0.9075,False,0.003140209009870887,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+103,leaf:religious debate#t3,This article covers the topic of religious debate.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,351,0.9246376811594202,False,0.9088319088319088,False,1.2791017070412636e-05,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+104,leaf:atheism#t3,This article covers the topic of atheism.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,4.62500611320138e-06,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+105,group:religion#t1,This text discusses religion.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1151,0.9204946996466431,False,0.9052997393570807,False,3.958994057029486e-06,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+106,union:hockey|items for sale#u0,The document is about hockey or about items for sale.,rewrite,3635,3200,435,0,0,1.0,1.0,1.0,800,0.9224904701397713,False,0.9075,False,0.003479750012047589,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+107,group:motor vehicles#t0,The document is about motor vehicles.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,,,,,1.5375000657513738e-05,1.0,,semreuse-gt,20ng-sub7951,7951,0.8,0
+108,union:space exploration|the Microsoft Windows operating system#u1,This text discusses either space exploration or the Microsoft Windows operating system.,rewrite,5062,4800,262,0,0,1.0,1.0,1.0,800,0.9226118500604595,False,0.95375,False,0.0026973749918397516,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+109,group:sports#t2,The passage is related to sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,0.9213197969543148,False,0.9075,False,1.1957978131249547e-05,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+110,group:sports#t1,This text discusses sports.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,800,0.9216589861751152,False,1.0,False,4.708010237663984e-06,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+111,leaf:atheism#t3,This article covers the topic of atheism.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,2.516701351851225e-05,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+112,leaf:Middle East affairs#t2,The passage is related to Middle East affairs.,rewrite,1268,400,868,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.002715667011216283,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+113,union:Macintosh hardware|motorcycles#u1,This text discusses either Macintosh hardware or motorcycles.,rewrite,4722,4400,322,0,0,1.0,1.0,1.0,800,0.9224904701397713,False,0.9075,False,0.0037709999887738377,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+114,union:political debate|religious debate#u0,The document is about political debate or about religious debate.,rewrite,4742,4400,342,0,0,1.0,1.0,1.0,751,0.9228687415426252,False,0.9081225033288948,False,0.0034321669954806566,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+115,leaf:gun control#t3,This article covers the topic of gun control.,rewrite,1154,0,1154,0,0,1.0,1.0,1.0,400,0.9260204081632653,False,0.9075,False,0.002800541988108307,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+116,leaf:medicine#t2,The passage is related to medicine.,rewrite,1268,400,868,0,0,1.0,1.0,1.0,400,0.9237875288683602,False,1.0,False,0.0023412919836118817,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+117,group:politics#t1,This text discusses politics.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1200,0.9202453987730062,False,1.0,False,8.417002391070127e-06,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+118,group:science#t2,The passage is related to science.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1600,0.9204328453214513,False,0.90375,False,3.6250276025384665e-06,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0
+119,group:religion#t0,The document is about religion.,exact-hit,0,0,0,0,0,1.0,1.0,1.0,1151,0.9204946996466431,False,0.9052997393570807,False,3.6249984987080097e-06,1.0,False,semreuse-gt,20ng-sub7951,7951,0.8,0

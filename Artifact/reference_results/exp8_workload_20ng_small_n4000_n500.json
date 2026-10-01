@@ -1,0 +1,271 @@
+{
+  "model": "llama3.1:8b-instruct-q4_K_M",
+  "n_rows": 500,
+  "queries": 47,
+  "distinct": 46,
+  "relation_mix": {
+    "equiv": 0.0,
+    "forward": 0.007729468599033816,
+    "backward": 0.007729468599033816,
+    "disjoint": 0.45120772946859905,
+    "overlap": 0.5333333333333333
+  },
+  "predecessor_fraction": {
+    "any": 0.8085106382978723,
+    "equiv": 0.0,
+    "containment": 0.2765957446808511,
+    "disjoint": 0.723404255319149,
+    "exact_repeat": 0.02127659574468085
+  },
+  "designed_relations": [
+    {
+      "a": "A2",
+      "b": "A1",
+      "kind": "specialisation",
+      "n_a": 56,
+      "n_b": 63,
+      "slack": 0.07142857142857142,
+      "slack_reverse": 0.1746031746031746,
+      "jaccard": 0.7761194029850746
+    },
+    {
+      "a": "A3",
+      "b": "A1",
+      "kind": "paraphrase",
+      "n_a": 76,
+      "n_b": 63,
+      "slack": 0.17105263157894737,
+      "slack_reverse": 0.0,
+      "jaccard": 0.8289473684210527
+    },
+    {
+      "a": "A4",
+      "b": "A1",
+      "kind": "specialisation",
+      "n_a": 13,
+      "n_b": 63,
+      "slack": 0.07692307692307693,
+      "slack_reverse": 0.8095238095238095,
+      "jaccard": 0.1875
+    },
+    {
+      "a": "H1",
+      "b": "A1",
+      "kind": "exact repeat",
+      "n_a": 63,
+      "n_b": 63,
+      "slack": 0.0,
+      "slack_reverse": 0.0,
+      "jaccard": 1.0
+    },
+    {
+      "a": "H10",
+      "b": "A1",
+      "kind": "specialisation",
+      "n_a": 87,
+      "n_b": 63,
+      "slack": 0.3103448275862069,
+      "slack_reverse": 0.047619047619047616,
+      "jaccard": 0.6666666666666666
+    },
+    {
+      "a": "B2",
+      "b": "B1",
+      "kind": "specialisation",
+      "n_a": 15,
+      "n_b": 29,
+      "slack": 0.0,
+      "slack_reverse": 0.4827586206896552,
+      "jaccard": 0.5172413793103449
+    },
+    {
+      "a": "B1",
+      "b": "B4",
+      "kind": "specialisation",
+      "n_a": 29,
+      "n_b": 32,
+      "slack": 0.13793103448275862,
+      "slack_reverse": 0.21875,
+      "jaccard": 0.6944444444444444
+    },
+    {
+      "a": "H2",
+      "b": "B1",
+      "kind": "paraphrase",
+      "n_a": 28,
+      "n_b": 29,
+      "slack": 0.03571428571428571,
+      "slack_reverse": 0.06896551724137931,
+      "jaccard": 0.9
+    },
+    {
+      "a": "H8",
+      "b": "B1",
+      "kind": "paraphrase",
+      "n_a": 26,
+      "n_b": 29,
+      "slack": 0.038461538461538464,
+      "slack_reverse": 0.13793103448275862,
+      "jaccard": 0.8333333333333334
+    },
+    {
+      "a": "C2",
+      "b": "C1",
+      "kind": "specialisation",
+      "n_a": 21,
+      "n_b": 40,
+      "slack": 0.047619047619047616,
+      "slack_reverse": 0.5,
+      "jaccard": 0.4878048780487805
+    },
+    {
+      "a": "C1",
+      "b": "C5",
+      "kind": "specialisation",
+      "n_a": 40,
+      "n_b": 45,
+      "slack": 0.0,
+      "slack_reverse": 0.1111111111111111,
+      "jaccard": 0.8888888888888888
+    },
+    {
+      "a": "D2",
+      "b": "D1",
+      "kind": "specialisation",
+      "n_a": 15,
+      "n_b": 74,
+      "slack": 0.26666666666666666,
+      "slack_reverse": 0.8513513513513513,
+      "jaccard": 0.14102564102564102
+    },
+    {
+      "a": "D4",
+      "b": "D3",
+      "kind": "specialisation",
+      "n_a": 56,
+      "n_b": 41,
+      "slack": 0.2857142857142857,
+      "slack_reverse": 0.024390243902439025,
+      "jaccard": 0.7017543859649122
+    },
+    {
+      "a": "F2",
+      "b": "F1",
+      "kind": "specialisation",
+      "n_a": 13,
+      "n_b": 26,
+      "slack": 0.23076923076923078,
+      "slack_reverse": 0.6153846153846154,
+      "jaccard": 0.3448275862068966
+    },
+    {
+      "a": "F1",
+      "b": "F6",
+      "kind": "specialisation",
+      "n_a": 26,
+      "n_b": 60,
+      "slack": 0.4230769230769231,
+      "slack_reverse": 0.75,
+      "jaccard": 0.2112676056338028
+    },
+    {
+      "a": "F3",
+      "b": "F6",
+      "kind": "specialisation",
+      "n_a": 23,
+      "n_b": 60,
+      "slack": 0.391304347826087,
+      "slack_reverse": 0.7666666666666667,
+      "jaccard": 0.2028985507246377
+    },
+    {
+      "a": "F4",
+      "b": "F5",
+      "kind": "specialisation",
+      "n_a": 19,
+      "n_b": 27,
+      "slack": 0.0,
+      "slack_reverse": 0.2962962962962963,
+      "jaccard": 0.7037037037037037
+    },
+    {
+      "a": "H9",
+      "b": "F4",
+      "kind": "paraphrase",
+      "n_a": 15,
+      "n_b": 19,
+      "slack": 0.0,
+      "slack_reverse": 0.21052631578947367,
+      "jaccard": 0.7894736842105263
+    },
+    {
+      "a": "G2",
+      "b": "G1",
+      "kind": "specialisation",
+      "n_a": 20,
+      "n_b": 44,
+      "slack": 0.05,
+      "slack_reverse": 0.5681818181818182,
+      "jaccard": 0.4222222222222222
+    },
+    {
+      "a": "G3",
+      "b": "G1",
+      "kind": "specialisation",
+      "n_a": 18,
+      "n_b": 44,
+      "slack": 0.3888888888888889,
+      "slack_reverse": 0.75,
+      "jaccard": 0.21568627450980393
+    },
+    {
+      "a": "H7",
+      "b": "G1",
+      "kind": "paraphrase",
+      "n_a": 35,
+      "n_b": 44,
+      "slack": 0.2571428571428571,
+      "slack_reverse": 0.4090909090909091,
+      "jaccard": 0.49056603773584906
+    },
+    {
+      "a": "H4",
+      "b": "H3",
+      "kind": "paraphrase",
+      "n_a": 32,
+      "n_b": 34,
+      "slack": 0.03125,
+      "slack_reverse": 0.08823529411764706,
+      "jaccard": 0.8857142857142857
+    },
+    {
+      "a": "H5",
+      "b": "H3",
+      "kind": "specialisation",
+      "n_a": 8,
+      "n_b": 34,
+      "slack": 0.25,
+      "slack_reverse": 0.8235294117647058,
+      "jaccard": 0.16666666666666666
+    },
+    {
+      "a": "H6",
+      "b": "E1",
+      "kind": "paraphrase",
+      "n_a": 202,
+      "n_b": 283,
+      "slack": 0.0049504950495049506,
+      "slack_reverse": 0.28975265017667845,
+      "jaccard": 0.7077464788732394
+    }
+  ],
+  "selectivity_mean": 0.12956521739130436,
+  "selectivity_median": 0.068,
+  "selectivity_min": 0.016,
+  "selectivity_max": 0.734,
+  "prompt_tokens_per_call": 199.5770108695652,
+  "output_tokens_per_call": 2.898989130434783,
+  "rows_per_s": 4.722573573847521,
+  "dollars_per_call": 3.167594510869565e-05,
+  "eps": 0.02
+}

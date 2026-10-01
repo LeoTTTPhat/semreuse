@@ -1,0 +1,6 @@
+config,tau_equiv,tau_forward,tau_backward,tau_disjoint,total_calls,call_reduction,audit_calls,escalation_calls,macro_precision,macro_recall,bound_violations,n_bounded,corpus,n_rows,n_queries,overlap,target_recall,seed
+default,0.8,0.8,0.9,0.9,65467,14.663876456840852,3467,0,1.0,1.0,0,107,agnews-sub8000,8000,120,0.8,0.9,0
+dis.7,0.8,0.8,0.9,0.7,65467,14.663876456840852,3467,0,1.0,1.0,0,107,agnews-sub8000,8000,120,0.8,0.9,0
+dis.5,0.8,0.8,0.9,0.5,67312,14.261944378416924,3577,9735,1.0,1.0,0,112,agnews-sub8000,8000,120,0.8,0.9,0
+all.6,0.6,0.6,0.6,0.6,53815,17.838892502090495,3815,0,1.0,1.0,0,107,agnews-sub8000,8000,120,0.8,0.9,0
+all.4,0.4,0.4,0.4,0.4,67298,14.264911290082916,3444,5854,1.0,1.0,0,112,agnews-sub8000,8000,120,0.8,0.9,0

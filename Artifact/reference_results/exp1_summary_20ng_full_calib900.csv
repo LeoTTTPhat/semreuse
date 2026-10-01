@@ -1,0 +1,4 @@
+n_queries,total_oracle_calls,mean_calls_per_query,total_nli_scores,macro_precision,macro_recall,macro_f1,n_bounded,bound_violations,bound_violations_oracle,macro_recall_oracle,mean_recall_bound,n_precision_bounded,precision_bound_violations,mean_precision_bound,total_latency_s,method,corpus,n_rows,overlap,target_recall,oracle_noise,seed,wall_s
+120,954120,7951.0,0,1.0,1.0,1.0,0,0,0,1.0,,0,0,,0.02285833886708133,cold,20ng-sub7951,7951,0.8,0.9,0.0,0,0.08
+120,422046,3517.05,6806,1.0,1.0,1.0,100,0,0,1.0,0.9575355118916461,100,0,0.970807044121608,16.86872654594481,semreuse,20ng-sub7951,7951,0.8,0.9,0.0,0,16.91
+120,284832,2373.6,0,0.7288197571292824,0.9475,0.7492101202553656,0,0,0,0.9475,,0,0,,0.048945914866635576,semreuse-noaudit,20ng-sub7951,7951,0.8,0.9,0.0,0,0.09

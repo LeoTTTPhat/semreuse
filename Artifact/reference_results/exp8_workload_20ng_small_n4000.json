@@ -1,0 +1,271 @@
+{
+  "model": "llama3.1:8b-instruct-q4_K_M",
+  "n_rows": 4000,
+  "queries": 47,
+  "distinct": 46,
+  "relation_mix": {
+    "equiv": 0.0,
+    "forward": 0.002898550724637681,
+    "backward": 0.002898550724637681,
+    "disjoint": 0.4067632850241546,
+    "overlap": 0.58743961352657
+  },
+  "predecessor_fraction": {
+    "any": 0.6808510638297872,
+    "equiv": 0.0,
+    "containment": 0.1276595744680851,
+    "disjoint": 0.6595744680851063,
+    "exact_repeat": 0.02127659574468085
+  },
+  "designed_relations": [
+    {
+      "a": "A2",
+      "b": "A1",
+      "kind": "specialisation",
+      "n_a": 465,
+      "n_b": 535,
+      "slack": 0.043010752688172046,
+      "slack_reverse": 0.16822429906542055,
+      "jaccard": 0.8018018018018018
+    },
+    {
+      "a": "A3",
+      "b": "A1",
+      "kind": "paraphrase",
+      "n_a": 603,
+      "n_b": 535,
+      "slack": 0.13266998341625208,
+      "slack_reverse": 0.022429906542056073,
+      "jaccard": 0.8504065040650407
+    },
+    {
+      "a": "A4",
+      "b": "A1",
+      "kind": "specialisation",
+      "n_a": 119,
+      "n_b": 535,
+      "slack": 0.10084033613445378,
+      "slack_reverse": 0.8,
+      "jaccard": 0.1956124314442413
+    },
+    {
+      "a": "H1",
+      "b": "A1",
+      "kind": "exact repeat",
+      "n_a": 535,
+      "n_b": 535,
+      "slack": 0.0,
+      "slack_reverse": 0.0,
+      "jaccard": 1.0
+    },
+    {
+      "a": "H10",
+      "b": "A1",
+      "kind": "specialisation",
+      "n_a": 704,
+      "n_b": 535,
+      "slack": 0.26420454545454547,
+      "slack_reverse": 0.03177570093457944,
+      "jaccard": 0.7184466019417476
+    },
+    {
+      "a": "B2",
+      "b": "B1",
+      "kind": "specialisation",
+      "n_a": 96,
+      "n_b": 207,
+      "slack": 0.07291666666666667,
+      "slack_reverse": 0.5700483091787439,
+      "jaccard": 0.4158878504672897
+    },
+    {
+      "a": "B1",
+      "b": "B4",
+      "kind": "specialisation",
+      "n_a": 207,
+      "n_b": 234,
+      "slack": 0.10628019323671498,
+      "slack_reverse": 0.2094017094017094,
+      "jaccard": 0.72265625
+    },
+    {
+      "a": "H2",
+      "b": "B1",
+      "kind": "paraphrase",
+      "n_a": 201,
+      "n_b": 207,
+      "slack": 0.05970149253731343,
+      "slack_reverse": 0.08695652173913043,
+      "jaccard": 0.863013698630137
+    },
+    {
+      "a": "H8",
+      "b": "B1",
+      "kind": "paraphrase",
+      "n_a": 184,
+      "n_b": 207,
+      "slack": 0.010869565217391304,
+      "slack_reverse": 0.12077294685990338,
+      "jaccard": 0.8708133971291866
+    },
+    {
+      "a": "C2",
+      "b": "C1",
+      "kind": "specialisation",
+      "n_a": 174,
+      "n_b": 341,
+      "slack": 0.022988505747126436,
+      "slack_reverse": 0.501466275659824,
+      "jaccard": 0.4927536231884058
+    },
+    {
+      "a": "C1",
+      "b": "C5",
+      "kind": "specialisation",
+      "n_a": 341,
+      "n_b": 398,
+      "slack": 0.017595307917888565,
+      "slack_reverse": 0.15829145728643215,
+      "jaccard": 0.8292079207920792
+    },
+    {
+      "a": "D2",
+      "b": "D1",
+      "kind": "specialisation",
+      "n_a": 81,
+      "n_b": 630,
+      "slack": 0.1728395061728395,
+      "slack_reverse": 0.8936507936507937,
+      "jaccard": 0.10403726708074534
+    },
+    {
+      "a": "D4",
+      "b": "D3",
+      "kind": "specialisation",
+      "n_a": 418,
+      "n_b": 291,
+      "slack": 0.32057416267942584,
+      "slack_reverse": 0.024054982817869417,
+      "jaccard": 0.668235294117647
+    },
+    {
+      "a": "F2",
+      "b": "F1",
+      "kind": "specialisation",
+      "n_a": 98,
+      "n_b": 206,
+      "slack": 0.07142857142857142,
+      "slack_reverse": 0.558252427184466,
+      "jaccard": 0.4272300469483568
+    },
+    {
+      "a": "F1",
+      "b": "F6",
+      "kind": "specialisation",
+      "n_a": 206,
+      "n_b": 550,
+      "slack": 0.3446601941747573,
+      "slack_reverse": 0.7545454545454545,
+      "jaccard": 0.21739130434782608
+    },
+    {
+      "a": "F3",
+      "b": "F6",
+      "kind": "specialisation",
+      "n_a": 142,
+      "n_b": 550,
+      "slack": 0.30985915492957744,
+      "slack_reverse": 0.8218181818181818,
+      "jaccard": 0.16498316498316498
+    },
+    {
+      "a": "F4",
+      "b": "F5",
+      "kind": "specialisation",
+      "n_a": 127,
+      "n_b": 203,
+      "slack": 0.015748031496062992,
+      "slack_reverse": 0.3842364532019704,
+      "jaccard": 0.6097560975609756
+    },
+    {
+      "a": "H9",
+      "b": "F4",
+      "kind": "paraphrase",
+      "n_a": 101,
+      "n_b": 127,
+      "slack": 0.0297029702970297,
+      "slack_reverse": 0.2283464566929134,
+      "jaccard": 0.7538461538461538
+    },
+    {
+      "a": "G2",
+      "b": "G1",
+      "kind": "specialisation",
+      "n_a": 146,
+      "n_b": 400,
+      "slack": 0.0410958904109589,
+      "slack_reverse": 0.65,
+      "jaccard": 0.3448275862068966
+    },
+    {
+      "a": "G3",
+      "b": "G1",
+      "kind": "specialisation",
+      "n_a": 150,
+      "n_b": 400,
+      "slack": 0.2866666666666667,
+      "slack_reverse": 0.7325,
+      "jaccard": 0.24153498871331827
+    },
+    {
+      "a": "H7",
+      "b": "G1",
+      "kind": "paraphrase",
+      "n_a": 365,
+      "n_b": 400,
+      "slack": 0.25205479452054796,
+      "slack_reverse": 0.3175,
+      "jaccard": 0.5548780487804879
+    },
+    {
+      "a": "H4",
+      "b": "H3",
+      "kind": "paraphrase",
+      "n_a": 292,
+      "n_b": 328,
+      "slack": 0.03424657534246575,
+      "slack_reverse": 0.1402439024390244,
+      "jaccard": 0.834319526627219
+    },
+    {
+      "a": "H5",
+      "b": "H3",
+      "kind": "specialisation",
+      "n_a": 75,
+      "n_b": 328,
+      "slack": 0.09333333333333334,
+      "slack_reverse": 0.7926829268292683,
+      "jaccard": 0.20298507462686566
+    },
+    {
+      "a": "H6",
+      "b": "E1",
+      "kind": "paraphrase",
+      "n_a": 1523,
+      "n_b": 2170,
+      "slack": 0.003282994090610637,
+      "slack_reverse": 0.30046082949308756,
+      "jaccard": 0.6979310344827586
+    }
+  ],
+  "selectivity_mean": 0.13201630434782607,
+  "selectivity_median": 0.073125,
+  "selectivity_min": 0.01875,
+  "selectivity_max": 0.76875,
+  "prompt_tokens_per_call": 199.5770108695652,
+  "output_tokens_per_call": 2.898989130434783,
+  "rows_per_s": 4.722573573847521,
+  "dollars_per_call": 3.167594510869565e-05,
+  "eps": 0.02
+}

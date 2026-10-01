@@ -1,0 +1,201 @@
+claim,row,cached,reissued,agree
+The post is about sports.,377,True,True,True
+The post mentions an operating system.,335,True,True,True
+The post discusses computer security.,248,True,True,True
+The post discusses software rather than hardware.,259,False,False,True
+The post asks a question about computer hardware.,420,True,True,True
+The author of the post is frustrated or angry.,374,False,False,True
+The post expresses a religious belief.,112,False,False,True
+The post asks for help with Macintosh hardware.,140,False,False,True
+The post contains a question.,242,False,False,True
+The post is looking to buy something rather than to sell som,164,False,False,True
+The post is a request for technical assistance concerning co,153,False,False,True
+The post argues about religion.,216,False,False,True
+The post is a for-sale advertisement.,8,False,False,True
+The post makes a factual claim that could be checked.,461,True,True,True
+The post is looking to buy something rather than to sell som,350,False,False,True
+The post argues about politics.,111,True,True,True
+The post criticizes a government or a government policy.,75,True,True,True
+The tone of the post is angry or annoyed.,346,False,False,True
+The post is about a sporting event that has already taken pl,369,False,False,True
+The post discusses medicine or health.,267,False,False,True
+The post is selling something.,158,True,True,True
+The post is selling something.,372,False,False,True
+The post expresses a religious belief.,489,False,False,True
+The post is about a sporting event that has already taken pl,286,False,False,True
+The post mentions the X Window System.,353,False,False,True
+The post describes a hardware problem the author is experien,288,False,False,True
+The post is an advertisement.,239,False,False,True
+The post quotes another message.,338,False,False,True
+The post argues about gun control policy.,4,False,False,True
+The post mentions an operating system.,22,False,False,True
+The post discusses science.,403,False,False,True
+The post is about a sporting event that has already taken pl,24,False,False,True
+The post is about sports.,311,False,False,True
+The post offers an item for sale.,111,False,False,True
+The post is about sports.,392,False,False,True
+The post discusses a professional sports team.,474,False,False,True
+The post discusses the Middle East.,33,False,False,True
+The post discusses the Middle East.,381,False,False,True
+The post is an advertisement.,170,False,False,True
+The post discusses software rather than hardware.,24,False,False,True
+The post recommends a product or a service.,199,False,False,True
+The post discusses medicine or health.,392,False,False,True
+The post asks for technical help with a personal computer's ,443,False,False,True
+The post is about a motor vehicle.,432,False,False,True
+The post asks for help with Macintosh hardware.,339,False,False,True
+The post discusses cryptography or encryption.,12,False,False,True
+The post discusses a professional sports team.,42,False,False,True
+The post discusses software rather than hardware.,174,False,False,True
+The post mentions a player's statistics.,47,False,False,True
+The post is about a computer operating system.,339,False,False,True
+The post is about a car or a motorcycle.,67,True,True,True
+The post uses technical jargon.,147,True,True,True
+The post argues about politics.,192,False,False,True
+The post discusses science.,179,False,False,True
+The post mentions Microsoft Windows.,28,True,True,True
+The post argues about gun control policy.,146,True,True,True
+The post offers a computer or a computer part for sale.,466,False,False,True
+The post discusses science.,357,False,False,True
+The post discusses a professional sports team.,329,False,False,True
+The post discusses encryption algorithms or key management.,186,False,False,True
+The post discusses space or astronomy.,104,False,False,True
+The post is looking to buy something rather than to sell som,465,False,False,True
+The post discusses medicine or health.,86,False,False,True
+The post gives advice about maintaining a vehicle.,201,False,False,True
+The post discusses medicine or health.,174,False,False,True
+The post argues about religion.,168,False,False,True
+The post quotes another message.,272,True,True,True
+The post is about a car or a motorcycle.,237,False,False,True
+The post is about a motor vehicle.,236,False,False,True
+The post discusses medicine or health.,136,False,False,True
+The post discusses space or astronomy.,319,False,False,True
+The post is about a motor vehicle.,61,True,True,True
+The post uses technical jargon.,366,False,False,True
+The post uses technical jargon.,298,True,True,True
+The post quotes another message.,314,False,False,True
+The author of the post is frustrated or angry.,62,False,False,True
+The post discusses science.,273,False,False,True
+The post is about a sporting event that has already taken pl,100,False,False,True
+The post mentions an operating system.,328,True,True,True
+The post discusses the Middle East.,486,False,False,True
+The post argues about religion.,316,False,False,True
+The post mentions the X Window System.,209,False,False,True
+The post discusses computer security.,95,False,False,True
+The post discusses a professional sports team.,152,False,False,True
+The post discusses medicine or health.,327,False,False,True
+The post gives advice about maintaining a vehicle.,385,False,False,True
+The post is about a motor vehicle.,287,False,False,True
+The post uses technical jargon.,417,False,False,True
+The post offers a computer or a computer part for sale.,76,False,False,True
+The post is about a computer operating system.,101,False,False,True
+The post describes a hardware problem the author is experien,200,True,True,True
+The post discusses a professional baseball team.,379,False,False,True
+The post is about sports.,410,False,False,True
+The post discusses medicine or health.,496,False,False,True
+The post is about sports.,358,False,False,True
+The post offers an item for sale.,8,False,False,True
+The post recommends a product or a service.,285,False,False,True
+The post mentions an operating system.,171,False,False,True
+The post mentions an operating system.,395,False,False,True
+The post offers an item for sale.,321,False,False,True
+The post discusses computer security.,365,False,False,True
+The post discusses cryptography or encryption.,234,False,False,True
+The author of the post is frustrated or angry.,122,True,True,True
+The post uses technical jargon.,8,True,True,True
+The post recommends a product or a service.,197,True,True,True
+The post uses technical jargon.,246,True,True,True
+The post makes a factual claim that could be checked.,390,True,True,True
+The post makes a factual claim that could be checked.,398,True,True,True
+The post mentions an operating system.,67,False,False,True
+The post discusses computer security.,20,False,False,True
+The post discusses encryption algorithms or key management.,445,False,False,True
+The post offers a computer or a computer part for sale.,380,False,False,True
+The post is about a motor vehicle.,426,False,False,True
+The post argues about politics.,341,True,True,True
+The post argues about religion.,423,False,False,True
+The post offers a computer or a computer part for sale.,25,False,False,True
+The post is a for-sale advertisement.,14,False,False,True
+The author of the post is frustrated or angry.,338,False,False,True
+The post asks for technical help with a personal computer's ,89,True,True,True
+The post mentions a specific price in dollars.,50,False,False,True
+The tone of the post is angry or annoyed.,465,False,False,True
+The post quotes another message.,369,False,False,True
+The post describes a hardware problem the author is experien,285,False,False,True
+The post makes a factual claim that could be checked.,410,True,True,True
+The post is a for-sale advertisement.,156,False,False,True
+The post discusses the Middle East.,62,False,False,True
+The post recommends a product or a service.,108,True,True,True
+The post is looking to buy something rather than to sell som,95,False,False,True
+The post is looking to buy something rather than to sell som,337,True,True,True
+The post recommends a product or a service.,218,False,False,True
+The post discusses a specific disease or medical condition.,344,False,False,True
+The post mentions an operating system.,210,False,False,True
+The post is looking to buy something rather than to sell som,443,False,False,True
+The post asks for technical help with computer hardware.,497,False,False,True
+The post discusses encryption algorithms or key management.,284,False,False,True
+The post describes a hardware problem the author is experien,482,False,False,True
+The post offers a computer or a computer part for sale.,347,False,False,True
+The post mentions Microsoft Windows.,79,False,False,True
+The post quotes another message.,415,True,True,True
+The post mentions the X Window System.,206,False,False,True
+The post discusses encryption algorithms or key management.,25,False,False,True
+The post is about a car or a motorcycle.,142,False,False,True
+The post is a for-sale advertisement.,404,False,False,True
+The post is a request for technical assistance concerning co,276,True,True,True
+The post is selling something.,252,False,False,True
+The post recommends a product or a service.,405,False,False,True
+The post offers an item for sale.,185,False,False,True
+The post contains a question.,10,True,True,True
+The post argues about religion.,336,False,False,True
+The post discusses science.,210,False,False,True
+The post discusses software rather than hardware.,154,False,False,True
+The post mentions a player's statistics.,248,False,False,True
+The post argues about religion.,284,False,False,True
+The post mentions a specific price in dollars.,119,False,False,True
+The post expresses a religious belief.,472,True,True,True
+The post argues about politics.,114,False,False,True
+The post is looking to buy something rather than to sell som,498,False,False,True
+The post is a for-sale advertisement.,364,False,False,True
+The post mentions a player's statistics.,398,False,False,True
+The post mentions a player's statistics.,133,False,False,True
+The post discusses software rather than hardware.,150,False,False,True
+The post argues about religion.,393,False,False,True
+The post discusses encryption algorithms or key management.,374,False,False,True
+The tone of the post is angry or annoyed.,57,False,False,True
+The post is about a sporting event that has already taken pl,313,False,False,True
+The author of the post is frustrated or angry.,189,True,True,True
+The tone of the post is angry or annoyed.,343,True,True,True
+The post argues about politics.,143,False,False,True
+The post gives advice about maintaining a vehicle.,44,False,False,True
+The post mentions the X Window System.,71,False,False,True
+The post discusses a specific disease or medical condition.,349,False,False,True
+The post is selling something.,144,False,False,True
+The post gives advice about maintaining a vehicle.,155,False,False,True
+The tone of the post is angry or annoyed.,290,False,False,True
+The post asks a question about computer hardware.,80,False,False,True
+The post expresses a religious belief.,422,False,False,True
+The post argues about gun control policy.,434,False,False,True
+The post discusses medicine or health.,464,False,False,True
+The post discusses cryptography or encryption.,200,False,False,True
+The post asks a question about computer hardware.,38,False,False,True
+The post offers a computer or a computer part for sale.,419,True,True,True
+The post contains a question.,492,False,False,True
+The author of the post is frustrated or angry.,376,False,False,True
+The post is about a car or a motorcycle.,305,False,False,True
+The post makes a factual claim that could be checked.,213,True,True,True
+The post asks for technical help with a personal computer's ,420,True,True,True
+The post discusses a professional baseball team.,326,False,False,True
+The post criticizes a government or a government policy.,50,True,True,True
+The post mentions a player's statistics.,26,False,False,True
+The post is about a car or a motorcycle.,77,False,False,True
+The post makes a factual claim that could be checked.,459,True,True,True
+The post asks for help with Macintosh hardware.,240,False,False,True
+The post asks for technical help with a personal computer's ,41,False,False,True
+The post argues about gun control policy.,266,False,False,True
+The post is about a computer operating system.,360,False,False,True
+The post quotes another message.,239,False,False,True
+The post mentions a specific price in dollars.,414,False,False,True
+The post offers a computer or a computer part for sale.,10,False,False,True
+The post is about a motor vehicle.,268,False,False,True
+The post is about sports.,321,False,False,True

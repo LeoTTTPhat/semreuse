@@ -1,0 +1,271 @@
+{
+  "model": "llama3.1:8b-instruct-q4_K_M",
+  "n_rows": 3000,
+  "queries": 47,
+  "distinct": 46,
+  "relation_mix": {
+    "equiv": 0.0,
+    "forward": 0.003864734299516908,
+    "backward": 0.003864734299516908,
+    "disjoint": 0.4038647342995169,
+    "overlap": 0.5884057971014492
+  },
+  "predecessor_fraction": {
+    "any": 0.7021276595744681,
+    "equiv": 0.0,
+    "containment": 0.19148936170212766,
+    "disjoint": 0.6595744680851063,
+    "exact_repeat": 0.02127659574468085
+  },
+  "designed_relations": [
+    {
+      "a": "A2",
+      "b": "A1",
+      "kind": "specialisation",
+      "n_a": 353,
+      "n_b": 403,
+      "slack": 0.039660056657223795,
+      "slack_reverse": 0.1588089330024814,
+      "jaccard": 0.8129496402877698
+    },
+    {
+      "a": "A3",
+      "b": "A1",
+      "kind": "paraphrase",
+      "n_a": 446,
+      "n_b": 403,
+      "slack": 0.11434977578475336,
+      "slack_reverse": 0.019851116625310174,
+      "jaccard": 0.8700440528634361
+    },
+    {
+      "a": "A4",
+      "b": "A1",
+      "kind": "specialisation",
+      "n_a": 92,
+      "n_b": 403,
+      "slack": 0.08695652173913043,
+      "slack_reverse": 0.7915632754342432,
+      "jaccard": 0.20437956204379562
+    },
+    {
+      "a": "H1",
+      "b": "A1",
+      "kind": "exact repeat",
+      "n_a": 403,
+      "n_b": 403,
+      "slack": 0.0,
+      "slack_reverse": 0.0,
+      "jaccard": 1.0
+    },
+    {
+      "a": "H10",
+      "b": "A1",
+      "kind": "specialisation",
+      "n_a": 527,
+      "n_b": 403,
+      "slack": 0.25996204933586337,
+      "slack_reverse": 0.03225806451612903,
+      "jaccard": 0.7222222222222222
+    },
+    {
+      "a": "B2",
+      "b": "B1",
+      "kind": "specialisation",
+      "n_a": 71,
+      "n_b": 154,
+      "slack": 0.07042253521126761,
+      "slack_reverse": 0.5714285714285714,
+      "jaccard": 0.41509433962264153
+    },
+    {
+      "a": "B1",
+      "b": "B4",
+      "kind": "specialisation",
+      "n_a": 154,
+      "n_b": 170,
+      "slack": 0.11688311688311688,
+      "slack_reverse": 0.2,
+      "jaccard": 0.723404255319149
+    },
+    {
+      "a": "H2",
+      "b": "B1",
+      "kind": "paraphrase",
+      "n_a": 149,
+      "n_b": 154,
+      "slack": 0.06040268456375839,
+      "slack_reverse": 0.09090909090909091,
+      "jaccard": 0.8588957055214724
+    },
+    {
+      "a": "H8",
+      "b": "B1",
+      "kind": "paraphrase",
+      "n_a": 138,
+      "n_b": 154,
+      "slack": 0.014492753623188406,
+      "slack_reverse": 0.11688311688311688,
+      "jaccard": 0.8717948717948718
+    },
+    {
+      "a": "C2",
+      "b": "C1",
+      "kind": "specialisation",
+      "n_a": 131,
+      "n_b": 253,
+      "slack": 0.015267175572519083,
+      "slack_reverse": 0.4901185770750988,
+      "jaccard": 0.5058823529411764
+    },
+    {
+      "a": "C1",
+      "b": "C5",
+      "kind": "specialisation",
+      "n_a": 253,
+      "n_b": 286,
+      "slack": 0.015810276679841896,
+      "slack_reverse": 0.12937062937062938,
+      "jaccard": 0.8586206896551725
+    },
+    {
+      "a": "D2",
+      "b": "D1",
+      "kind": "specialisation",
+      "n_a": 65,
+      "n_b": 449,
+      "slack": 0.15384615384615385,
+      "slack_reverse": 0.8775055679287305,
+      "jaccard": 0.11982570806100218
+    },
+    {
+      "a": "D4",
+      "b": "D3",
+      "kind": "specialisation",
+      "n_a": 325,
+      "n_b": 228,
+      "slack": 0.31076923076923074,
+      "slack_reverse": 0.017543859649122806,
+      "jaccard": 0.6808510638297872
+    },
+    {
+      "a": "F2",
+      "b": "F1",
+      "kind": "specialisation",
+      "n_a": 79,
+      "n_b": 158,
+      "slack": 0.08860759493670886,
+      "slack_reverse": 0.5443037974683544,
+      "jaccard": 0.43636363636363634
+    },
+    {
+      "a": "F1",
+      "b": "F6",
+      "kind": "specialisation",
+      "n_a": 158,
+      "n_b": 415,
+      "slack": 0.3291139240506329,
+      "slack_reverse": 0.744578313253012,
+      "jaccard": 0.22698072805139186
+    },
+    {
+      "a": "F3",
+      "b": "F6",
+      "kind": "specialisation",
+      "n_a": 109,
+      "n_b": 415,
+      "slack": 0.3302752293577982,
+      "slack_reverse": 0.8240963855421687,
+      "jaccard": 0.16186252771618626
+    },
+    {
+      "a": "F4",
+      "b": "F5",
+      "kind": "specialisation",
+      "n_a": 97,
+      "n_b": 156,
+      "slack": 0.020618556701030927,
+      "slack_reverse": 0.391025641025641,
+      "jaccard": 0.6012658227848101
+    },
+    {
+      "a": "H9",
+      "b": "F4",
+      "kind": "paraphrase",
+      "n_a": 75,
+      "n_b": 97,
+      "slack": 0.02666666666666667,
+      "slack_reverse": 0.24742268041237114,
+      "jaccard": 0.7373737373737373
+    },
+    {
+      "a": "G2",
+      "b": "G1",
+      "kind": "specialisation",
+      "n_a": 109,
+      "n_b": 289,
+      "slack": 0.05504587155963303,
+      "slack_reverse": 0.643598615916955,
+      "jaccard": 0.34915254237288135
+    },
+    {
+      "a": "G3",
+      "b": "G1",
+      "kind": "specialisation",
+      "n_a": 113,
+      "n_b": 289,
+      "slack": 0.3185840707964602,
+      "slack_reverse": 0.7335640138408305,
+      "jaccard": 0.23692307692307693
+    },
+    {
+      "a": "H7",
+      "b": "G1",
+      "kind": "paraphrase",
+      "n_a": 263,
+      "n_b": 289,
+      "slack": 0.2585551330798479,
+      "slack_reverse": 0.32525951557093424,
+      "jaccard": 0.5462184873949579
+    },
+    {
+      "a": "H4",
+      "b": "H3",
+      "kind": "paraphrase",
+      "n_a": 220,
+      "n_b": 245,
+      "slack": 0.031818181818181815,
+      "slack_reverse": 0.1306122448979592,
+      "jaccard": 0.8452380952380952
+    },
+    {
+      "a": "H5",
+      "b": "H3",
+      "kind": "specialisation",
+      "n_a": 59,
+      "n_b": 245,
+      "slack": 0.11864406779661017,
+      "slack_reverse": 0.7877551020408163,
+      "jaccard": 0.20634920634920634
+    },
+    {
+      "a": "H6",
+      "b": "E1",
+      "kind": "paraphrase",
+      "n_a": 1144,
+      "n_b": 1639,
+      "slack": 0.004370629370629371,
+      "slack_reverse": 0.3050640634533252,
+      "jaccard": 0.6928223844282239
+    }
+  ],
+  "selectivity_mean": 0.13171014492753622,
+  "selectivity_median": 0.07466666666666666,
+  "selectivity_min": 0.019666666666666666,
+  "selectivity_max": 0.7676666666666667,
+  "prompt_tokens_per_call": 199.5770108695652,
+  "output_tokens_per_call": 2.898989130434783,
+  "rows_per_s": 4.722573573847521,
+  "dollars_per_call": 3.167594510869565e-05,
+  "eps": 0.02
+}

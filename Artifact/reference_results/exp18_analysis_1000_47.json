@@ -1,0 +1,170 @@
+{
+  "repetitions_done": [
+    0,
+    1
+  ],
+  "queries_per_rep": 47,
+  "arms": [
+    {
+      "rep": 0,
+      "arm": "lotus",
+      "seconds": 24938.0,
+      "llm_calls": 47000,
+      "seconds_in_lotus": 24938.0,
+      "retries": 0,
+      "prompt_tokens": 10784603,
+      "completion_tokens": 221312,
+      "total_tokens": 11005915,
+      "recall_certificates": NaN,
+      "recall_violations": NaN,
+      "precision_certificates": NaN,
+      "precision_violations": NaN
+    },
+    {
+      "rep": 0,
+      "arm": "lotus+semreuse",
+      "seconds": 29448.8,
+      "llm_calls": 45375,
+      "seconds_in_lotus": 29404.2,
+      "retries": 1,
+      "prompt_tokens": 10569709,
+      "completion_tokens": 215513,
+      "total_tokens": 10785222,
+      "recall_certificates": 45.0,
+      "recall_violations": 7.0,
+      "precision_certificates": 45.0,
+      "precision_violations": 9.0
+    },
+    {
+      "rep": 1,
+      "arm": "lotus",
+      "seconds": 25870.7,
+      "llm_calls": 47000,
+      "seconds_in_lotus": 25870.7,
+      "retries": 1,
+      "prompt_tokens": 11012336,
+      "completion_tokens": 224913,
+      "total_tokens": 11237249,
+      "recall_certificates": NaN,
+      "recall_violations": NaN,
+      "precision_certificates": NaN,
+      "precision_violations": NaN
+    },
+    {
+      "rep": 1,
+      "arm": "lotus+semreuse",
+      "seconds": 28876.8,
+      "llm_calls": 45370,
+      "seconds_in_lotus": 28832.9,
+      "retries": 1,
+      "prompt_tokens": 10633204,
+      "completion_tokens": 216535,
+      "total_tokens": 10849739,
+      "recall_certificates": 45.0,
+      "recall_violations": 5.0,
+      "precision_certificates": 45.0,
+      "precision_violations": 7.0
+    }
+  ],
+  "reduction": {
+    "llm_calls": 1.0359,
+    "total_tokens": 1.0365,
+    "wall_clock_summed": 0.8758,
+    "pairs": 94,
+    "clean_pairs": 91,
+    "retried_pairs": [
+      {
+        "rep": 0,
+        "query_index": 15
+      },
+      {
+        "rep": 1,
+        "query_index": 28
+      },
+      {
+        "rep": 1,
+        "query_index": 46
+      }
+    ]
+  },
+  "semreuse_own_share": 0.0015,
+  "paired_wall_clock": {
+    "per_query_ratio": {
+      "n": 91,
+      "median": 1.1153,
+      "q25": 1.0362,
+      "q75": 1.2542
+    },
+    "per_rep": [
+      {
+        "rep": 0,
+        "pairs": 46,
+        "summed_ratio": 1.1681,
+        "per_query_ratio": {
+          "n": 46,
+          "median": 1.1391,
+          "q25": 1.0536,
+          "q75": 1.2596
+        }
+      },
+      {
+        "rep": 1,
+        "pairs": 45,
+        "summed_ratio": 1.1155,
+        "per_query_ratio": {
+          "n": 45,
+          "median": 1.087,
+          "q25": 1.0257,
+          "q75": 1.1904
+        }
+      }
+    ]
+  },
+  "lotus_run_to_run": {
+    "queries_compared": 47,
+    "mean_tuple_agreement": 0.9996595744680852,
+    "min_tuple_agreement": 0.997,
+    "mean_positive_flip_rate": 0.0016211663890304793,
+    "queries_identical": 38
+  },
+  "certificates": {
+    "recall": 90,
+    "precision": 90,
+    "recall_viol_same": 12,
+    "recall_viol_same_on_fully_evaluated": 10,
+    "precision_viol_same_on_fully_evaluated": 9,
+    "queries_fully_evaluated": 58,
+    "precision_viol_same": 16,
+    "recall_viol_same_exact_bound": 10,
+    "precision_viol_same_exact_bound": 16,
+    "inexact_bound_shortfalls": [
+      {
+        "rep": 0,
+        "query_index": 25,
+        "recall_bound": 0.9792176039119804,
+        "recall_same": 0.9779951100244498,
+        "recall_shortfall_tuples": 1,
+        "precision_bound": 1.0,
+        "precision_same": 0.9987515605493134,
+        "precision_shortfall_tuples": 1,
+        "lotus_vs_lotus_flips": 2
+      },
+      {
+        "rep": 1,
+        "query_index": 25,
+        "recall_bound": 0.9768292682926828,
+        "recall_same": 0.9767726161369193,
+        "recall_shortfall_tuples": 1,
+        "precision_bound": 1.0,
+        "precision_same": 0.9975031210986267,
+        "precision_shortfall_tuples": 2,
+        "lotus_vs_lotus_flips": 2
+      }
+    ],
+    "max_shortfall_tuples": 3,
+    "recall_viol_other": 11,
+    "precision_viol_other": 14,
+    "recall_viol_both": 9,
+    "precision_viol_both": 12
+  }
+}

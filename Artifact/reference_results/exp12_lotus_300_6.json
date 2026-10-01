@@ -1,0 +1,82 @@
+{
+  "lotus": {
+    "seconds": 788.3,
+    "llm_calls": 1800,
+    "prompt_tokens": 418716,
+    "completion_tokens": 12718,
+    "total_tokens": 431434
+  },
+  "lotus+semreuse": {
+    "seconds": 750.8,
+    "llm_calls": 1800,
+    "prompt_tokens": 418716,
+    "completion_tokens": 12718,
+    "total_tokens": 431434
+  },
+  "reduction": {
+    "llm_calls": 1.0,
+    "total_tokens": 1.0,
+    "wall_clock": 1.05
+  },
+  "per_query": [
+    {
+      "query": "The post asks for technical help with computer hardware.",
+      "calls": 300,
+      "kind": "cold",
+      "recall_bound": null,
+      "precision_bound": null,
+      "seconds": 114.6
+    },
+    {
+      "query": "The post asks for technical help with a personal computer's hardware.",
+      "calls": 300,
+      "kind": "rewrite",
+      "recall_bound": 1.0,
+      "precision_bound": 1.0,
+      "seconds": 149.4
+    },
+    {
+      "query": "The post is a request for technical assistance concerning computer hardware.",
+      "calls": 300,
+      "kind": "rewrite",
+      "recall_bound": 1.0,
+      "precision_bound": 1.0,
+      "seconds": 160.1
+    },
+    {
+      "query": "The post asks for help with Macintosh hardware.",
+      "calls": 300,
+      "kind": "rewrite",
+      "recall_bound": 1.0,
+      "precision_bound": 1.0,
+      "seconds": 89.7
+    },
+    {
+      "query": "The post describes a hardware problem the author is experiencing.",
+      "calls": 300,
+      "kind": "cold",
+      "recall_bound": null,
+      "precision_bound": null,
+      "seconds": 146.4
+    },
+    {
+      "query": "The post offers an item for sale.",
+      "calls": 300,
+      "kind": "rewrite",
+      "recall_bound": 1.0,
+      "precision_bound": 1.0,
+      "seconds": 90.6
+    }
+  ],
+  "config": {
+    "n": 300,
+    "queries": 6,
+    "model": "ollama/llama3.1:8b-instruct-q4_K_M",
+    "api_base": "http://localhost:11434",
+    "batch": 8,
+    "target_recall": 0.9,
+    "tau": 0.5,
+    "max_doc_chars": 1200,
+    "seed": 0
+  }
+}

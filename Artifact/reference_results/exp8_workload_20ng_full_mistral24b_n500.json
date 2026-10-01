@@ -1,0 +1,271 @@
+{
+  "model": "mistral-small3.1:24b",
+  "n_rows": 500,
+  "queries": 47,
+  "distinct": 46,
+  "relation_mix": {
+    "equiv": 0.001932367149758454,
+    "forward": 0.01642512077294686,
+    "backward": 0.01642512077294686,
+    "disjoint": 0.591304347826087,
+    "overlap": 0.3739130434782609
+  },
+  "predecessor_fraction": {
+    "any": 0.9148936170212766,
+    "equiv": 0.0425531914893617,
+    "containment": 0.46808510638297873,
+    "disjoint": 0.8723404255319149,
+    "exact_repeat": 0.02127659574468085
+  },
+  "designed_relations": [
+    {
+      "a": "A2",
+      "b": "A1",
+      "kind": "specialisation",
+      "n_a": 34,
+      "n_b": 47,
+      "slack": 0.0,
+      "slack_reverse": 0.2765957446808511,
+      "jaccard": 0.723404255319149
+    },
+    {
+      "a": "A3",
+      "b": "A1",
+      "kind": "paraphrase",
+      "n_a": 34,
+      "n_b": 47,
+      "slack": 0.029411764705882353,
+      "slack_reverse": 0.2978723404255319,
+      "jaccard": 0.6875
+    },
+    {
+      "a": "A4",
+      "b": "A1",
+      "kind": "specialisation",
+      "n_a": 5,
+      "n_b": 47,
+      "slack": 0.0,
+      "slack_reverse": 0.8936170212765957,
+      "jaccard": 0.10638297872340426
+    },
+    {
+      "a": "H1",
+      "b": "A1",
+      "kind": "exact repeat",
+      "n_a": 47,
+      "n_b": 47,
+      "slack": 0.0,
+      "slack_reverse": 0.0,
+      "jaccard": 1.0
+    },
+    {
+      "a": "H10",
+      "b": "A1",
+      "kind": "specialisation",
+      "n_a": 41,
+      "n_b": 47,
+      "slack": 0.17073170731707318,
+      "slack_reverse": 0.2765957446808511,
+      "jaccard": 0.6296296296296297
+    },
+    {
+      "a": "B2",
+      "b": "B1",
+      "kind": "specialisation",
+      "n_a": 9,
+      "n_b": 22,
+      "slack": 0.0,
+      "slack_reverse": 0.5909090909090909,
+      "jaccard": 0.4090909090909091
+    },
+    {
+      "a": "B1",
+      "b": "B4",
+      "kind": "specialisation",
+      "n_a": 22,
+      "n_b": 26,
+      "slack": 0.0,
+      "slack_reverse": 0.15384615384615385,
+      "jaccard": 0.8461538461538461
+    },
+    {
+      "a": "H2",
+      "b": "B1",
+      "kind": "paraphrase",
+      "n_a": 24,
+      "n_b": 22,
+      "slack": 0.08333333333333333,
+      "slack_reverse": 0.0,
+      "jaccard": 0.9166666666666666
+    },
+    {
+      "a": "H8",
+      "b": "B1",
+      "kind": "paraphrase",
+      "n_a": 22,
+      "n_b": 22,
+      "slack": 0.0,
+      "slack_reverse": 0.0,
+      "jaccard": 1.0
+    },
+    {
+      "a": "C2",
+      "b": "C1",
+      "kind": "specialisation",
+      "n_a": 17,
+      "n_b": 34,
+      "slack": 0.0,
+      "slack_reverse": 0.5,
+      "jaccard": 0.5
+    },
+    {
+      "a": "C1",
+      "b": "C5",
+      "kind": "specialisation",
+      "n_a": 34,
+      "n_b": 42,
+      "slack": 0.0,
+      "slack_reverse": 0.19047619047619047,
+      "jaccard": 0.8095238095238095
+    },
+    {
+      "a": "D2",
+      "b": "D1",
+      "kind": "specialisation",
+      "n_a": 9,
+      "n_b": 46,
+      "slack": 0.1111111111111111,
+      "slack_reverse": 0.8260869565217391,
+      "jaccard": 0.1702127659574468
+    },
+    {
+      "a": "D4",
+      "b": "D3",
+      "kind": "specialisation",
+      "n_a": 48,
+      "n_b": 26,
+      "slack": 0.5,
+      "slack_reverse": 0.07692307692307693,
+      "jaccard": 0.48
+    },
+    {
+      "a": "F2",
+      "b": "F1",
+      "kind": "specialisation",
+      "n_a": 10,
+      "n_b": 27,
+      "slack": 0.0,
+      "slack_reverse": 0.6296296296296297,
+      "jaccard": 0.37037037037037035
+    },
+    {
+      "a": "F1",
+      "b": "F6",
+      "kind": "specialisation",
+      "n_a": 27,
+      "n_b": 38,
+      "slack": 0.7777777777777778,
+      "slack_reverse": 0.8421052631578947,
+      "jaccard": 0.1016949152542373
+    },
+    {
+      "a": "F3",
+      "b": "F6",
+      "kind": "specialisation",
+      "n_a": 20,
+      "n_b": 38,
+      "slack": 0.35,
+      "slack_reverse": 0.6578947368421053,
+      "jaccard": 0.28888888888888886
+    },
+    {
+      "a": "F4",
+      "b": "F5",
+      "kind": "specialisation",
+      "n_a": 18,
+      "n_b": 15,
+      "slack": 0.16666666666666666,
+      "slack_reverse": 0.0,
+      "jaccard": 0.8333333333333334
+    },
+    {
+      "a": "H9",
+      "b": "F4",
+      "kind": "paraphrase",
+      "n_a": 15,
+      "n_b": 18,
+      "slack": 0.0,
+      "slack_reverse": 0.16666666666666666,
+      "jaccard": 0.8333333333333334
+    },
+    {
+      "a": "G2",
+      "b": "G1",
+      "kind": "specialisation",
+      "n_a": 18,
+      "n_b": 37,
+      "slack": 0.0,
+      "slack_reverse": 0.5135135135135135,
+      "jaccard": 0.4864864864864865
+    },
+    {
+      "a": "G3",
+      "b": "G1",
+      "kind": "specialisation",
+      "n_a": 19,
+      "n_b": 37,
+      "slack": 0.6842105263157895,
+      "slack_reverse": 0.8378378378378378,
+      "jaccard": 0.12
+    },
+    {
+      "a": "H7",
+      "b": "G1",
+      "kind": "paraphrase",
+      "n_a": 23,
+      "n_b": 37,
+      "slack": 0.13043478260869565,
+      "slack_reverse": 0.4594594594594595,
+      "jaccard": 0.5
+    },
+    {
+      "a": "H4",
+      "b": "H3",
+      "kind": "paraphrase",
+      "n_a": 32,
+      "n_b": 33,
+      "slack": 0.03125,
+      "slack_reverse": 0.06060606060606061,
+      "jaccard": 0.9117647058823529
+    },
+    {
+      "a": "H5",
+      "b": "H3",
+      "kind": "specialisation",
+      "n_a": 2,
+      "n_b": 33,
+      "slack": 0.0,
+      "slack_reverse": 0.9393939393939394,
+      "jaccard": 0.06060606060606061
+    },
+    {
+      "a": "H6",
+      "b": "E1",
+      "kind": "paraphrase",
+      "n_a": 57,
+      "n_b": 86,
+      "slack": 0.017543859649122806,
+      "slack_reverse": 0.3488372093023256,
+      "jaccard": 0.6436781609195402
+    }
+  ],
+  "selectivity_mean": 0.07634782608695652,
+  "selectivity_median": 0.057,
+  "selectivity_min": 0.004,
+  "selectivity_max": 0.446,
+  "prompt_tokens_per_call": 554.478,
+  "output_tokens_per_call": 2.933173913043478,
+  "rows_per_s": 1.4090884274377202,
+  "dollars_per_call": 8.493160434782607e-05,
+  "eps": 0.02
+}

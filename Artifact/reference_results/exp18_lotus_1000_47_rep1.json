@@ -1,0 +1,103 @@
+{
+  "config": {
+    "n": 1000,
+    "queries": 0,
+    "repeats": 2,
+    "model": "ollama/llama3.1:8b-instruct-q4_K_M",
+    "api_base": "http://127.0.0.1:11500",
+    "batch": 64,
+    "target_recall": 0.9,
+    "tau": 0.5,
+    "max_doc_chars": 1200,
+    "seed": 0,
+    "only_rep": 1,
+    "out_tag": "_rep1",
+    "resume": true,
+    "attempts": 3
+  },
+  "design": "arms interleaved per query: (lotus, lotus+semreuse) when (query_index + rep) is even, reversed when odd; one LOTUS LM per arm per repetition; fresh SemReuse store per repetition; LOTUS-alone answers are the reference for SemReuse's certificates; both arms' answer masks saved to exp18_lotus_masks_1000_47_rep1.npz",
+  "arms": [
+    {
+      "rep": 1,
+      "arm": "lotus",
+      "seconds": 25870.7,
+      "llm_calls": 47000,
+      "seconds_in_lotus": 25870.7,
+      "retries": 1,
+      "prompt_tokens": 11012336,
+      "completion_tokens": 224913,
+      "total_tokens": 11237249
+    },
+    {
+      "rep": 1,
+      "arm": "lotus+semreuse",
+      "seconds": 28876.8,
+      "llm_calls": 45370,
+      "seconds_in_lotus": 28832.9,
+      "retries": 1,
+      "prompt_tokens": 10633204,
+      "completion_tokens": 216535,
+      "total_tokens": 10849739,
+      "recall_certificates": 45,
+      "recall_violations": 5,
+      "precision_certificates": 45,
+      "precision_violations": 7
+    }
+  ],
+  "resumed": [
+    {
+      "rep": 1,
+      "after_pairs": 1,
+      "at": "2026-09-30 14:51:29"
+    }
+  ],
+  "paired_wall_clock": {
+    "ratio": "lotus+semreuse seconds / lotus seconds",
+    "per_query_ratio": {
+      "n": 47,
+      "median": 1.087,
+      "q25": 1.0219,
+      "q75": 1.1971,
+      "iqr": 0.1752
+    },
+    "per_query_ratio_by_order": {
+      "lotus-first": {
+        "n": 23,
+        "median": 1.1046,
+        "q25": 1.0414,
+        "q75": 1.2982,
+        "iqr": 0.2569
+      },
+      "semreuse-first": {
+        "n": 24,
+        "median": 1.0581,
+        "q25": 0.9683,
+        "q75": 1.1661,
+        "iqr": 0.1978
+      }
+    },
+    "per_rep": [
+      {
+        "rep": 1,
+        "pairs": 47,
+        "complete": true,
+        "lotus_seconds": 25870.7,
+        "semreuse_seconds": 28876.8,
+        "summed_ratio": 1.1162,
+        "per_query_ratio": {
+          "n": 47,
+          "median": 1.087,
+          "q25": 1.0219,
+          "q75": 1.1971,
+          "iqr": 0.1752
+        }
+      }
+    ],
+    "summed_ratio_mean_over_complete_reps": 1.1162
+  },
+  "reduction": {
+    "llm_calls": 1.036,
+    "total_tokens": 1.036,
+    "wall_clock": 0.896
+  }
+}
